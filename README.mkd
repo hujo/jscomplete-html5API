@@ -9,8 +9,6 @@ JavaScriptの補完をするプラグインのjscompleteでHTML5のAPIを補完�
 などの補完をします。
 
 jscompleteが無いと動きません。完全にjscompleteに依存しています。（ jscompleteが好きな人だけ。）  
-個人用に作ったものですので開発はしません。  
-つまり完成しません。そもそもVIMに詳しくありません。
 
 webGL、audioなどの補完をしたい場合はjsonがあるので、それらを好きに使ってjscompleteのヘルプを読むなどしてカスタムしてください。
 
