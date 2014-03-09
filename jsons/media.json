@@ -1,0 +1,622 @@
+{
+  "MediaController": {
+    "props": {
+      "prototype": {
+        "props": {
+          "unpause": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "unpause() : undefined"
+          },
+          "play": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "play() : undefined"
+          },
+          "pause": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "pause() : undefined"
+          },
+          "volume": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "volume : Number"
+          },
+          "seekable": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "seekable : TimeRanges  readonly"
+          },
+          "readyState": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "readyState : Number  readonly"
+          },
+          "played": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "played : TimeRanges  readonly"
+          },
+          "buffered": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "buffered : TimeRanges  readonly"
+          },
+          "currentTime": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "currentTime : Number"
+          },
+          "defaultPlaybackRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "defaultPlaybackRate : Number"
+          },
+          "duration": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "duration : Number  readonly"
+          },
+          "muted": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "muted : Boolean"
+          },
+          "paused": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "paused : Boolean  readonly"
+          },
+          "playbackRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "playbackRate : Number"
+          },
+          "playbackState": {
+            "kind": "v",
+            "type": "String",
+            "menu": "playbackState : String  readonly"
+          }
+        },
+        "class": "MediaController",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "MediaController",
+    "menu": "new MediaController() : MediaController",
+    "kind": "f"
+  },
+  "AudioTrackList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getTrackById": {
+            "kind": "f",
+            "type": "AudioTrack",
+            "menu": "getTrackById(id : String) : AudioTrack"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number  readonly"
+          }
+        },
+        "class": "AudioTrackList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "TextTrack": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "mode": {
+            "kind": "v",
+            "type": "String",
+            "menu": "mode : String"
+          },
+          "language": {
+            "kind": "v",
+            "type": "String",
+            "menu": "language : String  readonly"
+          },
+          "label": {
+            "kind": "v",
+            "type": "String",
+            "menu": "label : String  readonly"
+          },
+          "kind": {
+            "kind": "v",
+            "type": "String",
+            "menu": "kind : String  readonly"
+          },
+          "inBandMetadataTrackDispatchType": {
+            "kind": "v",
+            "type": "String",
+            "menu": "inBandMetadataTrackDispatchType : String  readonly"
+          },
+          "id": {
+            "kind": "v",
+            "type": "String",
+            "menu": "id : String  readonly"
+          },
+          "enabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "enabled : Boolean"
+          }
+        },
+        "class": "TextTrack",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "TextTrackList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getTrackById": {
+            "kind": "f",
+            "type": "TextTrack",
+            "menu": "getTrackById(id : String) : TextTrack"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number  readonly"
+          }
+        },
+        "class": "TextTrackList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "VideoTrack": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "selected": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "selected : Boolean"
+          },
+          "language": {
+            "kind": "v",
+            "type": "String",
+            "menu": "language : String  readonly"
+          },
+          "label": {
+            "kind": "v",
+            "type": "String",
+            "menu": "label : String  readonly"
+          },
+          "kind": {
+            "kind": "v",
+            "type": "String",
+            "menu": "kind : String  readonly"
+          },
+          "id": {
+            "kind": "v",
+            "type": "String",
+            "menu": "id : String  readonly"
+          }
+        },
+        "class": "VideoTrack",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLAudioElement": {
+    "kind": "v"
+  },
+  "HTMLMediaElement": {
+    "kind": "f",
+    "props": {
+      "NETWORK_NO_SOURCE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NETWORK_NO_SOURCE : Number  readonly  value = 3"
+      },
+      "NETWORK_LOADING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NETWORK_LOADING : Number  readonly  value = 2"
+      },
+      "prototype": {
+        "props": {
+          "play": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "play() : undefined"
+          },
+          "pause": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "pause() : undefined"
+          },
+          "load": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "load() : undefined"
+          },
+          "muted": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "muted : Boolean"
+          },
+          "mediaGroup": {
+            "kind": "v",
+            "type": "String",
+            "menu": "mediaGroup : String"
+          },
+          "loop": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "loop : Boolean"
+          },
+          "error": {
+            "kind": "v",
+            "type": "MediaError",
+            "menu": "error : MediaError  readonly"
+          },
+          "ended": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "ended : Boolean  readonly"
+          },
+          "duration": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "duration : Number  readonly"
+          },
+          "defaultPlaybackRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "defaultPlaybackRate : Number"
+          },
+          "defaultMuted": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "defaultMuted : Boolean"
+          },
+          "audioTracks": {
+            "kind": "v",
+            "type": "AudioTrackList",
+            "menu": "audioTracks : AudioTrackList  readonly"
+          },
+          "autoplay": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "autoplay : Boolean"
+          },
+          "buffered": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "buffered : TimeRanges  readonly"
+          },
+          "controller": {
+            "kind": "v",
+            "type": "MediaController",
+            "menu": "controller : MediaController"
+          },
+          "controls": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "controls : Boolean"
+          },
+          "crossOrigin": {
+            "kind": "v",
+            "type": "String",
+            "menu": "crossOrigin : String"
+          },
+          "currentSrc": {
+            "kind": "v",
+            "type": "String",
+            "menu": "currentSrc : String  readonly"
+          },
+          "currentTime": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "currentTime : Number"
+          },
+          "networkState": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "networkState : Number  readonly"
+          },
+          "paused": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "paused : Boolean  readonly"
+          },
+          "playbackRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "playbackRate : Number"
+          },
+          "played": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "played : TimeRanges  readonly"
+          },
+          "preload": {
+            "kind": "v",
+            "type": "String",
+            "menu": "preload : String"
+          },
+          "readyState": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "readyState : Number  readonly"
+          },
+          "seekable": {
+            "kind": "v",
+            "type": "TimeRanges",
+            "menu": "seekable : TimeRanges  readonly"
+          },
+          "seeking": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "seeking : Boolean  readonly"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "textTracks": {
+            "kind": "v",
+            "type": "TextTrackList",
+            "menu": "textTracks : TextTrackList  readonly"
+          },
+          "videoTracks": {
+            "kind": "v",
+            "type": "VideoTrackList",
+            "menu": "videoTracks : VideoTrackList  readonly"
+          },
+          "volume": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "volume : Number"
+          },
+          "addTextTrack": {
+            "kind": "f",
+            "type": "TextTrack",
+            "menu": "addTextTrack(kind : String, [label : String, [language : String]]) : TextTrack"
+          },
+          "canPlayType": {
+            "kind": "f",
+            "type": "String",
+            "menu": "canPlayType(mimeType : String) : String"
+          },
+          "fastSeek": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "fastSeek(time : Number) : undefined"
+          },
+          "getStartDate": {
+            "kind": "f",
+            "type": "Date",
+            "menu": "getStartDate() : Date"
+          }
+        },
+        "class": "HTMLMediaElement",
+        "type": "Object",
+        "kind": "v"
+      },
+      "HAVE_CURRENT_DATA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HAVE_CURRENT_DATA : Number  readonly  value = 2"
+      },
+      "HAVE_ENOUGH_DATA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HAVE_ENOUGH_DATA : Number  readonly  value = 4"
+      },
+      "HAVE_FUTURE_DATA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HAVE_FUTURE_DATA : Number  readonly  value = 3"
+      },
+      "HAVE_METADATA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HAVE_METADATA : Number  readonly  value = 1"
+      },
+      "HAVE_NOTHING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HAVE_NOTHING : Number  readonly  value = 0"
+      },
+      "NETWORK_EMPTY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NETWORK_EMPTY : Number  readonly  value = 0"
+      },
+      "NETWORK_IDLE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NETWORK_IDLE : Number  readonly  value = 1"
+      }
+    }
+  },
+  "AudioTrack": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "language": {
+            "kind": "v",
+            "type": "String",
+            "menu": "language : String  readonly"
+          },
+          "label": {
+            "kind": "v",
+            "type": "String",
+            "menu": "label : String  readonly"
+          },
+          "kind": {
+            "kind": "v",
+            "type": "String",
+            "menu": "kind : String  readonly"
+          },
+          "id": {
+            "kind": "v",
+            "type": "String",
+            "menu": "id : String  readonly"
+          },
+          "enabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "enabled : Boolean"
+          }
+        },
+        "class": "AudioTrack",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "TimeRanges": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "start": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "start(index : Number) : Number"
+          },
+          "end": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "end(index : Number) : Number"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number  readonly"
+          }
+        },
+        "class": "TimeRanges",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "MediaError": {
+    "kind": "f",
+    "props": {
+      "MEDIA_ERR_SRC_NOT_SUPPORTED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIA_ERR_SRC_NOT_SUPPORTED : Number  readonly"
+      },
+      "MEDIA_ERR_NETWORK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIA_ERR_NETWORK : Number  readonly"
+      },
+      "MEDIA_ERR_DECODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIA_ERR_DECODE : Number  readonly  value = 3"
+      },
+      "MEDIA_ERR_ABORTED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIA_ERR_ABORTED : Number  readonly  value = 1"
+      },
+      "prototype": {
+        "props": {
+          "code": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "code : Number  readonly"
+          }
+        },
+        "class": "MediaError",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "VideoTrackList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getTrackById": {
+            "kind": "f",
+            "type": "AudioTrack",
+            "menu": "getTrackById(id : String) : AudioTrack"
+          },
+          "selectedIndex": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "selectedIndex : Number  readonly"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number  readonly"
+          }
+        },
+        "class": "VideoTrackList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLVideoElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "videoWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "videoWidth : Number  readonly"
+          },
+          "videoHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "videoHeight : Number  readonly"
+          },
+          "poster": {
+            "kind": "v",
+            "type": "String",
+            "menu": "poster : String"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          }
+        },
+        "class": "HTMLVideoElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "MediaList": {
+    "kind": "v"
+  }
+}

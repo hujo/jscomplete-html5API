@@ -1,0 +1,11 @@
+*
+*/
+
+!/.gitignore
+!/autoload/
+!/autoload/*/
+!/jsons/
+!*.vim
+!*.json
+!*.md
+!*.mkd

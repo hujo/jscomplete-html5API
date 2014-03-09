@@ -1,0 +1,803 @@
+{
+  "ConvolverNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "normalize": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "normalize : Boolean"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "AudioBuffer",
+            "menu": "buffer : AudioBuffer"
+          }
+        },
+        "class": "ConvolverNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ScriptProcessorNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "bufferSize": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "bufferSize : Number  readonly"
+          }
+        },
+        "class": "ScriptProcessorNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "BiquadFilterNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getFrequencyResponse": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "getFrequencyResponse(frequencyHz : Float32Array, magResponse : Float32Array, phaseResponse : Float32Array) : undefined"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "gain": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "gain : AudioParam  readonly"
+          },
+          "frequency": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "frequency : AudioParam  readonly"
+          },
+          "detune": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "detune : AudioParam  readonly"
+          },
+          "Q": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "Q : AudioParam  readonly"
+          }
+        },
+        "class": "BiquadFilterNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "OscillatorNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "stop": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stop(when : Number) : undefined"
+          },
+          "start": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "start(when : Number) : undefined"
+          },
+          "setPeriodicWave": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setPeriodicWave(periodicWave : PeriodicWave) : undefined"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "frequency": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "frequency : AudioParam  readonly"
+          },
+          "detune": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "detune : AudioParam  readonly"
+          }
+        },
+        "class": "OscillatorNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "DelayNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "delayTime": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "delayTime : AudioParam  readonly"
+          }
+        },
+        "class": "DelayNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ChannelSplitterNode": {
+    "kind": "v"
+  },
+  "MediaStreamAudioDestinationNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "stream": {
+            "kind": "v",
+            "type": "MediaStream",
+            "menu": "stream : MediaStream  readonly"
+          }
+        },
+        "class": "MediaStreamAudioDestinationNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "WaveShaperNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "oversample": {
+            "kind": "v",
+            "type": "String",
+            "menu": "oversample : String"
+          },
+          "curve": {
+            "kind": "v",
+            "type": "Float32Array",
+            "menu": "curve : Float32Array"
+          }
+        },
+        "class": "WaveShaperNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "PannerNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "setVelocity": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setVelocity(x : Number, y : Number, z : Number) : undefined"
+          },
+          "setPosition": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setPosition(x : Number, y : Number, z : Number) : undefined"
+          },
+          "setOrientation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setOrientation(x : Number, y : Number, z : Number) : undefined"
+          },
+          "coneInnerAngle": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "coneInnerAngle : Number"
+          },
+          "coneOuterAngle": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "coneOuterAngle : Number"
+          },
+          "coneOuterGain": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "coneOuterGain : Number"
+          },
+          "distanceModel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "distanceModel : String"
+          },
+          "maxDistance": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "maxDistance : Number"
+          },
+          "panningModel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "panningModel : String"
+          },
+          "refDistance": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "refDistance : Number"
+          },
+          "rolloffFactor": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "rolloffFactor : Number"
+          }
+        },
+        "class": "PannerNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AudioListener": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "setVelocity": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setVelocity(x : Number, y : Number, z : Number) : undefined"
+          },
+          "setPosition": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setPosition(x : Number, y : Number, z : Number) : undefined"
+          },
+          "setOrientation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setOrientation(x : Number, y : Number, z : Number, xUp : Number, yUp : Number, zUp : Number) : undefined"
+          },
+          "speedOfSound": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "speedOfSound : Number"
+          },
+          "dopplerFactor": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "dopplerFactor : Number"
+          }
+        },
+        "class": "AudioListener",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AudioParam": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "setValueCurveAtTime": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setValueCurveAtTime(values : Float32Array, startTime : Number, duration : Number) : undefined"
+          },
+          "setValueAtTime": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setValueAtTime(value : Number, startTime : Number) : undefined"
+          },
+          "setTargetAtTime": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setTargetAtTime(target : Number, startTime : Number, timeConstant : Number) : undefined"
+          },
+          "linearRampToValueAtTime": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "linearRampToValueAtTime(value : Number, endTime : Number) : undefined"
+          },
+          "exponentialRampToValueAtTime": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "exponentialRampToValueAtTime(value : Number, endTime : Number) : undefined"
+          },
+          "cancelScheduledValues": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "cancelScheduledValues(startTime : Number) : undefined"
+          },
+          "value": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "value : Number"
+          },
+          "defaultValue": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "defaultValue : Number  readonly"
+          }
+        },
+        "class": "AudioParam",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AudioNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "disconnect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "disconnect([output = 0 : Number]) : undefined"
+          },
+          "numberOfOutputs": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfOutputs : Number  readonly"
+          },
+          "numberOfInputs": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfInputs : Number  readonly"
+          },
+          "context": {
+            "kind": "v",
+            "type": "AudioContext",
+            "menu": "context : AudioContext  readonly"
+          },
+          "channelInterpretation": {
+            "kind": "v",
+            "type": "String",
+            "menu": "channelInterpretation : String"
+          },
+          "channelCountMode": {
+            "kind": "v",
+            "type": "String",
+            "menu": "channelCountMode : String"
+          },
+          "channelCount": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "channelCount : Number"
+          }
+        },
+        "class": "AudioNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "MediaStreamAudioSourceNode": {
+    "kind": "v"
+  },
+  "MediaElementAudioSourceNode": {
+    "kind": "v"
+  },
+  "DynamicsCompressorNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "threshold": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "threshold : AudioParam  readonly"
+          },
+          "release": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "release : AudioParam  readonly"
+          },
+          "reduction": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "reduction : AudioParam  readonly"
+          },
+          "ratio": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "ratio : AudioParam  readonly"
+          },
+          "knee": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "knee : AudioParam  readonly"
+          },
+          "attack": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "attack : AudioParam  readonly"
+          }
+        },
+        "class": "DynamicsCompressorNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "GainNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "gain": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "gain : AudioParam  readonly"
+          }
+        },
+        "class": "GainNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ChannelMergerNode": {
+    "kind": "v"
+  },
+  "AudioDestinationNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "maxChannelCount": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "maxChannelCount : Number  readonly"
+          }
+        },
+        "class": "AudioDestinationNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AudioProcessingEvent": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "playbackTime": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "playbackTime : Number  readonly"
+          },
+          "outputBuffer": {
+            "kind": "v",
+            "type": "AudioBuffer",
+            "menu": "outputBuffer : AudioBuffer  readonly"
+          },
+          "inputBuffer": {
+            "kind": "v",
+            "type": "AudioBuffer",
+            "menu": "inputBuffer : AudioBuffer  readonly"
+          }
+        },
+        "class": "AudioProcessingEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "OfflineAudioContext": {
+    "props": {
+      "prototype": {
+        "props": {
+          "startRendering": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "startRendering() : undefined"
+          }
+        },
+        "class": "OfflineAudioContext",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "OfflineAudioContext",
+    "menu": "new OfflineAudioContext(numberOfChannels : Number, length : Number, sampleRate : Number) : OfflineAudioContext",
+    "kind": "f"
+  },
+  "AudioBuffer": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getChannelData": {
+            "kind": "f",
+            "type": "Float32Array",
+            "menu": "getChannelData(channel : Number) : Float32Array"
+          },
+          "sampleRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "sampleRate : Number  readonly"
+          },
+          "numberOfChannels": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfChannels : Number  readonly"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number  readonly"
+          },
+          "duration": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "duration : Number  readonly"
+          }
+        },
+        "class": "AudioBuffer",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "PeriodicWave": {
+    "kind": "v"
+  },
+  "AudioBufferSourceNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "stop": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stop([when = 0 : Number]) : undefined"
+          },
+          "start": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "start([when = 0 : Number, [offset = 0 : Number, [duration : Number]]]) : undefined"
+          },
+          "playbackRate": {
+            "kind": "v",
+            "type": "AudioParam",
+            "menu": "playbackRate : AudioParam  readonly"
+          },
+          "loopStart": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "loopStart : Number"
+          },
+          "loopEnd": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "loopEnd : Number"
+          },
+          "loop": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "loop : Boolean"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "AudioBuffer",
+            "menu": "buffer : AudioBuffer"
+          }
+        },
+        "class": "AudioBufferSourceNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AudioContext": {
+    "props": {
+      "prototype": {
+        "props": {
+          "decodeAudioData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "decodeAudioData(audioData : ArrayBuffer, successCallback : Function, [errorCallback : Function]) : undefined"
+          },
+          "createWaveShaper": {
+            "kind": "f",
+            "type": "WaveShaperNode",
+            "menu": "createWaveShaper() : WaveShaperNode"
+          },
+          "createScriptProcessor": {
+            "kind": "f",
+            "type": "ScriptProcessorNode",
+            "menu": "createScriptProcessor([bufferSize = 0 : Number, [numberOfInputChannels = 2 : Number, [numberOfOutputChannels = 2 : Number]]]) : ScriptProcessorNode"
+          },
+          "createPeriodicWave": {
+            "kind": "f",
+            "type": "PeriodicWave",
+            "menu": "createPeriodicWave(real : Float32Array, imaginary : Float32Array) : PeriodicWave"
+          },
+          "createPanner": {
+            "kind": "f",
+            "type": "PannerNode",
+            "menu": "createPanner() : PannerNode"
+          },
+          "createOscillator": {
+            "kind": "f",
+            "type": "OscillatorNode",
+            "menu": "createOscillator() : OscillatorNode"
+          },
+          "createMediaStreamSource": {
+            "kind": "f",
+            "type": "MediaStreamAudioSourceNode",
+            "menu": "createMediaStreamSource(mediaStream : MediaStream) : MediaStreamAudioSourceNode"
+          },
+          "createBufferSource": {
+            "kind": "f",
+            "type": "AudioBufferSourceNode",
+            "menu": "createBufferSource() : AudioBufferSourceNode"
+          },
+          "createBuffer": {
+            "kind": "f",
+            "type": "AudioBuffer",
+            "menu": "createBuffer(numberOfChannels : Number, length : Number, sampleRate : Number) : AudioBuffer"
+          },
+          "createBiquadFilter": {
+            "kind": "f",
+            "type": "BiquadFilterNode",
+            "menu": "createBiquadFilter() : BiquadFilterNode"
+          },
+          "createAnalyser": {
+            "kind": "f",
+            "type": "AnalyserNode",
+            "menu": "createAnalyser() : AnalyserNode"
+          },
+          "sampleRate": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "sampleRate : Number  readonly"
+          },
+          "listener": {
+            "kind": "v",
+            "type": "AudioListener",
+            "menu": "listener : AudioListener  readonly"
+          },
+          "destination": {
+            "kind": "v",
+            "type": "AudioDestinationNode",
+            "menu": "destination : AudioDestinationNode  readonly"
+          },
+          "currentTime": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "currentTime : Number  readonly"
+          },
+          "createChannelMerger": {
+            "kind": "f",
+            "type": "ChannelMergerNode",
+            "menu": "createChannelMerger([numberOfInputs = 6 : Number]) : ChannelMergerNode"
+          },
+          "createChannelSplitter": {
+            "kind": "f",
+            "type": "ChannelSplitterNode",
+            "menu": "createChannelSplitter([numberOfOutputs = 6 : Number]) : ChannelSplitterNode"
+          },
+          "createConvolver": {
+            "kind": "f",
+            "type": "ConvolverNode",
+            "menu": "createConvolver() : ConvolverNode"
+          },
+          "createDelay": {
+            "kind": "f",
+            "type": "DelayNode",
+            "menu": "createDelay([maxDelayTime = 1.0 : Number]) : DelayNode"
+          },
+          "createDynamicsCompressor": {
+            "kind": "f",
+            "type": "DynamicsCompressorNode",
+            "menu": "createDynamicsCompressor() : DynamicsCompressorNode"
+          },
+          "createGain": {
+            "kind": "f",
+            "type": "GainNode",
+            "menu": "createGain() : GainNode"
+          },
+          "createMediaElementSource": {
+            "kind": "f",
+            "type": "MediaElementAudioSourceNode",
+            "menu": "createMediaElementSource(mediaElement : HTMLMediaElement) : MediaElementAudioSourceNode"
+          },
+          "createMediaStreamDestination": {
+            "kind": "f",
+            "type": "MediaStreamAudioDestinationNode",
+            "menu": "createMediaStreamDestination() : MediaStreamAudioDestinationNode"
+          }
+        },
+        "class": "AudioContext",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "AudioContext",
+    "menu": "new AudioContext() : AudioContext",
+    "kind": "f"
+  },
+  "OfflineAudioCompletionEvent": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "renderedBuffer": {
+            "kind": "v",
+            "type": "AudioBuffer",
+            "menu": "renderedBuffer : AudioBuffer  readonly"
+          }
+        },
+        "class": "OfflineAudioCompletionEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "AnalyserNode": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getFloatFrequencyData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "getFloatFrequencyData(array : Float32Array) : undefined"
+          },
+          "getByteTimeDomainData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "getByteTimeDomainData(array : Uint8Array) : undefined"
+          },
+          "getByteFrequencyData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "getByteFrequencyData(array : Uint8Array) : undefined"
+          },
+          "smoothingTimeConstant": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "smoothingTimeConstant : Number"
+          },
+          "minDecibels": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "minDecibels : Number"
+          },
+          "maxDecibels": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "maxDecibels : Number"
+          },
+          "frequencyBinCount": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "frequencyBinCount : Number  readonly"
+          },
+          "fftSize": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "fftSize : Number"
+          }
+        },
+        "class": "AnalyserNode",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  }
+}
