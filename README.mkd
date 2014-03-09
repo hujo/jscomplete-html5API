@@ -1,0 +1,27 @@
+### jscomplete-html5API
+
+JavaScriptの補完をするプラグインのjscompleteでHTML5のAPIを補完するための辞書です。
+
+- CanvasAPI
+- FileAPI
+- TypedArrays
+
+などの補完をします。
+
+jscompleteが無いと動きません。完全にjscompleteに依存しています。（ jscompleteが好きな人だけ。）  
+個人用に作ったものですので開発はしません。  
+つまり完成しません。そもそもVIMに詳しくありません。
+
+webGL、audioなどの補完をしたい場合はjsonがあるので、それらを好きに使ってjscompleteのヘルプを読むなどしてカスタムしてください。
+
+[https://bitbucket.org/teramako/jscomplete-vim.git](https://bitbucket.org/teramako/jscomplete-vim.git)
+
+```vim
+    " jscompleteを追加
+    NeoBundle  'https://bitbucket.org/teramako/jscomplete-vim.git'
+
+    autocmd FileType javascript
+      \ :setl omnifunc=jscomplete#CompleteJS
+    let g:jscomplete_use = ['dom', 'moz', 'es6th', 'html5API']
+```
+
