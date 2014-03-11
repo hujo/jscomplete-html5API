@@ -14,14 +14,27 @@ endfunction
 " }}}
 " DOM {{{
 function! s:addDOM()
-    let DOMStringMap = {'DOMStringMap' : {'kind' : 'v', 'menu' : '', 'props' : b:GlobalObject.Object.props}}
     call extend(b:GlobalObject, s:getAPIObject('dom'))
+    " [Add] Domstringmap
+    let DOMStringMap = {'DOMStringMap' : {'kind' : 'v', 'menu' : '', 'props' : b:GlobalObject.Object.props}}
     call extend(b:GlobalObject, DOMStringMap)
+
+    " [Update] Image() type <- HTMLImageElement
+    let b:GlobalObject.Image.type = 'HTMLImageElement'
+
+    " [Extend] HTMLImageElement <- Element
+    call extend(b:GlobalObject.HTMLImageElement.props.prototype.props,
+                \b:GlobalObject.Element.props.prototype.props)
+
+    " [Update] document.body : HTMLBodyElement -> Element
+    let b:GlobalObject.Document.props.prototype.props.body.type = "Element"
+    " }}}
 endfunction
 " }}}
 " CSS {{{
 function! s:addCSS()
     call extend(b:GlobalObject, s:getAPIObject('css'))
+    " [Update] document.stylesheets : StyleSheet -> CSSStyleSheet
     call extend(b:GlobalObject.StyleSheetList.props.prototype.props.item,
         \{'type' : 'CSSStyleSheet'})
     call extend(b:GlobalObject.Document.props.prototype.props,
@@ -31,6 +44,8 @@ endfunction
 " Canvas {{{
 function! s:addCanvas ()
     call extend(b:GlobalObject, s:getAPIObject('canvas'))
+
+    " [Add] Element.getContext
     call extend(b:GlobalObject.Element.props.prototype.props, {
         \'getContext' : {'kind' : 'f', 'menu' : 'get CanvasRenderingContext2D', 'type' : 'CanvasRenderingContext2D'}})
 endfunction
@@ -38,6 +53,8 @@ endfunction
 " FileAPI {{{
 function! s:addFileAPI ()
     call extend(b:GlobalObject, s:getAPIObject('fileAPI'))
+
+    " Add Event.datatransfer
     call extend(b:GlobalObject, s:getAPIObject('dataTransfer'))
     call extend(b:GlobalObject.Event.props.prototype.props, {
         \   'dataTransfer' : {

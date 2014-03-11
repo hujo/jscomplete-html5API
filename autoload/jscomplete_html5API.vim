@@ -17,7 +17,7 @@ endfor
 
 function! s:getAPIObject(api_dict)
     let api_dict = a:api_dict
-    let api_dict['object'] = has_key(api_dict, 'object') ? api['object'] : eval(join(readfile(api_dict.path)))
+    let api_dict['object'] = has_key(api_dict, 'object') ? api_dict['object'] : eval(join(readfile(api_dict.path)))
     return deepcopy(api_dict['object'])
 endfunction
 
