@@ -9,15 +9,16 @@ let s:API_FILES_NAMES = map(split(globpath(s:JSONS_DIR, '*.json'), '\n'), 'fname
 
 let s:API_FILES = {}
 
-for api_name in s:API_FILES_NAMES
-    let s:API_FILES[tolower(api_name)] = {
-        \   'path' : s:JSONS_DIR . api_name . '.json',
+for s:api_name in s:API_FILES_NAMES
+    let s:API_FILES[tolower(s:api_name)] = {
+        \   'path' : s:JSONS_DIR . s:api_name . '.json',
         \}
 endfor
 
 function! s:getAPIObject(api_dict)
     let api_dict = a:api_dict
-    let api_dict['object'] = has_key(api_dict, 'object') ? api_dict['object'] : eval(join(readfile(api_dict.path)))
+    let api_dict['object'] = has_key(api_dict, 'object') ?
+    \   api_dict['object'] : eval(join(map(readfile(api_dict.path), 'iconv(v:val, "utf8", &encoding)'))
     return deepcopy(api_dict['object'])
 endfunction
 
