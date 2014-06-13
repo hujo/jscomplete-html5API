@@ -1,1 +1,1633 @@
-{"CSSStyleDeclaration":{"kind":"f","props":{"prototype":{"props":{"textUnderlineWidth":{"kind":"v","type":"String","menu":"textUnderlineWidth : String"},"top":{"kind":"v","type":"String","menu":"top : String"},"unicodeBidi":{"kind":"v","type":"String","menu":"unicodeBidi : String"},"unicodeRange":{"kind":"v","type":"String","menu":"unicodeRange : String"},"vectorEffect":{"kind":"v","type":"String","menu":"vectorEffect : String"},"verticalAlign":{"kind":"v","type":"String","menu":"verticalAlign : String"},"visibility":{"kind":"v","type":"String","menu":"visibility : String"},"whiteSpace":{"kind":"v","type":"String","menu":"whiteSpace : String"},"zoom":{"kind":"v","type":"String","menu":"zoom : String"},"zIndex":{"kind":"v","type":"String","menu":"zIndex : String"},"writingMode":{"kind":"v","type":"String","menu":"writingMode : String"},"wordWrap":{"kind":"v","type":"String","menu":"wordWrap : String"},"wordSpacing":{"kind":"v","type":"String","menu":"wordSpacing : String"},"wordBreak":{"kind":"v","type":"String","menu":"wordBreak : String"},"width":{"kind":"v","type":"String","menu":"width : String"},"widows":{"kind":"v","type":"String","menu":"widows : String"},"textOverlineStyle":{"kind":"v","type":"String","menu":"textOverlineStyle : String"},"textOverlineMode":{"kind":"v","type":"String","menu":"textOverlineMode : String"},"textOverlineColor":{"kind":"v","type":"String","menu":"textOverlineColor : String"},"textOverline":{"kind":"v","type":"String","menu":"textOverline : String"},"textOverflow":{"kind":"v","type":"String","menu":"textOverflow : String"},"textLineThroughWidth":{"kind":"v","type":"String","menu":"textLineThroughWidth : String"},"textLineThroughStyle":{"kind":"v","type":"String","menu":"textLineThroughStyle : String"},"textLineThroughMode":{"kind":"v","type":"String","menu":"textLineThroughMode : String"},"textOverlineWidth":{"kind":"v","type":"String","menu":"textOverlineWidth : String"},"textRendering":{"kind":"v","type":"String","menu":"textRendering : String"},"textShadow":{"kind":"v","type":"String","menu":"textShadow : String"},"textTransform":{"kind":"v","type":"String","menu":"textTransform : String"},"textUnderline":{"kind":"v","type":"String","menu":"textUnderline : String"},"textUnderlineColor":{"kind":"v","type":"String","menu":"textUnderlineColor : String"},"textUnderlineMode":{"kind":"v","type":"String","menu":"textUnderlineMode : String"},"textUnderlineStyle":{"kind":"v","type":"String","menu":"textUnderlineStyle : String"},"textLineThroughColor":{"kind":"v","type":"String","menu":"textLineThroughColor : String"},"textLineThrough":{"kind":"v","type":"String","menu":"textLineThrough : String"},"textIndent":{"kind":"v","type":"String","menu":"textIndent : String"},"textDecoration":{"kind":"v","type":"String","menu":"textDecoration : String"},"textAnchor":{"kind":"v","type":"String","menu":"textAnchor : String"},"textAlign":{"kind":"v","type":"String","menu":"textAlign : String"},"tableLayout":{"kind":"v","type":"String","menu":"tableLayout : String"},"tabSize":{"kind":"v","type":"String","menu":"tabSize : String"},"strokeWidth":{"kind":"v","type":"String","menu":"strokeWidth : String"},"strokeOpacity":{"kind":"v","type":"String","menu":"strokeOpacity : String"},"strokeMiterlimit":{"kind":"v","type":"String","menu":"strokeMiterlimit : String"},"strokeLinejoin":{"kind":"v","type":"String","menu":"strokeLinejoin : String"},"strokeLinecap":{"kind":"v","type":"String","menu":"strokeLinecap : String"},"strokeDashoffset":{"kind":"v","type":"String","menu":"strokeDashoffset : String"},"strokeDasharray":{"kind":"v","type":"String","menu":"strokeDasharray : String"},"stroke":{"kind":"v","type":"String","menu":"stroke : String"},"stopOpacity":{"kind":"v","type":"String","menu":"stopOpacity : String"},"stopColor":{"kind":"v","type":"String","menu":"stopColor : String"},"src":{"kind":"v","type":"String","menu":"src : String"},"speak":{"kind":"v","type":"String","menu":"speak : String"},"size":{"kind":"v","type":"String","menu":"size : String"},"shapeRendering":{"kind":"v","type":"String","menu":"shapeRendering : String"},"right":{"kind":"v","type":"String","menu":"right : String"},"resize":{"kind":"v","type":"String","menu":"resize : String"},"quotes":{"kind":"v","type":"String","menu":"quotes : String"},"position":{"kind":"v","type":"String","menu":"position : String"},"pointerEvents":{"kind":"v","type":"String","menu":"pointerEvents : String"},"parentRule":{"kind":"v","type":"String","menu":"parentRule : String"},"pageBreakInside":{"kind":"v","type":"String","menu":"pageBreakInside : String"},"pageBreakBefore":{"kind":"v","type":"String","menu":"pageBreakBefore : String"},"pageBreakAfter":{"kind":"v","type":"String","menu":"pageBreakAfter : String"},"page":{"kind":"v","type":"String","menu":"page : String"},"counterReset":{"kind":"v","type":"String","menu":"counterReset : String"},"counterIncrement":{"kind":"v","type":"String","menu":"counterIncrement : String"},"content":{"kind":"v","type":"String","menu":"content : String"},"colorRendering":{"kind":"v","type":"String","menu":"colorRendering : String"},"colorProfile":{"kind":"v","type":"String","menu":"colorProfile : String"},"colorInterpolationFilters":{"kind":"v","type":"String","menu":"colorInterpolationFilters : String"},"colorInterpolation":{"kind":"v","type":"String","menu":"colorInterpolation : String"},"color":{"kind":"v","type":"String","menu":"color : String"},"clipRule":{"kind":"v","type":"String","menu":"clipRule : String"},"clipPath":{"kind":"v","type":"String","menu":"clipPath : String"},"clip":{"kind":"v","type":"String","menu":"clip : String"},"clear":{"kind":"v","type":"String","menu":"clear : String"},"captionSide":{"kind":"v","type":"String","menu":"captionSide : String"},"boxSizing":{"kind":"v","type":"String","menu":"boxSizing : String"},"boxShadow":{"kind":"v","type":"String","menu":"boxShadow : String"},"bottom":{"kind":"v","type":"String","menu":"bottom : String"},"borderWidth":{"kind":"v","type":"String","menu":"borderWidth : String"},"borderTopWidth":{"kind":"v","type":"String","menu":"borderTopWidth : String"},"borderTopStyle":{"kind":"v","type":"String","menu":"borderTopStyle : String"},"borderTopRightRadius":{"kind":"v","type":"String","menu":"borderTopRightRadius : String"},"borderTopLeftRadius":{"kind":"v","type":"String","menu":"borderTopLeftRadius : String"},"borderTopColor":{"kind":"v","type":"String","menu":"borderTopColor : String"},"borderTop":{"kind":"v","type":"String","menu":"borderTop : String"},"borderStyle":{"kind":"v","type":"String","menu":"borderStyle : String"},"borderSpacing":{"kind":"v","type":"String","menu":"borderSpacing : String"},"borderRightWidth":{"kind":"v","type":"String","menu":"borderRightWidth : String"},"borderRightStyle":{"kind":"v","type":"String","menu":"borderRightStyle : String"},"borderRightColor":{"kind":"v","type":"String","menu":"borderRightColor : String"},"borderRight":{"kind":"v","type":"String","menu":"borderRight : String"},"borderRadius":{"kind":"v","type":"String","menu":"borderRadius : String"},"borderLeftWidth":{"kind":"v","type":"String","menu":"borderLeftWidth : String"},"borderLeftStyle":{"kind":"v","type":"String","menu":"borderLeftStyle : String"},"backgroundPosition":{"kind":"v","type":"String","menu":"backgroundPosition : String"},"backgroundOrigin":{"kind":"v","type":"String","menu":"backgroundOrigin : String"},"backgroundImage":{"kind":"v","type":"String","menu":"backgroundImage : String"},"backgroundColor":{"kind":"v","type":"String","menu":"backgroundColor : String"},"backgroundClip":{"kind":"v","type":"String","menu":"backgroundClip : String"},"backgroundAttachment":{"kind":"v","type":"String","menu":"backgroundAttachment : String"},"background":{"kind":"v","type":"String","menu":"background : String"},"alignmentBaseline":{"kind":"v","type":"String","menu":"alignmentBaseline : String"},"border":{"kind":"v","type":"String","menu":"border : String"},"baselineShift":{"kind":"v","type":"String","menu":"baselineShift : String"},"backgroundSize":{"kind":"v","type":"String","menu":"backgroundSize : String"},"backgroundRepeatY":{"kind":"v","type":"String","menu":"backgroundRepeatY : String"},"backgroundRepeatX":{"kind":"v","type":"String","menu":"backgroundRepeatX : String"},"backgroundRepeat":{"kind":"v","type":"String","menu":"backgroundRepeat : String"},"backgroundPositionY":{"kind":"v","type":"String","menu":"backgroundPositionY : String"},"backgroundPositionX":{"kind":"v","type":"String","menu":"backgroundPositionX : String"},"borderImage":{"kind":"v","type":"String","menu":"borderImage : String"},"borderImageOutset":{"kind":"v","type":"String","menu":"borderImageOutset : String"},"borderImageRepeat":{"kind":"v","type":"String","menu":"borderImageRepeat : String"},"borderImageSlice":{"kind":"v","type":"String","menu":"borderImageSlice : String"},"borderImageSource":{"kind":"v","type":"String","menu":"borderImageSource : String"},"borderImageWidth":{"kind":"v","type":"String","menu":"borderImageWidth : String"},"borderLeft":{"kind":"v","type":"String","menu":"borderLeft : String"},"borderLeftColor":{"kind":"v","type":"String","menu":"borderLeftColor : String"},"borderColor":{"kind":"v","type":"String","menu":"borderColor : String"},"borderCollapse":{"kind":"v","type":"String","menu":"borderCollapse : String"},"borderBottomWidth":{"kind":"v","type":"String","menu":"borderBottomWidth : String"},"borderBottomStyle":{"kind":"v","type":"String","menu":"borderBottomStyle : String"},"borderBottomRightRadius":{"kind":"v","type":"String","menu":"borderBottomRightRadius : String"},"borderBottomLeftRadius":{"kind":"v","type":"String","menu":"borderBottomLeftRadius : String"},"borderBottomColor":{"kind":"v","type":"String","menu":"borderBottomColor : String"},"borderBottom":{"kind":"v","type":"String","menu":"borderBottom : String"},"cssText":{"kind":"v","type":"String","menu":"cssText : String"},"cursor":{"kind":"v","type":"String","menu":"cursor : String"},"direction":{"kind":"v","type":"String","menu":"direction : String"},"display":{"kind":"v","type":"String","menu":"display : String"},"dominantBaseline":{"kind":"v","type":"String","menu":"dominantBaseline : String"},"emptyCells":{"kind":"v","type":"String","menu":"emptyCells : String"},"enableBackground":{"kind":"v","type":"String","menu":"enableBackground : String"},"fill":{"kind":"v","type":"String","menu":"fill : String"},"fillOpacity":{"kind":"v","type":"String","menu":"fillOpacity : String"},"fillRule":{"kind":"v","type":"String","menu":"fillRule : String"},"filter":{"kind":"v","type":"String","menu":"filter : String"},"float":{"kind":"v","type":"String","menu":"float : String"},"floodColor":{"kind":"v","type":"String","menu":"floodColor : String"},"floodOpacity":{"kind":"v","type":"String","menu":"floodOpacity : String"},"font":{"kind":"v","type":"String","menu":"font : String"},"fontFamily":{"kind":"v","type":"String","menu":"fontFamily : String"},"fontSize":{"kind":"v","type":"String","menu":"fontSize : String"},"fontStretch":{"kind":"v","type":"String","menu":"fontStretch : String"},"fontStyle":{"kind":"v","type":"String","menu":"fontStyle : String"},"fontVariant":{"kind":"v","type":"String","menu":"fontVariant : String"},"fontWeight":{"kind":"v","type":"String","menu":"fontWeight : String"},"glyphOrientationHorizontal":{"kind":"v","type":"String","menu":"glyphOrientationHorizontal : String"},"glyphOrientationVertical":{"kind":"v","type":"String","menu":"glyphOrientationVertical : String"},"height":{"kind":"v","type":"String","menu":"height : String"},"imageRendering":{"kind":"v","type":"String","menu":"imageRendering : String"},"kerning":{"kind":"v","type":"String","menu":"kerning : String"},"left":{"kind":"v","type":"String","menu":"left : String"},"length":{"kind":"v","type":"String","menu":"length : String"},"letterSpacing":{"kind":"v","type":"String","menu":"letterSpacing : String"},"lightingColor":{"kind":"v","type":"String","menu":"lightingColor : String"},"lineHeight":{"kind":"v","type":"String","menu":"lineHeight : String"},"listStyle":{"kind":"v","type":"String","menu":"listStyle : String"},"minHeight":{"kind":"v","type":"String","menu":"minHeight : String"},"maxWidth":{"kind":"v","type":"String","menu":"maxWidth : String"},"maxHeight":{"kind":"v","type":"String","menu":"maxHeight : String"},"mask":{"kind":"v","type":"String","menu":"mask : String"},"markerStart":{"kind":"v","type":"String","menu":"markerStart : String"},"markerMid":{"kind":"v","type":"String","menu":"markerMid : String"},"markerEnd":{"kind":"v","type":"String","menu":"markerEnd : String"},"marker":{"kind":"v","type":"String","menu":"marker : String"},"listStyleImage":{"kind":"v","type":"String","menu":"listStyleImage : String"},"listStylePosition":{"kind":"v","type":"String","menu":"listStylePosition : String"},"listStyleType":{"kind":"v","type":"String","menu":"listStyleType : String"},"margin":{"kind":"v","type":"String","menu":"margin : String"},"marginBottom":{"kind":"v","type":"String","menu":"marginBottom : String"},"marginLeft":{"kind":"v","type":"String","menu":"marginLeft : String"},"marginRight":{"kind":"v","type":"String","menu":"marginRight : String"},"marginTop":{"kind":"v","type":"String","menu":"marginTop : String"},"overflow":{"kind":"v","type":"String","menu":"overflow : String"},"overflowX":{"kind":"v","type":"String","menu":"overflowX : String"},"overflowY":{"kind":"v","type":"String","menu":"overflowY : String"},"padding":{"kind":"v","type":"String","menu":"padding : String"},"paddingBottom":{"kind":"v","type":"String","menu":"paddingBottom : String"},"paddingLeft":{"kind":"v","type":"String","menu":"paddingLeft : String"},"paddingRight":{"kind":"v","type":"String","menu":"paddingRight : String"},"paddingTop":{"kind":"v","type":"String","menu":"paddingTop : String"},"outlineWidth":{"kind":"v","type":"String","menu":"outlineWidth : String"},"outlineStyle":{"kind":"v","type":"String","menu":"outlineStyle : String"},"outlineOffset":{"kind":"v","type":"String","menu":"outlineOffset : String"},"outlineColor":{"kind":"v","type":"String","menu":"outlineColor : String"},"outline":{"kind":"v","type":"String","menu":"outline : String"},"orphans":{"kind":"v","type":"String","menu":"orphans : String"},"opacity":{"kind":"v","type":"String","menu":"opacity : String"},"minWidth":{"kind":"v","type":"String","menu":"minWidth : String"}},"class":"CSSStyleDeclaration","type":"Object","kind":"v"}}},"CSSPrimitiveValue":{"kind":"f","props":{"CSS_RAD":{"kind":"v","type":"Number","menu":"CSS_RAD : Number  readonly  value = 12"},"CSS_PX":{"kind":"v","type":"Number","menu":"CSS_PX : Number  readonly  value = 5"},"CSS_CM":{"kind":"v","type":"Number","menu":"CSS_CM : Number  readonly  value = 6"},"CSS_ATTR":{"kind":"v","type":"Number","menu":"CSS_ATTR : Number  readonly  value = 22"},"prototype":{"props":{"setStringValue":{"kind":"f","type":"undefined","menu":"setStringValue(stringType : Number, stringValue : String) : undefined"},"setFloatValue":{"kind":"f","type":"undefined","menu":"setFloatValue(unitType : Number, floatValue : Number) : undefined"},"getStringValue":{"kind":"f","type":"String","menu":"getStringValue() : String"},"getRectValue":{"kind":"f","type":"Rect","menu":"getRectValue() : Rect"},"getRGBColorValue":{"kind":"f","type":"RGBColor","menu":"getRGBColorValue() : RGBColor"},"getFloatValue":{"kind":"f","type":"Number","menu":"getFloatValue(unitType : Number) : Number"},"getCounterValue":{"kind":"f","type":"Counter","menu":"getCounterValue() : Counter"},"primitiveType":{"kind":"v","type":"Number","menu":"primitiveType : Number  readonly"}},"class":"CSSPrimitiveValue","type":"Object","kind":"v"},"CSS_DIMENSION":{"kind":"v","type":"Number","menu":"CSS_DIMENSION : Number  readonly  value = 18"},"CSS_DEG":{"kind":"v","type":"Number","menu":"CSS_DEG : Number  readonly  value = 11"},"CSS_COUNTER":{"kind":"v","type":"Number","menu":"CSS_COUNTER : Number  readonly  value = 23"},"CSS_KHZ":{"kind":"v","type":"Number","menu":"CSS_KHZ : Number  readonly  value = 17"},"CSS_IN":{"kind":"v","type":"Number","menu":"CSS_IN : Number  readonly  value = 8"},"CSS_IDENT":{"kind":"v","type":"Number","menu":"CSS_IDENT : Number  readonly  value = 21"},"CSS_NUMBER":{"kind":"v","type":"Number","menu":"CSS_NUMBER : Number  readonly  value = 1"},"CSS_MS":{"kind":"v","type":"Number","menu":"CSS_MS : Number  readonly  value = 14"},"CSS_MM":{"kind":"v","type":"Number","menu":"CSS_MM : Number  readonly  value = 7"},"CSS_PT":{"kind":"v","type":"Number","menu":"CSS_PT : Number  readonly  value = 9"},"CSS_PERCENTAGE":{"kind":"v","type":"Number","menu":"CSS_PERCENTAGE : Number  readonly  value = 2"},"CSS_PC":{"kind":"v","type":"Number","menu":"CSS_PC : Number  readonly  value = 10"},"CSS_EXS":{"kind":"v","type":"Number","menu":"CSS_EXS : Number  readonly  value = 4"},"CSS_EMS":{"kind":"v","type":"Number","menu":"CSS_EMS : Number  readonly  value = 3"},"CSS_S":{"kind":"v","type":"Number","menu":"CSS_S : Number  readonly  value = 15"},"CSS_RGBCOLOR":{"kind":"v","type":"Number","menu":"CSS_RGBCOLOR : Number  readonly  value = 25"},"CSS_RECT":{"kind":"v","type":"Number","menu":"CSS_RECT : Number  readonly  value = 24"},"CSS_URI":{"kind":"v","type":"Number","menu":"CSS_URI : Number  readonly  value = 20"},"CSS_UNKNOWN":{"kind":"v","type":"Number","menu":"CSS_UNKNOWN : Number  readonly  value = 0"},"CSS_STRING":{"kind":"v","type":"Number","menu":"CSS_STRING : Number  readonly  value = 19"},"CSS_GRAD":{"kind":"v","type":"Number","menu":"CSS_GRAD : Number  readonly  value = 13"},"CSS_HZ":{"kind":"v","type":"Number","menu":"CSS_HZ : Number  readonly  value = 16"}}},"CSSStyleSheet":{"kind":"f","props":{"prototype":{"props":{"insertRule":{"kind":"f","type":"Number","menu":"insertRule(rule : String, index : Number) : Number"},"deleteRule":{"kind":"f","type":"undefined","menu":"deleteRule(index : Number) : undefined"},"ownerRule":{"kind":"v","type":"CSSRule","menu":"ownerRule : CSSRule"},"cssRules":{"kind":"v","type":"CSSRuleList","menu":"cssRules : CSSRuleList"}},"class":"CSSStyleSheet","type":"Object","kind":"v"}}},"StyleSheet":{"kind":"f","props":{"prototype":{"props":{"type":{"kind":"v","type":"String","menu":"type : String  readonly"},"title":{"kind":"v","type":"String","menu":"title : String  readonly"},"parentStyleSheet":{"kind":"v","type":"StyleSheet","menu":"parentStyleSheet : StyleSheet  readonly"},"ownerNode":{"kind":"v","type":"Node","menu":"ownerNode : Node  readonly"},"media":{"kind":"v","type":"MediaList","menu":"media : MediaList  readonly"},"href":{"kind":"v","type":"String","menu":"href : String  readonly"},"disabled":{"kind":"v","type":"Boolean","menu":"disabled : Boolean"}},"class":"StyleSheet","type":"Object","kind":"v"}}},"CSSRuleList":{"kind":"f","props":{"prototype":{"props":{"item":{"kind":"f","type":"CSSRule","menu":"item(index : Number) : CSSRule"},"length":{"kind":"v","type":"Number","menu":"length : Number  readonly"}},"class":"CSSRuleList","type":"Object","kind":"v"}}},"CSSValue":{"kind":"f","props":{"CSS_VALUE_LIST":{"kind":"v","type":"Number","menu":"CSS_VALUE_LIST : Number  readonly  value = 2"},"CSS_PRIMITIVE_VALUE":{"kind":"v","type":"Number","menu":"CSS_PRIMITIVE_VALUE : Number  readonly  value = 1"},"CSS_INHERIT":{"kind":"v","type":"Number","menu":"CSS_INHERIT : Number  readonly  value = 0"},"CSS_CUSTOM":{"kind":"v","type":"Number","menu":"CSS_CUSTOM : Number  readonly  value = 3"},"prototype":{"props":{"cssValueType":{"kind":"v","type":"Number","menu":"cssValueType : Number  readonly"},"cssText":{"kind":"v","type":"String","menu":"cssText : String"}},"class":"CSSValue","type":"Object","kind":"v"}}},"CSSValueList":{"kind":"f","props":{"prototype":{"props":{"item":{"kind":"f","type":"CSSValue","menu":"item(index : Number) : CSSValue"},"length":{"kind":"v","type":"Number","menu":"length : Number  readonly"}},"class":"CSSValueList","type":"Object","kind":"v"}}},"CSSRule":{"kind":"f","props":{"UNKNOWN_RULE":{"kind":"v","type":"Number","menu":"UNKNOWN_RULE : Number  value = 0"},"STYLE_RULE":{"kind":"v","type":"Number","menu":"STYLE_RULE : Number  value = 1"},"PAGE_RULE":{"kind":"v","type":"Number","menu":"PAGE_RULE : Number  value = 6"},"MEDIA_RULE":{"kind":"v","type":"Number","menu":"MEDIA_RULE : Number  value = 4"},"IMPORT_RULE":{"kind":"v","type":"Number","menu":"IMPORT_RULE : Number  value = 3"},"FONT_FACE_RULE":{"kind":"v","type":"Number","menu":"FONT_FACE_RULE : Number  value = 5"},"CHARSET_RULE":{"kind":"v","type":"Number","menu":"CHARSET_RULE : Number  value = 2"},"prototype":{"props":{"type":{"kind":"v","type":"Number","menu":"type : Number  readonly"},"parentStyleSheet":{"kind":"v","type":"CSSStyleSheet","menu":"parentStyleSheet : CSSStyleSheet  readonly"},"parentRule":{"kind":"v","type":"CSSRule","menu":"parentRule : CSSRule  readonly"},"cssText":{"kind":"v","type":"String","menu":"cssText : String"}},"class":"CSSRule","type":"Object","kind":"v"}}},"RGBColor":{"kind":"f","props":{"prototype":{"props":{"red":{"kind":"v","type":"CSSPrimitiveValue","menu":"red : CSSPrimitiveValue  readonly"},"green":{"kind":"v","type":"CSSPrimitiveValue","menu":"green : CSSPrimitiveValue  readonly"},"blue":{"kind":"v","type":"CSSPrimitiveValue","menu":"blue : CSSPrimitiveValue  readonly"}},"class":"RGBColor","type":"Object","kind":"v"}}},"CSSPageRule":{"kind":"f","props":{"prototype":{"props":{"style":{"kind":"v","type":"CSSStyleDeclaration","menu":"style : CSSStyleDeclaration  readonly"},"selectorText":{"kind":"v","type":"String","menu":"selectorText : String"}},"class":"CSSPageRule","type":"Object","kind":"v"}}},"StyleSheetList":{"kind":"f","props":{"prototype":{"props":{"item":{"kind":"f","type":"StyleSheet","menu":"item(index : Number) : StyleSheet"},"length":{"kind":"v","type":"Number","menu":"length : Number  readonly"}},"class":"StyleSheetList","type":"Object","kind":"v"}}},"CSSStyleRule":{"kind":"f","props":{"prototype":{"props":{"style":{"kind":"v","type":"CSSStyleDeclaration","menu":"style : CSSStyleDeclaration  readonly"},"selectorText":{"kind":"v","type":"String","menu":"selectorText : String"}},"class":"CSSStyleRule","type":"Object","kind":"v"}}},"Counter":{"kind":"f","props":{"prototype":{"props":{"separator":{"kind":"v","type":"String","menu":"separator : String  readonly"},"listStyle":{"kind":"v","type":"String","menu":"listStyle : String  readonly"},"identifier":{"kind":"v","type":"String","menu":"identifier : String  readonly"}},"class":"Counter","type":"Object","kind":"v"}}},"Rect":{"kind":"f","props":{"prototype":{"props":{"top":{"kind":"v","type":"CSSPrimitiveValue","menu":"top : CSSPrimitiveValue  readonly"},"right":{"kind":"v","type":"CSSPrimitiveValue","menu":"right : CSSPrimitiveValue  readonly"},"left":{"kind":"v","type":"CSSPrimitiveValue","menu":"left : CSSPrimitiveValue  readonly"},"bottom":{"kind":"v","type":"CSSPrimitiveValue","menu":"bottom : CSSPrimitiveValue  readonly"}},"class":"Rect","type":"Object","kind":"v"}}},"CSSMediaRule":{"kind":"f","props":{"prototype":{"props":{"insertRule":{"kind":"f","type":"Number","menu":"insertRule(rule : String, index : Number) : Number"},"deleteRule":{"kind":"f","type":"undefined","menu":"deleteRule(index : Number) : undefined"},"media":{"kind":"v","type":"MediaList","menu":"media : MediaList  readonly"},"cssRules":{"kind":"v","type":"CSSRuleList","menu":"cssRules : CSSRuleList  readonly"}},"class":"CSSMediaRule","type":"Object","kind":"v"}}},"CSSCharsetRule":{"kind":"f","props":{"prototype":{"props":{"encoding":{"kind":"v","type":"String","menu":"encoding : String"}},"class":"CSSCharsetRule","type":"Object","kind":"v"}}},"CSSFontFaceRule":{"kind":"f","props":{"prototype":{"props":{"style":{"kind":"v","type":"CSSStyleDeclaration","menu":"style : CSSStyleDeclaration  readonly"}},"class":"CSSFontFaceRule","type":"Object","kind":"v"}}},"CSSImportRule":{"kind":"f","props":{"prototype":{"props":{"styleSheet":{"kind":"v","type":"CSSStyleSheet","menu":"styleSheet : CSSStyleSheet  readonly"},"media":{"kind":"v","type":"MediaList","menu":"media : MediaList  readonly"},"href":{"kind":"v","type":"String","menu":"href : String  readonly"}},"class":"CSSImportRule","type":"Object","kind":"v"}}}}
+{
+  "CSSImportRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSImportRule",
+        "props": {
+          "href": {
+            "menu": "href : String readonly",
+            "type": "String",
+            "kind": "v"
+          },
+          "media": {
+            "menu": "media : MediaList readonly",
+            "type": "MediaList",
+            "kind": "v"
+          },
+          "styleSheet": {
+            "menu": "styleSheet : CSSStyleSheet readonly",
+            "type": "CSSStyleSheet",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSFontFaceRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSFontFaceRule",
+        "props": {
+          "style": {
+            "menu": "style : CSSStyleDeclaration readonly",
+            "type": "CSSStyleDeclaration",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSRule",
+        "props": {
+          "cssText": {
+            "menu": "cssText : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "parentRule": {
+            "menu": "parentRule : CSSRule readonly",
+            "type": "CSSRule",
+            "kind": "v"
+          },
+          "parentStyleSheet": {
+            "menu": "parentStyleSheet : CSSStyleSheet readonly",
+            "type": "CSSStyleSheet",
+            "kind": "v"
+          },
+          "type": {
+            "menu": "type : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          }
+        }
+      },
+      "CHARSET_RULE": {
+        "menu": "CHARSET_RULE : Number value = 2",
+        "type": "Number",
+        "kind": "v"
+      },
+      "FONT_FACE_RULE": {
+        "menu": "FONT_FACE_RULE : Number value = 5",
+        "type": "Number",
+        "kind": "v"
+      },
+      "IMPORT_RULE": {
+        "menu": "IMPORT_RULE : Number value = 3",
+        "type": "Number",
+        "kind": "v"
+      },
+      "MEDIA_RULE": {
+        "menu": "MEDIA_RULE : Number value = 4",
+        "type": "Number",
+        "kind": "v"
+      },
+      "PAGE_RULE": {
+        "menu": "PAGE_RULE : Number value = 6",
+        "type": "Number",
+        "kind": "v"
+      },
+      "STYLE_RULE": {
+        "menu": "STYLE_RULE : Number value = 1",
+        "type": "Number",
+        "kind": "v"
+      },
+      "UNKNOWN_RULE": {
+        "menu": "UNKNOWN_RULE : Number value = 0",
+        "type": "Number",
+        "kind": "v"
+      }
+    },
+    "kind": "f"
+  },
+  "CSSValueList": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSValueList",
+        "props": {
+          "length": {
+            "menu": "length : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          },
+          "item": {
+            "menu": "item(index : Number) : CSSValue",
+            "type": "CSSValue",
+            "kind": "f"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSValue": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSValue",
+        "props": {
+          "cssText": {
+            "menu": "cssText : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "cssValueType": {
+            "menu": "cssValueType : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          }
+        }
+      },
+      "CSS_CUSTOM": {
+        "menu": "CSS_CUSTOM : Number readonly value = 3",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_INHERIT": {
+        "menu": "CSS_INHERIT : Number readonly value = 0",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_PRIMITIVE_VALUE": {
+        "menu": "CSS_PRIMITIVE_VALUE : Number readonly value = 1",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_VALUE_LIST": {
+        "menu": "CSS_VALUE_LIST : Number readonly value = 2",
+        "type": "Number",
+        "kind": "v"
+      }
+    },
+    "kind": "f"
+  },
+  "CSSRuleList": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSRuleList",
+        "props": {
+          "length": {
+            "menu": "length : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          },
+          "item": {
+            "menu": "item(index : Number) : CSSRule",
+            "type": "CSSRule",
+            "kind": "f"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "StyleSheet": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "StyleSheet",
+        "props": {
+          "disabled": {
+            "menu": "disabled : Boolean",
+            "type": "Boolean",
+            "kind": "v"
+          },
+          "href": {
+            "menu": "href : String readonly",
+            "type": "String",
+            "kind": "v"
+          },
+          "media": {
+            "menu": "media : MediaList readonly",
+            "type": "MediaList",
+            "kind": "v"
+          },
+          "ownerNode": {
+            "menu": "ownerNode : Node readonly",
+            "type": "Node",
+            "kind": "v"
+          },
+          "parentStyleSheet": {
+            "menu": "parentStyleSheet : StyleSheet readonly",
+            "type": "StyleSheet",
+            "kind": "v"
+          },
+          "title": {
+            "menu": "title : String readonly",
+            "type": "String",
+            "kind": "v"
+          },
+          "type": {
+            "menu": "type : String readonly",
+            "type": "String",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSStyleSheet": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSStyleSheet",
+        "props": {
+          "cssRules": {
+            "menu": "cssRules : CSSRuleList",
+            "type": "CSSRuleList",
+            "kind": "v"
+          },
+          "ownerRule": {
+            "menu": "ownerRule : CSSRule",
+            "type": "CSSRule",
+            "kind": "v"
+          },
+          "deleteRule": {
+            "menu": "deleteRule(index : Number) : undefined",
+            "type": "undefined",
+            "kind": "f"
+          },
+          "insertRule": {
+            "menu": "insertRule(rule : String, index : Number) : Number",
+            "type": "Number",
+            "kind": "f"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSPrimitiveValue": {
+    "props": {
+      "CSS_HZ": {
+        "menu": "CSS_HZ : Number readonly value = 16",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_GRAD": {
+        "menu": "CSS_GRAD : Number readonly value = 13",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_STRING": {
+        "menu": "CSS_STRING : Number readonly value = 19",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_UNKNOWN": {
+        "menu": "CSS_UNKNOWN : Number readonly value = 0",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_URI": {
+        "menu": "CSS_URI : Number readonly value = 20",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_RECT": {
+        "menu": "CSS_RECT : Number readonly value = 24",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_RGBCOLOR": {
+        "menu": "CSS_RGBCOLOR : Number readonly value = 25",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_S": {
+        "menu": "CSS_S : Number readonly value = 15",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_EMS": {
+        "menu": "CSS_EMS : Number readonly value = 3",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_EXS": {
+        "menu": "CSS_EXS : Number readonly value = 4",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_PC": {
+        "menu": "CSS_PC : Number readonly value = 10",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_COUNTER": {
+        "menu": "CSS_COUNTER : Number readonly value = 23",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_DEG": {
+        "menu": "CSS_DEG : Number readonly value = 11",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_DIMENSION": {
+        "menu": "CSS_DIMENSION : Number readonly value = 18",
+        "type": "Number",
+        "kind": "v"
+      },
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSPrimitiveValue",
+        "props": {
+          "primitiveType": {
+            "menu": "primitiveType : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          },
+          "getCounterValue": {
+            "menu": "getCounterValue() : Counter",
+            "type": "Counter",
+            "kind": "f"
+          },
+          "getFloatValue": {
+            "menu": "getFloatValue(unitType : Number) : Number",
+            "type": "Number",
+            "kind": "f"
+          },
+          "getRGBColorValue": {
+            "menu": "getRGBColorValue() : RGBColor",
+            "type": "RGBColor",
+            "kind": "f"
+          },
+          "getRectValue": {
+            "menu": "getRectValue() : Rect",
+            "type": "Rect",
+            "kind": "f"
+          },
+          "getStringValue": {
+            "menu": "getStringValue() : String",
+            "type": "String",
+            "kind": "f"
+          },
+          "setFloatValue": {
+            "menu": "setFloatValue(unitType : Number, floatValue : Number) : undefined",
+            "type": "undefined",
+            "kind": "f"
+          },
+          "setStringValue": {
+            "menu": "setStringValue(stringType : Number, stringValue : String) : undefined",
+            "type": "undefined",
+            "kind": "f"
+          }
+        }
+      },
+      "CSS_ATTR": {
+        "menu": "CSS_ATTR : Number readonly value = 22",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_CM": {
+        "menu": "CSS_CM : Number readonly value = 6",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_PX": {
+        "menu": "CSS_PX : Number readonly value = 5",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_RAD": {
+        "menu": "CSS_RAD : Number readonly value = 12",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_KHZ": {
+        "menu": "CSS_KHZ : Number readonly value = 17",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_IN": {
+        "menu": "CSS_IN : Number readonly value = 8",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_IDENT": {
+        "menu": "CSS_IDENT : Number readonly value = 21",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_NUMBER": {
+        "menu": "CSS_NUMBER : Number readonly value = 1",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_MS": {
+        "menu": "CSS_MS : Number readonly value = 14",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_MM": {
+        "menu": "CSS_MM : Number readonly value = 7",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_PT": {
+        "menu": "CSS_PT : Number readonly value = 9",
+        "type": "Number",
+        "kind": "v"
+      },
+      "CSS_PERCENTAGE": {
+        "menu": "CSS_PERCENTAGE : Number readonly value = 2",
+        "type": "Number",
+        "kind": "v"
+      }
+    },
+    "kind": "f"
+  },
+  "CSSStyleDeclaration": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSStyleDeclaration",
+        "props": {
+          "minWidth": {
+            "menu": "minWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "opacity": {
+            "menu": "opacity : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "orphans": {
+            "menu": "orphans : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "outline": {
+            "menu": "outline : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "outlineColor": {
+            "menu": "outlineColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "outlineOffset": {
+            "menu": "outlineOffset : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "outlineStyle": {
+            "menu": "outlineStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "outlineWidth": {
+            "menu": "outlineWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "paddingTop": {
+            "menu": "paddingTop : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "paddingRight": {
+            "menu": "paddingRight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "paddingLeft": {
+            "menu": "paddingLeft : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "paddingBottom": {
+            "menu": "paddingBottom : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "padding": {
+            "menu": "padding : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "overflowY": {
+            "menu": "overflowY : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "overflowX": {
+            "menu": "overflowX : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "overflow": {
+            "menu": "overflow : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "marginTop": {
+            "menu": "marginTop : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "marginRight": {
+            "menu": "marginRight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "marginLeft": {
+            "menu": "marginLeft : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "marginBottom": {
+            "menu": "marginBottom : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "margin": {
+            "menu": "margin : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "listStyleType": {
+            "menu": "listStyleType : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "listStylePosition": {
+            "menu": "listStylePosition : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "listStyleImage": {
+            "menu": "listStyleImage : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "marker": {
+            "menu": "marker : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "markerEnd": {
+            "menu": "markerEnd : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "markerMid": {
+            "menu": "markerMid : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "markerStart": {
+            "menu": "markerStart : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "mask": {
+            "menu": "mask : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "maxHeight": {
+            "menu": "maxHeight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "maxWidth": {
+            "menu": "maxWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "minHeight": {
+            "menu": "minHeight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "listStyle": {
+            "menu": "listStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "lineHeight": {
+            "menu": "lineHeight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "lightingColor": {
+            "menu": "lightingColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "letterSpacing": {
+            "menu": "letterSpacing : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "length": {
+            "menu": "length : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "left": {
+            "menu": "left : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "kerning": {
+            "menu": "kerning : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "imageRendering": {
+            "menu": "imageRendering : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "height": {
+            "menu": "height : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "glyphOrientationVertical": {
+            "menu": "glyphOrientationVertical : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "glyphOrientationHorizontal": {
+            "menu": "glyphOrientationHorizontal : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontWeight": {
+            "menu": "fontWeight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontVariant": {
+            "menu": "fontVariant : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontStyle": {
+            "menu": "fontStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontStretch": {
+            "menu": "fontStretch : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontSize": {
+            "menu": "fontSize : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fontFamily": {
+            "menu": "fontFamily : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "font": {
+            "menu": "font : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "floodOpacity": {
+            "menu": "floodOpacity : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "floodColor": {
+            "menu": "floodColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "float": {
+            "menu": "float : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "filter": {
+            "menu": "filter : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fillRule": {
+            "menu": "fillRule : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fillOpacity": {
+            "menu": "fillOpacity : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "fill": {
+            "menu": "fill : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "enableBackground": {
+            "menu": "enableBackground : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "emptyCells": {
+            "menu": "emptyCells : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "dominantBaseline": {
+            "menu": "dominantBaseline : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "display": {
+            "menu": "display : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "direction": {
+            "menu": "direction : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "cursor": {
+            "menu": "cursor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "cssText": {
+            "menu": "cssText : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "page": {
+            "menu": "page : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "pageBreakAfter": {
+            "menu": "pageBreakAfter : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "pageBreakBefore": {
+            "menu": "pageBreakBefore : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "pageBreakInside": {
+            "menu": "pageBreakInside : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "parentRule": {
+            "menu": "parentRule : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "pointerEvents": {
+            "menu": "pointerEvents : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "position": {
+            "menu": "position : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "quotes": {
+            "menu": "quotes : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "resize": {
+            "menu": "resize : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "right": {
+            "menu": "right : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "shapeRendering": {
+            "menu": "shapeRendering : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "size": {
+            "menu": "size : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "speak": {
+            "menu": "speak : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "src": {
+            "menu": "src : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "stopColor": {
+            "menu": "stopColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "stopOpacity": {
+            "menu": "stopOpacity : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "stroke": {
+            "menu": "stroke : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeDasharray": {
+            "menu": "strokeDasharray : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeDashoffset": {
+            "menu": "strokeDashoffset : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeLinecap": {
+            "menu": "strokeLinecap : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeLinejoin": {
+            "menu": "strokeLinejoin : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeMiterlimit": {
+            "menu": "strokeMiterlimit : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeOpacity": {
+            "menu": "strokeOpacity : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "strokeWidth": {
+            "menu": "strokeWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "tabSize": {
+            "menu": "tabSize : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "tableLayout": {
+            "menu": "tableLayout : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textAlign": {
+            "menu": "textAlign : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textAnchor": {
+            "menu": "textAnchor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textDecoration": {
+            "menu": "textDecoration : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textIndent": {
+            "menu": "textIndent : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textLineThrough": {
+            "menu": "textLineThrough : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textLineThroughColor": {
+            "menu": "textLineThroughColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "widows": {
+            "menu": "widows : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "width": {
+            "menu": "width : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "wordBreak": {
+            "menu": "wordBreak : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "wordSpacing": {
+            "menu": "wordSpacing : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "wordWrap": {
+            "menu": "wordWrap : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "writingMode": {
+            "menu": "writingMode : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "zIndex": {
+            "menu": "zIndex : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "zoom": {
+            "menu": "zoom : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textUnderlineWidth": {
+            "menu": "textUnderlineWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "top": {
+            "menu": "top : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "unicodeBidi": {
+            "menu": "unicodeBidi : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "unicodeRange": {
+            "menu": "unicodeRange : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "vectorEffect": {
+            "menu": "vectorEffect : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "verticalAlign": {
+            "menu": "verticalAlign : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "visibility": {
+            "menu": "visibility : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "whiteSpace": {
+            "menu": "whiteSpace : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverlineStyle": {
+            "menu": "textOverlineStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverlineMode": {
+            "menu": "textOverlineMode : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverlineColor": {
+            "menu": "textOverlineColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverline": {
+            "menu": "textOverline : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverflow": {
+            "menu": "textOverflow : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textLineThroughWidth": {
+            "menu": "textLineThroughWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textLineThroughStyle": {
+            "menu": "textLineThroughStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textLineThroughMode": {
+            "menu": "textLineThroughMode : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textOverlineWidth": {
+            "menu": "textOverlineWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textRendering": {
+            "menu": "textRendering : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textShadow": {
+            "menu": "textShadow : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textTransform": {
+            "menu": "textTransform : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textUnderline": {
+            "menu": "textUnderline : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textUnderlineColor": {
+            "menu": "textUnderlineColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textUnderlineMode": {
+            "menu": "textUnderlineMode : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "textUnderlineStyle": {
+            "menu": "textUnderlineStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "counterReset": {
+            "menu": "counterReset : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "counterIncrement": {
+            "menu": "counterIncrement : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "content": {
+            "menu": "content : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "colorRendering": {
+            "menu": "colorRendering : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "colorProfile": {
+            "menu": "colorProfile : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "colorInterpolationFilters": {
+            "menu": "colorInterpolationFilters : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "colorInterpolation": {
+            "menu": "colorInterpolation : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "color": {
+            "menu": "color : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "clipRule": {
+            "menu": "clipRule : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "clipPath": {
+            "menu": "clipPath : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "clip": {
+            "menu": "clip : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "clear": {
+            "menu": "clear : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "captionSide": {
+            "menu": "captionSide : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "boxSizing": {
+            "menu": "boxSizing : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "boxShadow": {
+            "menu": "boxShadow : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "bottom": {
+            "menu": "bottom : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderWidth": {
+            "menu": "borderWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTopWidth": {
+            "menu": "borderTopWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTopStyle": {
+            "menu": "borderTopStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTopRightRadius": {
+            "menu": "borderTopRightRadius : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTopLeftRadius": {
+            "menu": "borderTopLeftRadius : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTopColor": {
+            "menu": "borderTopColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderTop": {
+            "menu": "borderTop : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderStyle": {
+            "menu": "borderStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderSpacing": {
+            "menu": "borderSpacing : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderRightWidth": {
+            "menu": "borderRightWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderRightStyle": {
+            "menu": "borderRightStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderRightColor": {
+            "menu": "borderRightColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderRight": {
+            "menu": "borderRight : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderRadius": {
+            "menu": "borderRadius : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderLeftWidth": {
+            "menu": "borderLeftWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderLeftStyle": {
+            "menu": "borderLeftStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundPosition": {
+            "menu": "backgroundPosition : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundOrigin": {
+            "menu": "backgroundOrigin : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundImage": {
+            "menu": "backgroundImage : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundColor": {
+            "menu": "backgroundColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundClip": {
+            "menu": "backgroundClip : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundAttachment": {
+            "menu": "backgroundAttachment : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "background": {
+            "menu": "background : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "alignmentBaseline": {
+            "menu": "alignmentBaseline : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "border": {
+            "menu": "border : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "baselineShift": {
+            "menu": "baselineShift : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundSize": {
+            "menu": "backgroundSize : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundRepeatY": {
+            "menu": "backgroundRepeatY : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundRepeatX": {
+            "menu": "backgroundRepeatX : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundRepeat": {
+            "menu": "backgroundRepeat : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundPositionY": {
+            "menu": "backgroundPositionY : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "backgroundPositionX": {
+            "menu": "backgroundPositionX : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImage": {
+            "menu": "borderImage : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImageOutset": {
+            "menu": "borderImageOutset : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImageRepeat": {
+            "menu": "borderImageRepeat : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImageSlice": {
+            "menu": "borderImageSlice : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImageSource": {
+            "menu": "borderImageSource : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderImageWidth": {
+            "menu": "borderImageWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderLeft": {
+            "menu": "borderLeft : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderLeftColor": {
+            "menu": "borderLeftColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderColor": {
+            "menu": "borderColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderCollapse": {
+            "menu": "borderCollapse : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottomWidth": {
+            "menu": "borderBottomWidth : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottomStyle": {
+            "menu": "borderBottomStyle : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottomRightRadius": {
+            "menu": "borderBottomRightRadius : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottomLeftRadius": {
+            "menu": "borderBottomLeftRadius : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottomColor": {
+            "menu": "borderBottomColor : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "borderBottom": {
+            "menu": "borderBottom : String",
+            "type": "String",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "RGBColor": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "RGBColor",
+        "props": {
+          "blue": {
+            "menu": "blue : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          },
+          "green": {
+            "menu": "green : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          },
+          "red": {
+            "menu": "red : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSPageRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSPageRule",
+        "props": {
+          "selectorText": {
+            "menu": "selectorText : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "style": {
+            "menu": "style : CSSStyleDeclaration readonly",
+            "type": "CSSStyleDeclaration",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "StyleSheetList": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "StyleSheetList",
+        "props": {
+          "length": {
+            "menu": "length : Number readonly",
+            "type": "Number",
+            "kind": "v"
+          },
+          "item": {
+            "menu": "item(index : Number) : StyleSheet",
+            "type": "StyleSheet",
+            "kind": "f"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSStyleRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSStyleRule",
+        "props": {
+          "selectorText": {
+            "menu": "selectorText : String",
+            "type": "String",
+            "kind": "v"
+          },
+          "style": {
+            "menu": "style : CSSStyleDeclaration readonly",
+            "type": "CSSStyleDeclaration",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "Counter": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "Counter",
+        "props": {
+          "identifier": {
+            "menu": "identifier : String readonly",
+            "type": "String",
+            "kind": "v"
+          },
+          "listStyle": {
+            "menu": "listStyle : String readonly",
+            "type": "String",
+            "kind": "v"
+          },
+          "separator": {
+            "menu": "separator : String readonly",
+            "type": "String",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "Rect": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "Rect",
+        "props": {
+          "bottom": {
+            "menu": "bottom : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          },
+          "left": {
+            "menu": "left : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          },
+          "right": {
+            "menu": "right : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          },
+          "top": {
+            "menu": "top : CSSPrimitiveValue readonly",
+            "type": "CSSPrimitiveValue",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSMediaRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSMediaRule",
+        "props": {
+          "cssRules": {
+            "menu": "cssRules : CSSRuleList readonly",
+            "type": "CSSRuleList",
+            "kind": "v"
+          },
+          "media": {
+            "menu": "media : MediaList readonly",
+            "type": "MediaList",
+            "kind": "v"
+          },
+          "deleteRule": {
+            "menu": "deleteRule(index : Number) : undefined",
+            "type": "undefined",
+            "kind": "f"
+          },
+          "insertRule": {
+            "menu": "insertRule(rule : String, index : Number) : Number",
+            "type": "Number",
+            "kind": "f"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  },
+  "CSSCharsetRule": {
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "CSSCharsetRule",
+        "props": {
+          "encoding": {
+            "menu": "encoding : String",
+            "type": "String",
+            "kind": "v"
+          }
+        }
+      }
+    },
+    "kind": "f"
+  }
+}

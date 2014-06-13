@@ -1,1 +1,1443 @@
-{"SVGAnimatedBoolean":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedBoolean","props":{"animVal":{"menu":"animVal : Boolean  readonly","type":"Boolean","kind":"v"},"baseVal":{"menu":"baseVal : Boolean","type":"Boolean","kind":"v"}}}},"kind":"f"},"SVGAngle":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAngle","props":{"unitType":{"menu":"unitType : Number  readonly","type":"Number","kind":"v"},"value":{"menu":"value : Number","type":"Number","kind":"v"},"valueAsString":{"menu":"valueAsString : Number","type":"Number","kind":"v"},"valueInSpecifiedUnits":{"menu":"valueInSpecifiedUnits : Number","type":"Number","kind":"v"},"convertToSpecifiedUnits":{"menu":"convertToSpecifiedUnits(unitType : Number) : undefined","type":"undefined","kind":"f"},"newValueSpecifiedUnits":{"menu":"newValueSpecifiedUnits(unitType : Number, valueInSpecifiedUnits : Number) : undefined","type":"undefined","kind":"f"}}},"SVG_ANGLETYPE_DEG":{"menu":"SVG_ANGLETYPE_DEG : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_ANGLETYPE_GRAD":{"menu":"SVG_ANGLETYPE_GRAD : Number  readonly  value = 4","type":"Number","kind":"v"},"SVG_ANGLETYPE_RAD":{"menu":"SVG_ANGLETYPE_RAD : Number  readonly  value = 3","type":"Number","kind":"v"},"SVG_ANGLETYPE_UNKNOWN":{"menu":"SVG_ANGLETYPE_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"},"SVG_ANGLETYPE_UNSPECIFIED":{"menu":"SVG_ANGLETYPE_UNSPECIFIED : Number  readonly  value = 1","type":"Number","kind":"v"}},"kind":"f"},"SVGAnimatedInteger":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedInteger","props":{"animVal":{"menu":"animVal : Number  readonly","type":"Number","kind":"v"},"baseVal":{"menu":"baseVal : Number","type":"Number","kind":"v"}}}},"kind":"f"},"SVGUnitTypes":{"props":{"SVG_UNIT_TYPE_OBJECTBOUNDINGBOX":{"menu":"SVG_UNIT_TYPE_OBJECTBOUNDINGBOX : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_UNIT_TYPE_UNKNOWN":{"menu":"SVG_UNIT_TYPE_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"},"SVG_UNIT_TYPE_USERSPACEONUSE":{"menu":"SVG_UNIT_TYPE_USERSPACEONUSE : Number  readonly  value = 1","type":"Number","kind":"v"}},"kind":"v"},"SVGTRefElement":{"kind":"v"},"SVGAnimatedLengthList":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedLengthList","props":{"animVal":{"menu":"animVal : SVGLengthList  readonly","type":"SVGLengthList","kind":"v"},"baseVal":{"menu":"baseVal : SVGLengthList  readonly","type":"SVGLengthList","kind":"v"}}}},"kind":"f"},"SVGImageElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGImageElement","props":{"height":{"menu":"height : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"preserveAspectRatio":{"menu":"preserveAspectRatio : SVGAnimatedPreserveAspectRatio  readonly","type":"SVGAnimatedPreserveAspectRatio","kind":"v"},"width":{"menu":"width : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"x":{"menu":"x : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"y":{"menu":"y : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"}}}},"kind":"f"},"SVGPreserveAspectRatio":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGPreserveAspectRatio","props":{"align":{"menu":"align : Number","type":"Number","kind":"v"},"meetOrSlice":{"menu":"meetOrSlice : Number","type":"Number","kind":"v"}}},"SVG_MEETORSLICE_MEET":{"menu":"SVG_MEETORSLICE_MEET : Number  readonly  value = 1","type":"Number","kind":"v"},"SVG_MEETORSLICE_SLICE":{"menu":"SVG_MEETORSLICE_SLICE : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_MEETORSLICE_UNKNOWN":{"menu":"SVG_MEETORSLICE_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_NONE":{"menu":"SVG_PRESERVEASPECTRATIO_NONE : Number  readonly  value = 1","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_UNKNOWN":{"menu":"SVG_PRESERVEASPECTRATIO_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMAXYMAX":{"menu":"SVG_PRESERVEASPECTRATIO_XMAXYMAX : Number  readonly  value = 10","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMAXYMID":{"menu":"SVG_PRESERVEASPECTRATIO_XMAXYMID : Number  readonly  value = 7","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMAXYMIN":{"menu":"SVG_PRESERVEASPECTRATIO_XMAXYMIN : Number  readonly  value = 4","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMIDYMAX":{"menu":"SVG_PRESERVEASPECTRATIO_XMIDYMAX : Number  readonly  value = 9","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMIDYMID":{"menu":"SVG_PRESERVEASPECTRATIO_XMIDYMID : Number  readonly  value = 6","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMIDYMIN":{"menu":"SVG_PRESERVEASPECTRATIO_XMIDYMIN : Number  readonly  value = 3","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMINYMAX":{"menu":"SVG_PRESERVEASPECTRATIO_XMINYMAX : Number  readonly  value = 8","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMINYMID":{"menu":"SVG_PRESERVEASPECTRATIO_XMINYMID : Number  readonly  value = 5","type":"Number","kind":"v"},"SVG_PRESERVEASPECTRATIO_XMINYMIN":{"menu":"SVG_PRESERVEASPECTRATIO_XMINYMIN : Number  readonly  value = 2","type":"Number","kind":"v"}},"kind":"f"},"SVGAnimatedString":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedString","props":{"animVal":{"menu":"animVal : String  readonly","type":"String","kind":"v"},"baseVal":{"menu":"baseVal : String","type":"String","kind":"v"}}}},"kind":"f"},"SVGSVGElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGSVGElement","props":{"className":{"menu":"className : SVGAnimatedString  readonly","type":"SVGAnimatedString","kind":"v"},"contentScriptType":{"menu":"contentScriptType : String","type":"String","kind":"v"},"contentStyleType":{"menu":"contentStyleType : String","type":"String","kind":"v"},"currentScale":{"menu":"currentScale : Number","type":"Number","kind":"v"},"currentTranslate":{"menu":"currentTranslate : SVGPoint  readonly","type":"SVGPoint","kind":"v"},"currentView":{"menu":"currentView : SVGViewSpec  readonly","type":"SVGViewSpec","kind":"v"},"externalResourcesRequired":{"menu":"externalResourcesRequired : SVGAnimatedBoolean  readonly","type":"SVGAnimatedBoolean","kind":"v"},"farthestViewportElement":{"menu":"farthestViewportElement : SVGElement  readonly","type":"SVGElement","kind":"v"},"height":{"menu":"height : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"pixelUnitToMillimeterX":{"menu":"pixelUnitToMillimeterX : Number  readonly","type":"Number","kind":"v"},"pixelUnitToMillimeterY":{"menu":"pixelUnitToMillimeterY : Number  readonly","type":"Number","kind":"v"},"preserveAspectRatio":{"menu":"preserveAspectRatio : SVGAnimatedPreserveAspectRatio  readonly","type":"SVGAnimatedPreserveAspectRatio","kind":"v"},"requiredExtensions":{"menu":"requiredExtensions : SVGStringList  readonly","type":"SVGStringList","kind":"v"},"requiredFeatures":{"menu":"requiredFeatures : SVGStringList  readonly","type":"SVGStringList","kind":"v"},"screenPixelToMillimeterX":{"menu":"screenPixelToMillimeterX : Number  readonly","type":"Number","kind":"v"},"screenPixelToMillimeterY":{"menu":"screenPixelToMillimeterY : Number  readonly","type":"Number","kind":"v"},"style":{"menu":"style : CSSStyleDeclaration  readonly","type":"CSSStyleDeclaration","kind":"v"},"systemLanguage":{"menu":"systemLanguage : SVGStringList  readonly","type":"SVGStringList","kind":"v"},"useCurrentView":{"menu":"useCurrentView : Boolean  readonly","type":"Boolean","kind":"v"},"viewBox":{"menu":"viewBox : SVGAnimatedRect  readonly","type":"SVGAnimatedRect","kind":"v"},"viewport":{"menu":"viewport : SVGRect  readonly","type":"SVGRect","kind":"v"},"width":{"menu":"width : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"x":{"menu":"x : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"xmllang":{"menu":"xmllang : String","type":"String","kind":"v"},"xmlspace":{"menu":"xmlspace : String","type":"String","kind":"v"},"y":{"menu":"y : SVGAnimatedLength  readonly","type":"SVGAnimatedLength","kind":"v"},"zoomAndPan":{"menu":"zoomAndPan : Number","type":"Number","kind":"v"},"animationsPaused":{"menu":"animationsPaused() : Boolean","type":"Boolean","kind":"f"},"checkEnclosure":{"menu":"checkEnclosure(element : SVGElement, rect : SVGRect) : Boolean","type":"Boolean","kind":"f"},"checkIntersection":{"menu":"checkIntersection(element : SVGElement, rect : SVGRect) : Boolean","type":"Boolean","kind":"f"},"createEvent":{"menu":"createEvent(eventType : String) : Event","type":"Event","kind":"f"},"createSVGAngle":{"menu":"createSVGAngle() : SVGAngle","type":"SVGAngle","kind":"f"},"createSVGLength":{"menu":"createSVGLength() : SVGLength","type":"SVGLength","kind":"f"},"createSVGMatrix":{"menu":"createSVGMatrix() : SVGMatrix","type":"SVGMatrix","kind":"f"},"createSVGNumber":{"menu":"createSVGNumber() : SVGNumber","type":"SVGNumber","kind":"f"},"createSVGPoint":{"menu":"createSVGPoint() : SVGPoint","type":"SVGPoint","kind":"f"},"createSVGRect":{"menu":"createSVGRect() : SVGRect","type":"SVGRect","kind":"f"},"createSVGTransform":{"menu":"createSVGTransform() : SVGTransform","type":"SVGTransform","kind":"f"},"createSVGTransformFromMatrix":{"menu":"createSVGTransformFromMatrix(matrix : SVGMatrix) : SVGTransform","type":"SVGTransform","kind":"f"},"deselectAll":{"menu":"deselectAll() : undefined","type":"undefined","kind":"f"},"forceRedraw":{"menu":"forceRedraw() : undefined","type":"undefined","kind":"f"},"getBBox":{"menu":"getBBox() : SVGRect","type":"SVGRect","kind":"f"},"getCTM":{"menu":"getCTM() : SVGMatrix","type":"SVGMatrix","kind":"f"},"getComputedStyle":{"menu":"getComputedStyle(element : Element, [pseudoElement : String]) : CSSStyleDeclaration","type":"CSSStyleDeclaration","kind":"f"},"getCurrentTime":{"menu":"getCurrentTime() : Number","type":"Number","kind":"f"},"getElementById":{"menu":"getElementById(elementId : String) : Element","type":"Element","kind":"f"},"getEnclosureList":{"menu":"getEnclosureList(rect : SVGRect, referenceElement : SVGElement) : NodeList","type":"NodeList","kind":"f"},"getIntersectionList":{"menu":"getIntersectionList(rect : SVGRect, referenceElement : SVGElement) : NodeList","type":"NodeList","kind":"f"},"getOverrideStyle":{"menu":"getOverrideStyle(elt : Element, pseudoElt : String) : CSSStyleDeclaration","type":"CSSStyleDeclaration","kind":"f"},"getPresentationAttribute":{"menu":"getPresentationAttribute(name : String) : CSSValue  readonly","type":"CSSValue","kind":"f"},"getScreenCTM":{"menu":"getScreenCTM() : SVGMatrix","type":"SVGMatrix","kind":"f"},"getTransformToElement":{"menu":"getTransformToElement(element : SVGElement) : SVGMatrix","type":"SVGMatrix","kind":"f"},"hasExtension":{"menu":"hasExtension(extension : String) : Boolean","type":"Boolean","kind":"f"},"pauseAnimations":{"menu":"pauseAnimations() : undefined","type":"undefined","kind":"f"},"setCurrentTime":{"menu":"setCurrentTime() : Number","type":"Number","kind":"f"},"suspendRedraw":{"menu":"suspendRedraw(maxWaitMilliseconds : Number) : Number","type":"Number","kind":"f"},"unpauseAnimations":{"menu":"unpauseAnimations() : undefined","type":"undefined","kind":"f"},"unsuspendRedraw":{"menu":"unsuspendRedraw(suspendHandleID : Number) : undefined","type":"undefined","kind":"f"},"unsuspendRedrawAll":{"menu":"unsuspendRedrawAll() : undefined","type":"undefined","kind":"f"}}},"SVG_ZOOMANDPAN_DISABLE":{"menu":"SVG_ZOOMANDPAN_DISABLE : Number  readonly  value = 1","type":"Number","kind":"v"},"SVG_ZOOMANDPAN_MAGNIFY":{"menu":"SVG_ZOOMANDPAN_MAGNIFY : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_ZOOMANDPAN_UNKNOWN":{"menu":"SVG_ZOOMANDPAN_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"}},"kind":"f"},"SVGAnimatedRect":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedRect","props":{"animVal":{"menu":"animVal : SVGRect  readonly","type":"SVGRect","kind":"v"},"baseVal":{"menu":"baseVal : SVGRect  readonly","type":"SVGRect","kind":"v"}}}},"kind":"f"},"SVGICCColor":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGICCColor","props":{"colorProfile":{"menu":"colorProfile : String","type":"String","kind":"v"},"colors":{"menu":"colors : SVGNumberList  readonly","type":"SVGNumberList","kind":"v"}}}},"kind":"f"},"SVGTSpanElement":{"kind":"v"},"SVGAnimatedLength":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedLength","props":{"animVal":{"menu":"animVal : SVGLength  readonly","type":"SVGLength","kind":"v"},"baseVal":{"menu":"baseVal : SVGLength  readonly","type":"SVGLength","kind":"v"}}}},"kind":"f"},"SVGAnimatedAngle":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedAngle","props":{"animVal":{"menu":"animVal : SVGAngle  readonly","type":"SVGAngle","kind":"v"},"baseVal":{"menu":"baseVal : SVGAngle  readonly","type":"SVGAngle","kind":"v"}}}},"kind":"f"},"SVGTextPositioningElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGTextPositioningElement","props":{"dx":{"menu":"dx : SVGAnimatedLengthList  readonly","type":"SVGAnimatedLengthList","kind":"v"},"dy":{"menu":"dy : SVGAnimatedLengthList  readonly","type":"SVGAnimatedLengthList","kind":"v"},"rotate":{"menu":"rotate : SVGAnimatedNumberList  readonly","type":"SVGAnimatedNumberList","kind":"v"},"x":{"menu":"x : SVGAnimatedLengthList  readonly","type":"SVGAnimatedLengthList","kind":"v"},"y":{"menu":"y : SVGAnimatedLengthList  readonly","type":"SVGAnimatedLengthList","kind":"v"}}}},"kind":"f"},"SVGElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGElement","props":{"id":{"menu":"id : String","type":"String","kind":"v"},"ownerSVGElement":{"menu":"ownerSVGElement : SVGSVGElement  readonly","type":"SVGSVGElement","kind":"v"},"viewportElement":{"menu":"viewportElement : SVGElement  readonly","type":"SVGElement","kind":"v"},"xmlbase":{"menu":"xmlbase : String","type":"String","kind":"v"}}}},"kind":"f"},"SVGTextContentElement":{"kind":"v"},"SVGColor":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGColor","props":{"colorType":{"menu":"colorType : Number  readonly","type":"Number","kind":"v"},"iccColor":{"menu":"iccColor : SVGICCColor  readonly","type":"SVGICCColor","kind":"v"},"rgbColor":{"menu":"rgbColor : RGBColor  readonly","type":"RGBColor","kind":"v"},"setColor":{"menu":"setColor(colorType : Number, rgbColor : String, iccColor : String) : undefined","type":"undefined","kind":"f"},"setRGBColor":{"menu":"setRGBColor(rgbColor : String) : undefined","type":"undefined","kind":"f"},"setRGBColorICCColor":{"menu":"setRGBColorICCColor(rgbColor : String, iccColor : String) : undefined","type":"undefined","kind":"f"}}},"SVG_COLORTYPE_CURRENTCOLOR":{"menu":"SVG_COLORTYPE_CURRENTCOLOR : Number  readonly  value = 3","type":"Number","kind":"v"},"SVG_COLORTYPE_RGBCOLOR":{"menu":"SVG_COLORTYPE_RGBCOLOR : Number  readonly  value = 1","type":"Number","kind":"v"},"SVG_COLORTYPE_RGBCOLOR_ICCCOLOR":{"menu":"SVG_COLORTYPE_RGBCOLOR_ICCCOLOR : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_COLORTYPE_UNKNOWN":{"menu":"SVG_COLORTYPE_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"}},"kind":"f"},"SVGRect":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGRect","props":{"height":{"menu":"height : Number","type":"Number","kind":"v"},"width":{"menu":"width : Number","type":"Number","kind":"v"},"x":{"menu":"x : Number","type":"Number","kind":"v"},"y":{"menu":"y : Number","type":"Number","kind":"v"}}}},"kind":"f"},"SVGAnimatedPreserveAspectRatio":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedPreserveAspectRatio","props":{"animVal":{"menu":"animVal : SVGPreserveAspectRatio  readonly","type":"SVGPreserveAspectRatio","kind":"v"},"baseVal":{"menu":"baseVal : SVGPreserveAspectRatio  readonly","type":"SVGPreserveAspectRatio","kind":"v"}}}},"kind":"f"},"SVGMatrix":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGMatrix","props":{"a":{"menu":"a : Number","type":"Number","kind":"v"},"b":{"menu":"b : Number","type":"Number","kind":"v"},"c":{"menu":"c : Number","type":"Number","kind":"v"},"d":{"menu":"d : Number","type":"Number","kind":"v"},"e":{"menu":"e : Number","type":"Number","kind":"v"},"f":{"menu":"f : Number","type":"Number","kind":"v"},"flipX":{"menu":"flipX() : SVGMatrix","type":"SVGMatrix","kind":"f"},"flipY":{"menu":"flipY() : SVGMatrix","type":"SVGMatrix","kind":"f"},"inverse":{"menu":"inverse() : SVGMatrix","type":"SVGMatrix","kind":"f"},"multiply":{"menu":"multiply(matrix : SVGMatrix) : SVGMatrix","type":"SVGMatrix","kind":"f"},"rotate":{"menu":"rotate(angle : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"rotateFromVector":{"menu":"rotateFromVector(x : Number, y : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"scale":{"menu":"scale(scaleFactor : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"scaleNonUniform":{"menu":"scaleNonUniform(scaleFactorX : Number, scaleFactorY : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"skewX":{"menu":"skewX(angle : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"skewY":{"menu":"skewY(angle : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"},"translate":{"menu":"translate(x : Number, y : Number) : SVGMatrix","type":"SVGMatrix","kind":"f"}}}},"kind":"f"},"SVGLengthList":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGLengthList","props":{"numberOfItems":{"menu":"numberOfItems : Number  readonly","type":"Number","kind":"v"},"appendItem":{"menu":"appendItem(newItem : SVGLength) : SVGLength","type":"SVGLength","kind":"f"},"clear":{"menu":"clear() : undefined","type":"undefined","kind":"f"},"getItem":{"menu":"getItem(index : Number) : SVGLength","type":"SVGLength","kind":"f"},"initialize":{"menu":"initialize(newItem : SVGLength) : SVGLength","type":"SVGLength","kind":"f"},"insertItemBefore":{"menu":"insertItemBefore(newItem : SVGLength, index : Number) : SVGLength","type":"SVGLength","kind":"f"},"removeItem":{"menu":"removeItem(index : Number) : SVGLength","type":"SVGLength","kind":"f"},"replaceItem":{"menu":"replaceItem(newItem : SVGLength, index : Number) : SVGLength","type":"SVGLength","kind":"f"}}}},"kind":"f"},"SVGLength":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGLength","props":{"unitType":{"menu":"unitType : Number  readonly","type":"Number","kind":"v"},"value":{"menu":"value : Number","type":"Number","kind":"v"},"valueAsString":{"menu":"valueAsString : String","type":"String","kind":"v"},"valueInSpecificUnits":{"menu":"valueInSpecificUnits : Number","type":"Number","kind":"v"},"convertToSpecifiedUnits":{"menu":"convertToSpecifiedUnits(unitType : Number) : undefined","type":"undefined","kind":"f"},"newValueSpecifiedUnits":{"menu":"newValueSpecifiedUnits(unitType : Number, valueInSpecifiedUnits : Number) : undefined","type":"undefined","kind":"f"}}},"SVG_LENGTHTYPE_CM":{"menu":"SVG_LENGTHTYPE_CM : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_EMS":{"menu":"SVG_LENGTHTYPE_EMS : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_EXS":{"menu":"SVG_LENGTHTYPE_EXS : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_IN":{"menu":"SVG_LENGTHTYPE_IN : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_MM":{"menu":"SVG_LENGTHTYPE_MM : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_NUMBER":{"menu":"SVG_LENGTHTYPE_NUMBER : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_PC":{"menu":"SVG_LENGTHTYPE_PC : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_PERCENTAGE":{"menu":"SVG_LENGTHTYPE_PERCENTAGE : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_PT":{"menu":"SVG_LENGTHTYPE_PT : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_PX":{"menu":"SVG_LENGTHTYPE_PX : Number  readonly","type":"Number","kind":"v"},"SVG_LENGTHTYPE_UNKNOWN":{"menu":"SVG_LENGTHTYPE_UNKNOWN : Number  readonly","type":"Number","kind":"v"}},"kind":"f"},"SVGViewSpec":{"kind":"v"},"SVGAnimatedNumber":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedNumber","props":{"animVal":{"menu":"animVal : Number  readonly","type":"Number","kind":"v"},"baseVal":{"menu":"baseVal : Number","type":"Number","kind":"v"}}}},"kind":"f"},"SVGNumberList":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGNumberList","props":{"numberOfItems":{"menu":"numberOfItems : Number  readonly","type":"Number","kind":"v"},"appendItem":{"menu":"appendItem(newItem : SVGNumber) : SVGNumber","type":"SVGNumber","kind":"f"},"clear":{"menu":"clear() : undefined","type":"undefined","kind":"f"},"getItem":{"menu":"getItem(index : Number) : SVGNumber","type":"SVGNumber","kind":"f"},"initialize":{"menu":"initialize(newItem : SVGNumber) : SVGNumber","type":"SVGNumber","kind":"f"},"insertItemBefore":{"menu":"insertItemBefore(newItem : SVGNumber, index : Number) : SVGNumber","type":"SVGNumber","kind":"f"},"removeItem":{"menu":"removeItem(index : Number) : SVGNumber","type":"SVGNumber","kind":"f"},"replaceItem":{"menu":"replaceItem(newItem : SVGNumber, index : Number) : SVGNumber","type":"SVGNumber","kind":"f"}}}},"kind":"f"},"SVGAnimatedNumberList":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGAnimatedNumberList","props":{"animVal":{"menu":"animVal : SVGNumberList  readonly","type":"SVGNumberList","kind":"v"},"baseVal":{"menu":"baseVal : SVGNumberList  readonly","type":"SVGNumberList","kind":"v"}}}},"kind":"f"},"SVGPoint":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGPoint","props":{"x":{"menu":"x : Number","type":"Number","kind":"v"},"y":{"menu":"y : Number","type":"Number","kind":"v"},"matrixTransform":{"menu":"matrixTransform(matrix : SVGMatrix) : SVGPoint","type":"SVGPoint","kind":"f"}}}},"kind":"f"},"SVGStringList":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGStringList","props":{"numberOfItems":{"menu":"numberOfItems : Number  readonly","type":"Number","kind":"v"},"appendItem":{"menu":"appendItem(newItem : String) : String","type":"String","kind":"f"},"clear":{"menu":"clear() : undefined","type":"undefined","kind":"f"},"getItem":{"menu":"getItem(index : Number) : String","type":"String","kind":"f"},"initialize":{"menu":"initialize(newItem : String) : String","type":"String","kind":"f"},"insertItemBefore":{"menu":"insertItemBefore(newItem : String, index : Number) : String","type":"String","kind":"f"},"removeItem":{"menu":"removeItem(index : Number) : String","type":"String","kind":"f"},"replaceItem":{"menu":"replaceItem(newItem : String, index : Number) : String","type":"String","kind":"f"}}}},"kind":"f"},"SVGTransform":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGTransform","props":{"angle":{"menu":"angle : Number  readonly","type":"Number","kind":"v"},"matrix":{"menu":"matrix : SVGMatrix  readonly","type":"SVGMatrix","kind":"v"},"type":{"menu":"type : Number  readonly","type":"Number","kind":"v"},"setMatrix":{"menu":"setMatrix(matrix : SVGMatrix) : undefined","type":"undefined","kind":"f"},"setRotate":{"menu":"setRotate(angle : Number, centerX : Number, centerY : Number) : undefined","type":"undefined","kind":"f"},"setScale":{"menu":"setScale(x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"setSkewX":{"menu":"setSkewX(angle : Number) : undefined","type":"undefined","kind":"f"},"setSkewY":{"menu":"setSkewY(angle : Number) : undefined","type":"undefined","kind":"f"},"setTranslate":{"menu":"setTranslate(x : Number, y : Number) : undefined","type":"undefined","kind":"f"}}},"SVG_TRANSFORM_MATRIX":{"menu":"SVG_TRANSFORM_MATRIX : Number  readonly  value = 1","type":"Number","kind":"v"},"SVG_TRANSFORM_ROTATE":{"menu":"SVG_TRANSFORM_ROTATE : Number  readonly  value = 4","type":"Number","kind":"v"},"SVG_TRANSFORM_SCALE":{"menu":"SVG_TRANSFORM_SCALE : Number  readonly  value = 3","type":"Number","kind":"v"},"SVG_TRANSFORM_SKEWX":{"menu":"SVG_TRANSFORM_SKEWX : Number  readonly  value = 5","type":"Number","kind":"v"},"SVG_TRANSFORM_SKEWY":{"menu":"SVG_TRANSFORM_SKEWY : Number  readonly  value = 6","type":"Number","kind":"v"},"SVG_TRANSFORM_TRANSLATE":{"menu":"SVG_TRANSFORM_TRANSLATE : Number  readonly  value = 2","type":"Number","kind":"v"},"SVG_TRANSFORM_UNKNOWN":{"menu":"SVG_TRANSFORM_UNKNOWN : Number  readonly  value = 0","type":"Number","kind":"v"}},"kind":"f"},"SVGNumber":{"props":{"prototype":{"kind":"v","type":"Object","class":"SVGNumber","props":{"value":{"menu":"value : Number","type":"Number","kind":"v"}}}},"kind":"f"}}
+{
+  "SVGNumber": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "value": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "value : Number"
+          }
+        },
+        "class": "SVGNumber",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGTransform": {
+    "kind": "f",
+    "props": {
+      "SVG_TRANSFORM_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_TRANSFORM_TRANSLATE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_TRANSLATE : Number readonly value = 2"
+      },
+      "SVG_TRANSFORM_SKEWY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_SKEWY : Number readonly value = 6"
+      },
+      "SVG_TRANSFORM_SKEWX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_SKEWX : Number readonly value = 5"
+      },
+      "SVG_TRANSFORM_SCALE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_SCALE : Number readonly value = 3"
+      },
+      "SVG_TRANSFORM_ROTATE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_ROTATE : Number readonly value = 4"
+      },
+      "SVG_TRANSFORM_MATRIX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_TRANSFORM_MATRIX : Number readonly value = 1"
+      },
+      "prototype": {
+        "props": {
+          "setTranslate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setTranslate(x : Number, y : Number) : undefined"
+          },
+          "angle": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "angle : Number readonly"
+          },
+          "matrix": {
+            "kind": "v",
+            "type": "SVGMatrix",
+            "menu": "matrix : SVGMatrix readonly"
+          },
+          "type": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "type : Number readonly"
+          },
+          "setMatrix": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setMatrix(matrix : SVGMatrix) : undefined"
+          },
+          "setRotate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setRotate(angle : Number, centerX : Number, centerY : Number) : undefined"
+          },
+          "setScale": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setScale(x : Number, y : Number) : undefined"
+          },
+          "setSkewX": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setSkewX(angle : Number) : undefined"
+          },
+          "setSkewY": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setSkewY(angle : Number) : undefined"
+          }
+        },
+        "class": "SVGTransform",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGStringList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "replaceItem": {
+            "kind": "f",
+            "type": "String",
+            "menu": "replaceItem(newItem : String, index : Number) : String"
+          },
+          "removeItem": {
+            "kind": "f",
+            "type": "String",
+            "menu": "removeItem(index : Number) : String"
+          },
+          "insertItemBefore": {
+            "kind": "f",
+            "type": "String",
+            "menu": "insertItemBefore(newItem : String, index : Number) : String"
+          },
+          "initialize": {
+            "kind": "f",
+            "type": "String",
+            "menu": "initialize(newItem : String) : String"
+          },
+          "getItem": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getItem(index : Number) : String"
+          },
+          "clear": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clear() : undefined"
+          },
+          "appendItem": {
+            "kind": "f",
+            "type": "String",
+            "menu": "appendItem(newItem : String) : String"
+          },
+          "numberOfItems": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfItems : Number readonly"
+          }
+        },
+        "class": "SVGStringList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGPoint": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "matrixTransform": {
+            "kind": "f",
+            "type": "SVGPoint",
+            "menu": "matrixTransform(matrix : SVGMatrix) : SVGPoint"
+          },
+          "y": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "y : Number"
+          },
+          "x": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "x : Number"
+          }
+        },
+        "class": "SVGPoint",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedNumberList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGNumberList",
+            "menu": "baseVal : SVGNumberList readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGNumberList",
+            "menu": "animVal : SVGNumberList readonly"
+          }
+        },
+        "class": "SVGAnimatedNumberList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGNumberList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "replaceItem": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "replaceItem(newItem : SVGNumber, index : Number) : SVGNumber"
+          },
+          "removeItem": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "removeItem(index : Number) : SVGNumber"
+          },
+          "insertItemBefore": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "insertItemBefore(newItem : SVGNumber, index : Number) : SVGNumber"
+          },
+          "initialize": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "initialize(newItem : SVGNumber) : SVGNumber"
+          },
+          "getItem": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "getItem(index : Number) : SVGNumber"
+          },
+          "clear": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clear() : undefined"
+          },
+          "appendItem": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "appendItem(newItem : SVGNumber) : SVGNumber"
+          },
+          "numberOfItems": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfItems : Number readonly"
+          }
+        },
+        "class": "SVGNumberList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedNumber": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "baseVal : Number"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "animVal : Number readonly"
+          }
+        },
+        "class": "SVGAnimatedNumber",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGViewSpec": {
+    "kind": "v"
+  },
+  "SVGLength": {
+    "kind": "f",
+    "props": {
+      "SVG_LENGTHTYPE_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_UNKNOWN : Number readonly"
+      },
+      "SVG_LENGTHTYPE_PX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_PX : Number readonly"
+      },
+      "SVG_LENGTHTYPE_PT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_PT : Number readonly"
+      },
+      "SVG_LENGTHTYPE_PERCENTAGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_PERCENTAGE : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "newValueSpecifiedUnits": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "newValueSpecifiedUnits(unitType : Number, valueInSpecifiedUnits : Number) : undefined"
+          },
+          "convertToSpecifiedUnits": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "convertToSpecifiedUnits(unitType : Number) : undefined"
+          },
+          "valueInSpecificUnits": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "valueInSpecificUnits : Number"
+          },
+          "valueAsString": {
+            "kind": "v",
+            "type": "String",
+            "menu": "valueAsString : String"
+          },
+          "value": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "value : Number"
+          },
+          "unitType": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "unitType : Number readonly"
+          }
+        },
+        "class": "SVGLength",
+        "type": "Object",
+        "kind": "v"
+      },
+      "SVG_LENGTHTYPE_CM": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_CM : Number readonly"
+      },
+      "SVG_LENGTHTYPE_EMS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_EMS : Number readonly"
+      },
+      "SVG_LENGTHTYPE_EXS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_EXS : Number readonly"
+      },
+      "SVG_LENGTHTYPE_IN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_IN : Number readonly"
+      },
+      "SVG_LENGTHTYPE_MM": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_MM : Number readonly"
+      },
+      "SVG_LENGTHTYPE_NUMBER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_NUMBER : Number readonly"
+      },
+      "SVG_LENGTHTYPE_PC": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_LENGTHTYPE_PC : Number readonly"
+      }
+    }
+  },
+  "SVGLengthList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "replaceItem": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "replaceItem(newItem : SVGLength, index : Number) : SVGLength"
+          },
+          "removeItem": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "removeItem(index : Number) : SVGLength"
+          },
+          "insertItemBefore": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "insertItemBefore(newItem : SVGLength, index : Number) : SVGLength"
+          },
+          "initialize": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "initialize(newItem : SVGLength) : SVGLength"
+          },
+          "getItem": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "getItem(index : Number) : SVGLength"
+          },
+          "clear": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clear() : undefined"
+          },
+          "appendItem": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "appendItem(newItem : SVGLength) : SVGLength"
+          },
+          "numberOfItems": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "numberOfItems : Number readonly"
+          }
+        },
+        "class": "SVGLengthList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGMatrix": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "translate": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "translate(x : Number, y : Number) : SVGMatrix"
+          },
+          "flipY": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "flipY() : SVGMatrix"
+          },
+          "flipX": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "flipX() : SVGMatrix"
+          },
+          "f": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "f : Number"
+          },
+          "e": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "e : Number"
+          },
+          "d": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "d : Number"
+          },
+          "c": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "c : Number"
+          },
+          "b": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "b : Number"
+          },
+          "a": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "a : Number"
+          },
+          "inverse": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "inverse() : SVGMatrix"
+          },
+          "multiply": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "multiply(matrix : SVGMatrix) : SVGMatrix"
+          },
+          "rotate": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "rotate(angle : Number) : SVGMatrix"
+          },
+          "rotateFromVector": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "rotateFromVector(x : Number, y : Number) : SVGMatrix"
+          },
+          "scale": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "scale(scaleFactor : Number) : SVGMatrix"
+          },
+          "scaleNonUniform": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "scaleNonUniform(scaleFactorX : Number, scaleFactorY : Number) : SVGMatrix"
+          },
+          "skewX": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "skewX(angle : Number) : SVGMatrix"
+          },
+          "skewY": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "skewY(angle : Number) : SVGMatrix"
+          }
+        },
+        "class": "SVGMatrix",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedPreserveAspectRatio": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGPreserveAspectRatio",
+            "menu": "baseVal : SVGPreserveAspectRatio readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGPreserveAspectRatio",
+            "menu": "animVal : SVGPreserveAspectRatio readonly"
+          }
+        },
+        "class": "SVGAnimatedPreserveAspectRatio",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGRect": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "y": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "y : Number"
+          },
+          "x": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "x : Number"
+          },
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          }
+        },
+        "class": "SVGRect",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGColor": {
+    "kind": "f",
+    "props": {
+      "SVG_COLORTYPE_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_COLORTYPE_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_COLORTYPE_RGBCOLOR_ICCCOLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_COLORTYPE_RGBCOLOR_ICCCOLOR : Number readonly value = 2"
+      },
+      "SVG_COLORTYPE_RGBCOLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_COLORTYPE_RGBCOLOR : Number readonly value = 1"
+      },
+      "SVG_COLORTYPE_CURRENTCOLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_COLORTYPE_CURRENTCOLOR : Number readonly value = 3"
+      },
+      "prototype": {
+        "props": {
+          "setRGBColorICCColor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setRGBColorICCColor(rgbColor : String, iccColor : String) : undefined"
+          },
+          "setRGBColor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setRGBColor(rgbColor : String) : undefined"
+          },
+          "setColor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setColor(colorType : Number, rgbColor : String, iccColor : String) : undefined"
+          },
+          "rgbColor": {
+            "kind": "v",
+            "type": "RGBColor",
+            "menu": "rgbColor : RGBColor readonly"
+          },
+          "iccColor": {
+            "kind": "v",
+            "type": "SVGICCColor",
+            "menu": "iccColor : SVGICCColor readonly"
+          },
+          "colorType": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "colorType : Number readonly"
+          }
+        },
+        "class": "SVGColor",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGTextContentElement": {
+    "kind": "v"
+  },
+  "SVGElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "xmlbase": {
+            "kind": "v",
+            "type": "String",
+            "menu": "xmlbase : String"
+          },
+          "viewportElement": {
+            "kind": "v",
+            "type": "SVGElement",
+            "menu": "viewportElement : SVGElement readonly"
+          },
+          "ownerSVGElement": {
+            "kind": "v",
+            "type": "SVGSVGElement",
+            "menu": "ownerSVGElement : SVGSVGElement readonly"
+          },
+          "id": {
+            "kind": "v",
+            "type": "String",
+            "menu": "id : String"
+          }
+        },
+        "class": "SVGElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGPreserveAspectRatio": {
+    "kind": "f",
+    "props": {
+      "SVG_PRESERVEASPECTRATIO_XMINYMIN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMINYMIN : Number readonly value = 2"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMINYMID": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMINYMID : Number readonly value = 5"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMINYMAX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMINYMAX : Number readonly value = 8"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMIDYMIN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMIDYMIN : Number readonly value = 3"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMIDYMID": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMIDYMID : Number readonly value = 6"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMIDYMAX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMIDYMAX : Number readonly value = 9"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMAXYMIN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMAXYMIN : Number readonly value = 4"
+      },
+      "prototype": {
+        "props": {
+          "meetOrSlice": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "meetOrSlice : Number"
+          },
+          "align": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "align : Number"
+          }
+        },
+        "class": "SVGPreserveAspectRatio",
+        "type": "Object",
+        "kind": "v"
+      },
+      "SVG_MEETORSLICE_MEET": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_MEETORSLICE_MEET : Number readonly value = 1"
+      },
+      "SVG_MEETORSLICE_SLICE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_MEETORSLICE_SLICE : Number readonly value = 2"
+      },
+      "SVG_MEETORSLICE_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_MEETORSLICE_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_PRESERVEASPECTRATIO_NONE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_NONE : Number readonly value = 1"
+      },
+      "SVG_PRESERVEASPECTRATIO_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMAXYMAX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMAXYMAX : Number readonly value = 10"
+      },
+      "SVG_PRESERVEASPECTRATIO_XMAXYMID": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_PRESERVEASPECTRATIO_XMAXYMID : Number readonly value = 7"
+      }
+    }
+  },
+  "SVGImageElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "y": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "y : SVGAnimatedLength readonly"
+          },
+          "x": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "x : SVGAnimatedLength readonly"
+          },
+          "width": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "width : SVGAnimatedLength readonly"
+          },
+          "preserveAspectRatio": {
+            "kind": "v",
+            "type": "SVGAnimatedPreserveAspectRatio",
+            "menu": "preserveAspectRatio : SVGAnimatedPreserveAspectRatio readonly"
+          },
+          "height": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "height : SVGAnimatedLength readonly"
+          }
+        },
+        "class": "SVGImageElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedLengthList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGLengthList",
+            "menu": "baseVal : SVGLengthList readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGLengthList",
+            "menu": "animVal : SVGLengthList readonly"
+          }
+        },
+        "class": "SVGAnimatedLengthList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGTRefElement": {
+    "kind": "v"
+  },
+  "SVGUnitTypes": {
+    "kind": "v",
+    "props": {
+      "SVG_UNIT_TYPE_USERSPACEONUSE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_UNIT_TYPE_USERSPACEONUSE : Number readonly value = 1"
+      },
+      "SVG_UNIT_TYPE_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_UNIT_TYPE_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_UNIT_TYPE_OBJECTBOUNDINGBOX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_UNIT_TYPE_OBJECTBOUNDINGBOX : Number readonly value = 2"
+      }
+    }
+  },
+  "SVGAnimatedInteger": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "baseVal : Number"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "animVal : Number readonly"
+          }
+        },
+        "class": "SVGAnimatedInteger",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAngle": {
+    "kind": "f",
+    "props": {
+      "SVG_ANGLETYPE_UNSPECIFIED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ANGLETYPE_UNSPECIFIED : Number readonly value = 1"
+      },
+      "SVG_ANGLETYPE_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ANGLETYPE_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_ANGLETYPE_RAD": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ANGLETYPE_RAD : Number readonly value = 3"
+      },
+      "SVG_ANGLETYPE_GRAD": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ANGLETYPE_GRAD : Number readonly value = 4"
+      },
+      "SVG_ANGLETYPE_DEG": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ANGLETYPE_DEG : Number readonly value = 2"
+      },
+      "prototype": {
+        "props": {
+          "newValueSpecifiedUnits": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "newValueSpecifiedUnits(unitType : Number, valueInSpecifiedUnits : Number) : undefined"
+          },
+          "convertToSpecifiedUnits": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "convertToSpecifiedUnits(unitType : Number) : undefined"
+          },
+          "valueInSpecifiedUnits": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "valueInSpecifiedUnits : Number"
+          },
+          "valueAsString": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "valueAsString : Number"
+          },
+          "value": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "value : Number"
+          },
+          "unitType": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "unitType : Number readonly"
+          }
+        },
+        "class": "SVGAngle",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedBoolean": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "baseVal : Boolean"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "animVal : Boolean readonly"
+          }
+        },
+        "class": "SVGAnimatedBoolean",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedString": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "String",
+            "menu": "baseVal : String"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "String",
+            "menu": "animVal : String readonly"
+          }
+        },
+        "class": "SVGAnimatedString",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGSVGElement": {
+    "kind": "f",
+    "props": {
+      "SVG_ZOOMANDPAN_UNKNOWN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ZOOMANDPAN_UNKNOWN : Number readonly value = 0"
+      },
+      "SVG_ZOOMANDPAN_MAGNIFY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ZOOMANDPAN_MAGNIFY : Number readonly value = 2"
+      },
+      "SVG_ZOOMANDPAN_DISABLE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SVG_ZOOMANDPAN_DISABLE : Number readonly value = 1"
+      },
+      "prototype": {
+        "props": {
+          "unsuspendRedrawAll": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "unsuspendRedrawAll() : undefined"
+          },
+          "unsuspendRedraw": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "unsuspendRedraw(suspendHandleID : Number) : undefined"
+          },
+          "unpauseAnimations": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "unpauseAnimations() : undefined"
+          },
+          "suspendRedraw": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "suspendRedraw(maxWaitMilliseconds : Number) : Number"
+          },
+          "setCurrentTime": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "setCurrentTime() : Number"
+          },
+          "pauseAnimations": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "pauseAnimations() : undefined"
+          },
+          "hasExtension": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasExtension(extension : String) : Boolean"
+          },
+          "getTransformToElement": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "getTransformToElement(element : SVGElement) : SVGMatrix"
+          },
+          "getScreenCTM": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "getScreenCTM() : SVGMatrix"
+          },
+          "getPresentationAttribute": {
+            "kind": "f",
+            "type": "CSSValue",
+            "menu": "getPresentationAttribute(name : String) : CSSValue readonly"
+          },
+          "getOverrideStyle": {
+            "kind": "f",
+            "type": "CSSStyleDeclaration",
+            "menu": "getOverrideStyle(elt : Element, pseudoElt : String) : CSSStyleDeclaration"
+          },
+          "getIntersectionList": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getIntersectionList(rect : SVGRect, referenceElement : SVGElement) : NodeList"
+          },
+          "getEnclosureList": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getEnclosureList(rect : SVGRect, referenceElement : SVGElement) : NodeList"
+          },
+          "getElementById": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "getElementById(elementId : String) : Element"
+          },
+          "getCurrentTime": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getCurrentTime() : Number"
+          },
+          "getComputedStyle": {
+            "kind": "f",
+            "type": "CSSStyleDeclaration",
+            "menu": "getComputedStyle(element : Element, [pseudoElement : String]) : CSSStyleDeclaration"
+          },
+          "getCTM": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "getCTM() : SVGMatrix"
+          },
+          "getBBox": {
+            "kind": "f",
+            "type": "SVGRect",
+            "menu": "getBBox() : SVGRect"
+          },
+          "forceRedraw": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "forceRedraw() : undefined"
+          },
+          "deselectAll": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deselectAll() : undefined"
+          },
+          "createSVGTransformFromMatrix": {
+            "kind": "f",
+            "type": "SVGTransform",
+            "menu": "createSVGTransformFromMatrix(matrix : SVGMatrix) : SVGTransform"
+          },
+          "createSVGTransform": {
+            "kind": "f",
+            "type": "SVGTransform",
+            "menu": "createSVGTransform() : SVGTransform"
+          },
+          "createSVGRect": {
+            "kind": "f",
+            "type": "SVGRect",
+            "menu": "createSVGRect() : SVGRect"
+          },
+          "createSVGPoint": {
+            "kind": "f",
+            "type": "SVGPoint",
+            "menu": "createSVGPoint() : SVGPoint"
+          },
+          "createSVGNumber": {
+            "kind": "f",
+            "type": "SVGNumber",
+            "menu": "createSVGNumber() : SVGNumber"
+          },
+          "createSVGMatrix": {
+            "kind": "f",
+            "type": "SVGMatrix",
+            "menu": "createSVGMatrix() : SVGMatrix"
+          },
+          "createSVGLength": {
+            "kind": "f",
+            "type": "SVGLength",
+            "menu": "createSVGLength() : SVGLength"
+          },
+          "screenPixelToMillimeterY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "screenPixelToMillimeterY : Number readonly"
+          },
+          "screenPixelToMillimeterX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "screenPixelToMillimeterX : Number readonly"
+          },
+          "requiredFeatures": {
+            "kind": "v",
+            "type": "SVGStringList",
+            "menu": "requiredFeatures : SVGStringList readonly"
+          },
+          "requiredExtensions": {
+            "kind": "v",
+            "type": "SVGStringList",
+            "menu": "requiredExtensions : SVGStringList readonly"
+          },
+          "preserveAspectRatio": {
+            "kind": "v",
+            "type": "SVGAnimatedPreserveAspectRatio",
+            "menu": "preserveAspectRatio : SVGAnimatedPreserveAspectRatio readonly"
+          },
+          "pixelUnitToMillimeterY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "pixelUnitToMillimeterY : Number readonly"
+          },
+          "pixelUnitToMillimeterX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "pixelUnitToMillimeterX : Number readonly"
+          },
+          "height": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "height : SVGAnimatedLength readonly"
+          },
+          "className": {
+            "kind": "v",
+            "type": "SVGAnimatedString",
+            "menu": "className : SVGAnimatedString readonly"
+          },
+          "contentScriptType": {
+            "kind": "v",
+            "type": "String",
+            "menu": "contentScriptType : String"
+          },
+          "contentStyleType": {
+            "kind": "v",
+            "type": "String",
+            "menu": "contentStyleType : String"
+          },
+          "currentScale": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "currentScale : Number"
+          },
+          "currentTranslate": {
+            "kind": "v",
+            "type": "SVGPoint",
+            "menu": "currentTranslate : SVGPoint readonly"
+          },
+          "currentView": {
+            "kind": "v",
+            "type": "SVGViewSpec",
+            "menu": "currentView : SVGViewSpec readonly"
+          },
+          "externalResourcesRequired": {
+            "kind": "v",
+            "type": "SVGAnimatedBoolean",
+            "menu": "externalResourcesRequired : SVGAnimatedBoolean readonly"
+          },
+          "farthestViewportElement": {
+            "kind": "v",
+            "type": "SVGElement",
+            "menu": "farthestViewportElement : SVGElement readonly"
+          },
+          "style": {
+            "kind": "v",
+            "type": "CSSStyleDeclaration",
+            "menu": "style : CSSStyleDeclaration readonly"
+          },
+          "systemLanguage": {
+            "kind": "v",
+            "type": "SVGStringList",
+            "menu": "systemLanguage : SVGStringList readonly"
+          },
+          "useCurrentView": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "useCurrentView : Boolean readonly"
+          },
+          "viewBox": {
+            "kind": "v",
+            "type": "SVGAnimatedRect",
+            "menu": "viewBox : SVGAnimatedRect readonly"
+          },
+          "viewport": {
+            "kind": "v",
+            "type": "SVGRect",
+            "menu": "viewport : SVGRect readonly"
+          },
+          "width": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "width : SVGAnimatedLength readonly"
+          },
+          "x": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "x : SVGAnimatedLength readonly"
+          },
+          "xmllang": {
+            "kind": "v",
+            "type": "String",
+            "menu": "xmllang : String"
+          },
+          "xmlspace": {
+            "kind": "v",
+            "type": "String",
+            "menu": "xmlspace : String"
+          },
+          "y": {
+            "kind": "v",
+            "type": "SVGAnimatedLength",
+            "menu": "y : SVGAnimatedLength readonly"
+          },
+          "zoomAndPan": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "zoomAndPan : Number"
+          },
+          "animationsPaused": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "animationsPaused() : Boolean"
+          },
+          "checkEnclosure": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "checkEnclosure(element : SVGElement, rect : SVGRect) : Boolean"
+          },
+          "checkIntersection": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "checkIntersection(element : SVGElement, rect : SVGRect) : Boolean"
+          },
+          "createEvent": {
+            "kind": "f",
+            "type": "Event",
+            "menu": "createEvent(eventType : String) : Event"
+          },
+          "createSVGAngle": {
+            "kind": "f",
+            "type": "SVGAngle",
+            "menu": "createSVGAngle() : SVGAngle"
+          }
+        },
+        "class": "SVGSVGElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedRect": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGRect",
+            "menu": "baseVal : SVGRect readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGRect",
+            "menu": "animVal : SVGRect readonly"
+          }
+        },
+        "class": "SVGAnimatedRect",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGICCColor": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "colors": {
+            "kind": "v",
+            "type": "SVGNumberList",
+            "menu": "colors : SVGNumberList readonly"
+          },
+          "colorProfile": {
+            "kind": "v",
+            "type": "String",
+            "menu": "colorProfile : String"
+          }
+        },
+        "class": "SVGICCColor",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGTSpanElement": {
+    "kind": "v"
+  },
+  "SVGAnimatedLength": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGLength",
+            "menu": "baseVal : SVGLength readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGLength",
+            "menu": "animVal : SVGLength readonly"
+          }
+        },
+        "class": "SVGAnimatedLength",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGAnimatedAngle": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "baseVal": {
+            "kind": "v",
+            "type": "SVGAngle",
+            "menu": "baseVal : SVGAngle readonly"
+          },
+          "animVal": {
+            "kind": "v",
+            "type": "SVGAngle",
+            "menu": "animVal : SVGAngle readonly"
+          }
+        },
+        "class": "SVGAnimatedAngle",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "SVGTextPositioningElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "y": {
+            "kind": "v",
+            "type": "SVGAnimatedLengthList",
+            "menu": "y : SVGAnimatedLengthList readonly"
+          },
+          "x": {
+            "kind": "v",
+            "type": "SVGAnimatedLengthList",
+            "menu": "x : SVGAnimatedLengthList readonly"
+          },
+          "rotate": {
+            "kind": "v",
+            "type": "SVGAnimatedNumberList",
+            "menu": "rotate : SVGAnimatedNumberList readonly"
+          },
+          "dy": {
+            "kind": "v",
+            "type": "SVGAnimatedLengthList",
+            "menu": "dy : SVGAnimatedLengthList readonly"
+          },
+          "dx": {
+            "kind": "v",
+            "type": "SVGAnimatedLengthList",
+            "menu": "dx : SVGAnimatedLengthList readonly"
+          }
+        },
+        "class": "SVGTextPositioningElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  }
+}

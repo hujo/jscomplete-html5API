@@ -1,1 +1,558 @@
-{"DataView":{"kind":"f","menu":"new DataView(buffer : ArrayBuffer, [byteOffset = 0 : Number, [byteLength : Number]]) : DataView","type":"DataView","props":{"prototype":{"kind":"v","type":"Object","class":"DataView","props":{"setInt8":{"menu":"setInt8(byteOffset : Number, value : Number) : undefined","type":"undefined","kind":"f"},"setInt32":{"menu":"setInt32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"},"setInt16":{"menu":"setInt16(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"},"getFloat32":{"menu":"getFloat32(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getFloat64":{"menu":"getFloat64(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getInt16":{"menu":"getInt16(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getInt32":{"menu":"getInt32(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getInt8":{"menu":"getInt8(byteOffset : Number) : Number","type":"Number","kind":"f"},"setUint16":{"menu":"setUint16(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"},"setUint32":{"menu":"setUint32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"},"setUint8":{"menu":"setUint8(byteOffset : Number, value : Number) : undefined","type":"undefined","kind":"f"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"getUint16":{"menu":"getUint16(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getUint32":{"menu":"getUint32(byteOffset : Number, [littleEndian = false : Boolean]) : Number","type":"Number","kind":"f"},"getUint8":{"menu":"getUint8(byteOffset : Number) : Number","type":"Number","kind":"f"},"setFloat32":{"menu":"setFloat32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"},"setFloat64":{"menu":"setFloat64(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined","type":"undefined","kind":"f"}}}}},"Int8Array":{"kind":"f","menu":"new Int8Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int8Array","type":"Int8Array","props":{"prototype":{"kind":"v","type":"Object","class":"Int8Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Int8Array","type":"Int8Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Uint32Array":{"kind":"f","menu":"new Uint32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint32Array","type":"Uint32Array","props":{"prototype":{"kind":"v","type":"Object","class":"Uint32Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Uint32Array","type":"Uint32Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Float32Array":{"kind":"f","menu":"new Float32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Float32Array","type":"Float32Array","props":{"prototype":{"kind":"v","type":"Object","class":"Float32Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Float32Array","type":"Float32Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Uint8Array":{"kind":"f","menu":"new Uint8Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint8Array","type":"Uint8Array","props":{"prototype":{"kind":"v","type":"Object","class":"Uint8Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Uint8Array","type":"Uint8Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Int16Array":{"kind":"f","menu":"new Int16Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int16Array","type":"Int16Array","props":{"prototype":{"kind":"v","type":"Object","class":"Int16Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Int16Array","type":"Int16Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Int32Array":{"kind":"f","menu":"new Int32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int32Array","type":"Int32Array","props":{"prototype":{"kind":"v","type":"Object","class":"Int32Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Int32Array","type":"Int32Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Float64Array":{"kind":"f","menu":"new Float64Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Float64Array","type":"Float64Array","props":{"prototype":{"kind":"v","type":"Object","class":"Float64Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Float64Array","type":"Float64Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"ArrayBuffer":{"kind":"f","menu":"new ArrayBuffer(byteLength : Number) : ArrayBuffer","type":"ArrayBuffer","props":{"prototype":{"kind":"v","type":"Object","class":"ArrayBuffer","props":{"byteLength":{"menu":"byteLength : Number  readonly","type":"Number","kind":"v"},"slice":{"menu":"slice(beginByte : Number, [endByte : Number]) : ArrayBuffer","type":"ArrayBuffer","kind":"f"}}}}},"ArrayBufferView":{"props":{"prototype":{"kind":"v","type":"Object","class":"ArrayBufferView","props":{"buffer":{"menu":"buffer : ArrayBuffer  readonly","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number  readonly","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"},"Uint16Array":{"kind":"f","menu":"new Uint16Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint16Array","type":"Uint16Array","props":{"prototype":{"kind":"v","type":"Object","class":"Uint16Array","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Uint16Array","type":"Uint16Array","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}},"Uint8ClampedArray":{"kind":"f","menu":"new Uint8ClampedArray(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint8ClampedArray","type":"Uint8ClampedArray","props":{"prototype":{"kind":"v","type":"Object","class":"Uint8ClampedArray","props":{"buffer":{"menu":"buffer : ArrayBuffer","type":"ArrayBuffer","kind":"v"},"byteLength":{"menu":"byteLength : Number","type":"Number","kind":"v"},"byteOffset":{"menu":"byteOffset : Number","type":"Number","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"subarray":{"menu":"subarray(begin : Number, [end : Number]) : Uint8ClampedArray","type":"Uint8ClampedArray","kind":"f"}}},"BYTES_PER_ELEMENT":{"menu":"BYTES_PER_ELEMENT : Number","type":"Number","kind":"v"}}}}
+{
+  "Uint8ClampedArray": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Uint8ClampedArray",
+            "menu": "subarray(begin : Number, [end : Number]) : Uint8ClampedArray"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Uint8ClampedArray",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Uint8ClampedArray",
+    "menu": "new Uint8ClampedArray(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint8ClampedArray",
+    "kind": "f"
+  },
+  "Uint16Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Uint16Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Uint16Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Uint16Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Uint16Array",
+    "menu": "new Uint16Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint16Array",
+    "kind": "f"
+  },
+  "ArrayBufferView": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number readonly"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number readonly"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer readonly"
+          }
+        },
+        "class": "ArrayBufferView",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ArrayBuffer": {
+    "props": {
+      "prototype": {
+        "props": {
+          "slice": {
+            "kind": "f",
+            "type": "ArrayBuffer",
+            "menu": "slice(beginByte : Number, [endByte : Number]) : ArrayBuffer"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number readonly"
+          }
+        },
+        "class": "ArrayBuffer",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "ArrayBuffer",
+    "menu": "new ArrayBuffer(byteLength : Number) : ArrayBuffer",
+    "kind": "f"
+  },
+  "DataView": {
+    "props": {
+      "prototype": {
+        "props": {
+          "setFloat64": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setFloat64(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "setFloat32": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setFloat32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "getUint8": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getUint8(byteOffset : Number) : Number"
+          },
+          "getInt8": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getInt8(byteOffset : Number) : Number"
+          },
+          "getInt32": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getInt32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          },
+          "getInt16": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getInt16(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          },
+          "getFloat64": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getFloat64(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          },
+          "getFloat32": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getFloat32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          },
+          "setInt16": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setInt16(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "setInt32": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setInt32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "setInt8": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setInt8(byteOffset : Number, value : Number) : undefined"
+          },
+          "setUint16": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setUint16(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "setUint32": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setUint32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+          },
+          "setUint8": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setUint8(byteOffset : Number, value : Number) : undefined"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          },
+          "getUint16": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getUint16(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          },
+          "getUint32": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getUint32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+          }
+        },
+        "class": "DataView",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "DataView",
+    "menu": "new DataView(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [byteLength : Number]]) : DataView",
+    "kind": "f"
+  },
+  "Int8Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Int8Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Int8Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Int8Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Int8Array",
+    "menu": "new Int8Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int8Array",
+    "kind": "f"
+  },
+  "Uint32Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Uint32Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Uint32Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Uint32Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Uint32Array",
+    "menu": "new Uint32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint32Array",
+    "kind": "f"
+  },
+  "Float32Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Float32Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Float32Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Float32Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Float32Array",
+    "menu": "new Float32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Float32Array",
+    "kind": "f"
+  },
+  "Uint8Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Uint8Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Uint8Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Uint8Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Uint8Array",
+    "menu": "new Uint8Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint8Array",
+    "kind": "f"
+  },
+  "Int16Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Int16Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Int16Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Int16Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Int16Array",
+    "menu": "new Int16Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int16Array",
+    "kind": "f"
+  },
+  "Int32Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Int32Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Int32Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Int32Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Int32Array",
+    "menu": "new Int32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int32Array",
+    "kind": "f"
+  },
+  "Float64Array": {
+    "props": {
+      "BYTES_PER_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTES_PER_ELEMENT : Number"
+      },
+      "prototype": {
+        "props": {
+          "subarray": {
+            "kind": "f",
+            "type": "Float64Array",
+            "menu": "subarray(begin : Number, [end : Number]) : Float64Array"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "byteOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteOffset : Number"
+          },
+          "byteLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "byteLength : Number"
+          },
+          "buffer": {
+            "kind": "v",
+            "type": "ArrayBuffer",
+            "menu": "buffer : ArrayBuffer"
+          }
+        },
+        "class": "Float64Array",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Float64Array",
+    "menu": "new Float64Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Float64Array",
+    "kind": "f"
+  }
+}

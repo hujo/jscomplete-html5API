@@ -1,1 +1,316 @@
-{"CanvasRenderingContext":{"kind":"v"},"ImageData":{"props":{"prototype":{"kind":"v","type":"Object","class":"ImageData","props":{"data":{"menu":"data : Uint8ClampedArray  readonly","type":"Uint8ClampedArray","kind":"v"},"height":{"menu":"height : Number  readonly","type":"Number","kind":"v"},"width":{"menu":"width : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"},"CanvasGradient":{"props":{"prototype":{"kind":"v","type":"Object","class":"CanvasGradient","props":{"addColorStop":{"menu":"addColorStop(offset : Number, color : String) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"TextMetrics":{"props":{"prototype":{"kind":"v","type":"Object","class":"TextMetrics","props":{"width":{"menu":"width : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"},"CanvasPattern":{"kind":"v"},"CanvasRenderingContext2D":{"props":{"prototype":{"kind":"v","type":"Object","class":"CanvasRenderingContext2D","props":{"lineTo":{"menu":"lineTo(x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"isPointInPath":{"menu":"isPointInPath(x : Number, y : Number) : Boolean","type":"Boolean","kind":"f"},"getImageData":{"menu":"getImageData(sx : Number, sy : Number, sw : Number, sh : Number) : ImageData","type":"ImageData","kind":"f"},"fillText":{"menu":"fillText(text : String, x : Number, y : Number, [maxWidth : Number]) : undefined","type":"undefined","kind":"f"},"fillRect":{"menu":"fillRect(x : Number, y : Number, w : Number, h : Number) : undefined","type":"undefined","kind":"f"},"fill":{"menu":"fill() : undefined","type":"undefined","kind":"f"},"createRadialGradient":{"menu":"createRadialGradient(x0 : Number, y0 : Number, r0 : Number, x1 : Number, y1 : Number, r1 : Number) : CanvasGradient","type":"CanvasGradient","kind":"f"},"createPattern":{"menu":"createPattern(image : HTMLImageElement, repetition : String) : CanvasPattern","type":"CanvasPattern","kind":"f"},"createLinearGradient":{"menu":"createLinearGradient(x0 : Number, y0 : Number, x1 : Number, y1 : Number) : CanvasGradient","type":"CanvasGradient","kind":"f"},"closePath":{"menu":"closePath() : undefined","type":"undefined","kind":"f"},"clip":{"menu":"clip() : undefined","type":"undefined","kind":"f"},"clearRect":{"menu":"clearRect(x : Number, y : Number, w : Number, h : Number) : undefined","type":"undefined","kind":"f"},"bezierCurveTo":{"menu":"bezierCurveTo(cp1x : Number, cp1y : Number, cp2x : Number, cp2y : Number, x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"beginPath":{"menu":"beginPath() : undefined","type":"undefined","kind":"f"},"arcTo":{"menu":"arcTo(controlX : Number, controlY : Number, endX : Number, endY : Number, radius : Number) : undefined","type":"undefined","kind":"f"},"textBaseline":{"menu":"textBaseline : String","type":"String","kind":"v"},"measureText":{"menu":"measureText(text : String) : TextMetrics","type":"TextMetrics","kind":"f"},"moveTo":{"menu":"moveTo(x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"putImageData":{"menu":"putImageData(imageData : ImageData, dx : Number, dy : Number, [dirtyX : Number, dirtyY : Number, dirtyWidth : Number, dirtyHeight : Number]) : undefined","type":"undefined","kind":"f"},"quadraticCurveTo":{"menu":"quadraticCurveTo(cpx : Number, cpy : Number, x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"rect":{"menu":"rect(x : Number, y : Number, w : Number, h : Number) : undefined","type":"undefined","kind":"f"},"restore":{"menu":"restore() : undefined","type":"undefined","kind":"f"},"rotate":{"menu":"rotate(angle : Number) : undefined","type":"undefined","kind":"f"},"translate":{"menu":"translate(x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"transform":{"menu":"transform(a : Number, b : Number, c : Number, d : Number, e : Number, f : Number) : undefined","type":"undefined","kind":"f"},"strokeText":{"menu":"strokeText(text : String, x : Number, y : Number, [maxWidth : Number]) : undefined","type":"undefined","kind":"f"},"strokeRect":{"menu":"strokeRect(x : Number, y : Number, w : Number, h : Number) : undefined","type":"undefined","kind":"f"},"stroke":{"menu":"stroke() : undefined","type":"undefined","kind":"f"},"setTransform":{"menu":"setTransform(a : Number, b : Number, c : Number, d : Number, e : Number, f : Number) : undefined","type":"undefined","kind":"f"},"scale":{"menu":"scale(x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"save":{"menu":"save() : undefined","type":"undefined","kind":"f"},"textAlign":{"menu":"textAlign : String","type":"String","kind":"v"},"strokeStyle":{"menu":"strokeStyle : Object","type":"Object","kind":"v"},"shadowOffsetY":{"menu":"shadowOffsetY : Number","type":"Number","kind":"v"},"shadowOffsetX":{"menu":"shadowOffsetX : Number","type":"Number","kind":"v"},"shadowColor":{"menu":"shadowColor : String","type":"String","kind":"v"},"shadowBlur":{"menu":"shadowBlur : Number","type":"Number","kind":"v"},"miterLimit":{"menu":"miterLimit : Number","type":"Number","kind":"v"},"canvas":{"menu":"canvas : HTMLCanvasElement  readonly","type":"HTMLCanvasElement","kind":"v"},"fillStyle":{"menu":"fillStyle : Object","type":"Object","kind":"v"},"font":{"menu":"font : String","type":"String","kind":"v"},"globalAlpha":{"menu":"globalAlpha : Number","type":"Number","kind":"v"},"globalCompositeOperation":{"menu":"globalCompositeOperation : String","type":"String","kind":"v"},"lineCap":{"menu":"lineCap : String","type":"String","kind":"v"},"lineJoin":{"menu":"lineJoin : String","type":"String","kind":"v"},"lineWidth":{"menu":"lineWidth : Number","type":"Number","kind":"v"},"arc":{"menu":"arc(x : Number, y : Number, radius : Number, startAngle : Number, endAngle : Number, [counterclockwise = false : Boolean]) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"}}
+{
+  "CanvasRenderingContext2D": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "arc": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "arc(x : Number, y : Number, radius : Number, startAngle : Number, endAngle : Number, [counterclockwise?=?false : Boolean]) : undefined"
+          },
+          "lineWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "lineWidth : Number"
+          },
+          "lineJoin": {
+            "kind": "v",
+            "type": "String",
+            "menu": "lineJoin : String"
+          },
+          "lineCap": {
+            "kind": "v",
+            "type": "String",
+            "menu": "lineCap : String"
+          },
+          "globalCompositeOperation": {
+            "kind": "v",
+            "type": "String",
+            "menu": "globalCompositeOperation : String"
+          },
+          "globalAlpha": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "globalAlpha : Number"
+          },
+          "font": {
+            "kind": "v",
+            "type": "String",
+            "menu": "font : String"
+          },
+          "fillStyle": {
+            "kind": "v",
+            "type": "Object",
+            "menu": "fillStyle : Object"
+          },
+          "canvas": {
+            "kind": "v",
+            "type": "HTMLCanvasElement",
+            "menu": "canvas : HTMLCanvasElement readonly"
+          },
+          "miterLimit": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "miterLimit : Number"
+          },
+          "shadowBlur": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "shadowBlur : Number"
+          },
+          "shadowColor": {
+            "kind": "v",
+            "type": "String",
+            "menu": "shadowColor : String"
+          },
+          "shadowOffsetX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "shadowOffsetX : Number"
+          },
+          "shadowOffsetY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "shadowOffsetY : Number"
+          },
+          "strokeStyle": {
+            "kind": "v",
+            "type": "Object",
+            "menu": "strokeStyle : Object"
+          },
+          "textBaseline": {
+            "kind": "v",
+            "type": "String",
+            "menu": "textBaseline : String"
+          },
+          "arcTo": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "arcTo(controlX : Number, controlY : Number, endX : Number, endY : Number, radius : Number) : undefined"
+          },
+          "beginPath": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "beginPath() : undefined"
+          },
+          "bezierCurveTo": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bezierCurveTo(cp1x : Number, cp1y : Number, cp2x : Number, cp2y : Number, x : Number, y : Number) : undefined"
+          },
+          "clearRect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clearRect(x : Number, y : Number, w : Number, h : Number) : undefined"
+          },
+          "clip": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clip() : undefined"
+          },
+          "closePath": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "closePath() : undefined"
+          },
+          "createLinearGradient": {
+            "kind": "f",
+            "type": "CanvasGradient",
+            "menu": "createLinearGradient(x0 : Number, y0 : Number, x1 : Number, y1 : Number) : CanvasGradient"
+          },
+          "lineTo": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "lineTo(x : Number, y : Number) : undefined"
+          },
+          "isPointInPath": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isPointInPath(x : Number, y : Number) : Boolean"
+          },
+          "getImageData": {
+            "kind": "f",
+            "type": "ImageData",
+            "menu": "getImageData(sx : Number, sy : Number, sw : Number, sh : Number) : ImageData"
+          },
+          "fillText": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "fillText(text : String, x : Number, y : Number, [maxWidth : Number]) : undefined"
+          },
+          "fillRect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "fillRect(x : Number, y : Number, w : Number, h : Number) : undefined"
+          },
+          "fill": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "fill() : undefined"
+          },
+          "createRadialGradient": {
+            "kind": "f",
+            "type": "CanvasGradient",
+            "menu": "createRadialGradient(x0 : Number, y0 : Number, r0 : Number, x1 : Number, y1 : Number, r1 : Number) : CanvasGradient"
+          },
+          "createPattern": {
+            "kind": "f",
+            "type": "CanvasPattern",
+            "menu": "createPattern(image : HTMLImageElement, repetition : String) : CanvasPattern"
+          },
+          "measureText": {
+            "kind": "f",
+            "type": "TextMetrics",
+            "menu": "measureText(text : String) : TextMetrics"
+          },
+          "moveTo": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "moveTo(x : Number, y : Number) : undefined"
+          },
+          "putImageData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "putImageData(imageData : ImageData, dx : Number, dy : Number, [dirtyX : Number, dirtyY : Number, dirtyWidth : Number, dirtyHeight : Number]) : undefined"
+          },
+          "quadraticCurveTo": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "quadraticCurveTo(cpx : Number, cpy : Number, x : Number, y : Number) : undefined"
+          },
+          "rect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "rect(x : Number, y : Number, w : Number, h : Number) : undefined"
+          },
+          "restore": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "restore() : undefined"
+          },
+          "rotate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "rotate(angle : Number) : undefined"
+          },
+          "translate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "translate(x : Number, y : Number) : undefined"
+          },
+          "transform": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "transform(a : Number, b : Number, c : Number, d : Number, e : Number, f : Number) : undefined"
+          },
+          "strokeText": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "strokeText(text : String, x : Number, y : Number, [maxWidth : Number]) : undefined"
+          },
+          "strokeRect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "strokeRect(x : Number, y : Number, w : Number, h : Number) : undefined"
+          },
+          "stroke": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stroke() : undefined"
+          },
+          "setTransform": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setTransform(a : Number, b : Number, c : Number, d : Number, e : Number, f : Number) : undefined"
+          },
+          "scale": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "scale(x : Number, y : Number) : undefined"
+          },
+          "save": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "save() : undefined"
+          },
+          "textAlign": {
+            "kind": "v",
+            "type": "String",
+            "menu": "textAlign : String"
+          }
+        },
+        "class": "CanvasRenderingContext2D",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "CanvasPattern": {
+    "kind": "v"
+  },
+  "TextMetrics": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number readonly"
+          }
+        },
+        "class": "TextMetrics",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "CanvasGradient": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "addColorStop": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "addColorStop(offset : Number, color : String) : undefined"
+          }
+        },
+        "class": "CanvasGradient",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ImageData": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number readonly"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number readonly"
+          },
+          "data": {
+            "kind": "v",
+            "type": "Uint8ClampedArray",
+            "menu": "data : Uint8ClampedArray readonly"
+          }
+        },
+        "class": "ImageData",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "CanvasRenderingContext": {
+    "kind": "v"
+  }
+}

@@ -1,8 +1,8 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-let s:TYPE_FNCTION = type(function('tr'))
-let s:TYPE_DICT    = type({})
+let s:DEBUG = 0
+let s:TYPE_DICT = type({})
 
 let s:JSONS_DIR       = globpath(expand('<sfile>:p:h') . '/..', 'jsons/')
 let s:API_FILES_NAMES = map(split(globpath(s:JSONS_DIR, '*.json'), '\n'), 'fnamemodify(v:val,":t:r")')
@@ -13,26 +13,37 @@ for s:api_name in s:API_FILES_NAMES
     let s:API_FILES[tolower(s:api_name)] = {
         \   'path' : s:JSONS_DIR . s:api_name . '.json',
         \}
+    unlet s:api_name
 endfor
 
-function! s:getAPIObject(api_dict)
+" functions  {{{1
+
+function! s:getAPIObject(api_dict) " {{{2
     let api_dict = a:api_dict
-    let api_dict['object'] = has_key(api_dict, 'object') ?
-    \   api_dict['object'] : eval(join(map(readfile(api_dict.path), 'iconv(v:val, "utf8", &encoding)'))
+    if has_key(api_dict, 'object')
+        return deepcopy(api_dict['object'])
+    endif
+    let encode = get(split(&fileencodings, ','), 0, &encoding)
+    let json = join(readfile(api_dict.path), '')
+    let api_dict['object'] = eval(json)
     return deepcopy(api_dict['object'])
 endfunction
 
-function! jscomplete_html5API#showAPIList()
+function! jscomplete_html5API#JSONFileList() " {{{2
     return keys(s:API_FILES)
 endfunction
 
-function! jscomplete_html5API#getAPIObject(name)
+function! jscomplete_html5API#getAPIObject(name) " {{{2
     let api_dict = get(s:API_FILES, tolower(a:name), 0)
     if type(api_dict) == s:TYPE_DICT
         return s:getAPIObject(api_dict)
+    else
+        echoerr a:name ' is not exists'
+        return ''
     endif
 endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
-" vim:set foldmethod=marker sw=4 ts=4 tw=4
+" __END__ {{{1
+" vim :set foldmethod=marker sw=4 ts=4 tw=4:

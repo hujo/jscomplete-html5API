@@ -1,18 +1,17 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! s:getAPIObject(name)
-    return jscomplete_html5API#getAPIObject(a:name)
-endfunction
+let s:getAPIObject = function('jscomplete_html5API#getAPIObject')
 
-" Browser {{{
+" add API Objects {{{1
+" Browser {{{2
 function! s:addBrowser()
     let browser = s:getAPIObject('browser')
     call extend(b:GlobalObject, browser)
     call extend(b:GlobalObject, browser.Window.props.prototype.props)
 endfunction
-" }}}
-" DOM {{{
+
+" DOM {{{2
 function! s:addDOM()
     call extend(b:GlobalObject, s:getAPIObject('dom'))
     " [Add] Domstringmap
@@ -28,10 +27,9 @@ function! s:addDOM()
 
     " [Update] document.body : HTMLBodyElement -> Element
     let b:GlobalObject.Document.props.prototype.props.body.type = "Element"
-    " }}}
 endfunction
-" }}}
-" CSS {{{
+
+" CSS {{{2
 function! s:addCSS()
     call extend(b:GlobalObject, s:getAPIObject('css'))
     " [Update] document.stylesheets : StyleSheet -> CSSStyleSheet
@@ -40,8 +38,8 @@ function! s:addCSS()
     call extend(b:GlobalObject.Document.props.prototype.props,
         \{'stylesheets' : {'kind' : 'v', 'menu' : '', 'type' : 'StyleSheetList'}})
 endfunction
-" }}}
-" Canvas {{{
+
+" Canvas {{{2
 function! s:addCanvas ()
     call extend(b:GlobalObject, s:getAPIObject('canvas'))
 
@@ -49,8 +47,8 @@ function! s:addCanvas ()
     call extend(b:GlobalObject.Element.props.prototype.props, {
         \'getContext' : {'kind' : 'f', 'menu' : 'get CanvasRenderingContext2D', 'type' : 'CanvasRenderingContext2D'}})
 endfunction
-" }}}
-" FileAPI {{{
+
+" FileAPI {{{2
 function! s:addFileAPI ()
     call extend(b:GlobalObject, s:getAPIObject('fileAPI'))
 
@@ -64,22 +62,22 @@ function! s:addFileAPI ()
         \   }
         \})
 endfunction
-" }}}
-" TypedArrays {{{
+
+" TypedArrays {{{2
 function! s:addTypedArrays ()
     call extend(b:GlobalObject, s:getAPIObject('typedArrays'))
 endfunction
-" }}}
-" Worker {{{
+
+" Worker {{{2
 let s:Worker = s:getAPIObject('worker')
 function! s:addWorker ()
     call extend(b:GlobalObject, s:Worker)
 endfunction
-" }}}
 
+" }}}1
 function! js#html5API#Extend (names)
     if !exists('b:GlobalObject')
-        return
+        return {}
     endif
     call s:addBrowser()
     call s:addCSS()
@@ -92,4 +90,5 @@ endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
-" vim:set foldmethod=marker sw=4 ts=4 tw=4
+" __END__ {{{1
+" vim:set foldmethod=marker sw=4 ts=4 tw=4:

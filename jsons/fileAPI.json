@@ -1,1 +1,186 @@
-{"File":{"props":{"prototype":{"kind":"v","type":"Object","class":"File","props":{"lastModifiedDate":{"menu":"lastModifiedDate : Date  readonly","type":"Date","kind":"v"},"name":{"menu":"name : String  readonly","type":"String","kind":"v"}}}},"kind":"f"},"FileList":{"props":{"prototype":{"kind":"v","type":"Object","class":"FileList","props":{"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"item":{"menu":"item(index : Number) : File","type":"File","kind":"f"}}}},"kind":"f"},"DataTransferItem":{"props":{"prototype":{"kind":"v","type":"Object","class":"DataTransferItem","props":{"kind":{"menu":"kind : String  readonly","type":"String","kind":"v"},"type":{"menu":"type : String  readonly","type":"String","kind":"v"},"getAsFile":{"menu":"getAsFile() : File","type":"File","kind":"f"},"getAsString":{"menu":"getAsString(callback : Function) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"URL":{"props":{"createObjectURL":{"menu":"createObjectURL(blob : Blob) : String","type":"String","kind":"f"},"revokeObjectURL":{"menu":"revokeObjectURL(url : String) : undefined","type":"undefined","kind":"f"}},"kind":"v"},"Blob":{"kind":"f","menu":"new Blob(blobParts : Array, [blobPropertyBag : Object]) : Blob","type":"Blob","props":{"prototype":{"kind":"v","type":"Object","class":"Blob","props":{"size":{"menu":"size : Number  readonly","type":"Number","kind":"v"},"type":{"menu":"type : String  readonly","type":"String","kind":"v"},"slice":{"menu":"slice([start = 0 : Number, [end : Number, [contentType : String]]]) : Blob","type":"Blob","kind":"f"}}}}},"FileReader":{"kind":"f","menu":"new FileReader() : FileReader","type":"FileReader","props":{"prototype":{"kind":"v","type":"Object","class":"FileReader","props":{"error":{"menu":"error : Error  readonly","type":"Error","kind":"v"},"readyState":{"menu":"readyState : Number  readonly","type":"Number","kind":"v"},"result":{"menu":"result : Object  readonly","type":"Object","kind":"v"},"abort":{"menu":"abort() : undefined","type":"undefined","kind":"f"},"readAsArrayBuffer":{"menu":"readAsArrayBuffer(blob : Blob) : undefined","type":"undefined","kind":"f"},"readAsDataURL":{"menu":"readAsDataURL(blob : Blob) : undefined","type":"undefined","kind":"f"},"readAsText":{"menu":"readAsText(blob : Blob, [encoding : String]) : undefined","type":"undefined","kind":"f"}}},"DONE":{"menu":"DONE : Number  readonly  value = 2","type":"Number","kind":"v"},"EMPTY":{"menu":"EMPTY : Number  readonly  value = 0","type":"Number","kind":"v"},"LOADING":{"menu":"LOADING : Number  readonly  value = 1","type":"Number","kind":"v"}}}}
+{
+  "FileReader": {
+    "props": {
+      "LOADING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LOADING : Number readonly value = 1"
+      },
+      "EMPTY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "EMPTY : Number readonly value = 0"
+      },
+      "DONE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DONE : Number readonly value = 2"
+      },
+      "prototype": {
+        "props": {
+          "readAsText": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "readAsText(blob : Blob, [encoding : String]) : undefined"
+          },
+          "readAsDataURL": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "readAsDataURL(blob : Blob) : undefined"
+          },
+          "readAsArrayBuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "readAsArrayBuffer(blob : Blob) : undefined"
+          },
+          "abort": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "abort() : undefined"
+          },
+          "result": {
+            "kind": "v",
+            "type": "Object",
+            "menu": "result : Object readonly"
+          },
+          "readyState": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "readyState : Number readonly"
+          },
+          "error": {
+            "kind": "v",
+            "type": "Error",
+            "menu": "error : Error readonly"
+          }
+        },
+        "class": "FileReader",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "FileReader",
+    "menu": "new FileReader() : FileReader",
+    "kind": "f"
+  },
+  "Blob": {
+    "props": {
+      "prototype": {
+        "props": {
+          "slice": {
+            "kind": "f",
+            "type": "Blob",
+            "menu": "slice([start?=?0 : Number, [end : Number, [contentType : String]]]) : Blob"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String readonly"
+          },
+          "size": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "size : Number readonly"
+          }
+        },
+        "class": "Blob",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Blob",
+    "menu": "new Blob(blobParts : Array, [blobPropertyBag : Object]) : Blob",
+    "kind": "f"
+  },
+  "URL": {
+    "kind": "v",
+    "props": {
+      "revokeObjectURL": {
+        "kind": "f",
+        "type": "undefined",
+        "menu": "revokeObjectURL(url : String) : undefined"
+      },
+      "createObjectURL": {
+        "kind": "f",
+        "type": "String",
+        "menu": "createObjectURL(blob : Blob) : String"
+      }
+    }
+  },
+  "DataTransferItem": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getAsString": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "getAsString(callback : Function) : undefined"
+          },
+          "getAsFile": {
+            "kind": "f",
+            "type": "File",
+            "menu": "getAsFile() : File"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String readonly"
+          },
+          "kind": {
+            "kind": "v",
+            "type": "String",
+            "menu": "kind : String readonly"
+          }
+        },
+        "class": "DataTransferItem",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "FileList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "item": {
+            "kind": "f",
+            "type": "File",
+            "menu": "item(index : Number) : File"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          }
+        },
+        "class": "FileList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "File": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String readonly"
+          },
+          "lastModifiedDate": {
+            "kind": "v",
+            "type": "Date",
+            "menu": "lastModifiedDate : Date readonly"
+          }
+        },
+        "class": "File",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  }
+}

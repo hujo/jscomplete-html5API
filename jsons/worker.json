@@ -1,1 +1,63 @@
-{"Worker":{"kind":"f","menu":"new Worker(scriptURL : String) : Worker","type":"Worker","props":{"prototype":{"kind":"v","type":"Object","class":"Worker","props":{"postMessage":{"menu":"postMessage(message : Object, [transfer : Array]) : undefined","type":"undefined","kind":"f"},"terminate":{"menu":"terminate() : undefined","type":"undefined","kind":"f"}}}}},"WorkerGlobalScope":{"props":{"prototype":{"kind":"v","type":"Object","class":"WorkerGlobalScope","props":{"location":{"menu":"location : Location  readonly","type":"Location","kind":"v"},"self":{"menu":"self : WorkerGlobalScope  readonly","type":"WorkerGlobalScope","kind":"v"},"close":{"menu":"close() : undefined","type":"undefined","kind":"f"},"dispatchEvent":{"menu":"dispatchEvent(event : Event) : Boolean","type":"Boolean","kind":"f"},"postMessage":{"menu":"postMessage(message : Object, [transfer : Array]) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"}}
+{
+  "WorkerGlobalScope": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "postMessage": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "postMessage(message : Object, [transfer : Array]) : undefined"
+          },
+          "dispatchEvent": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "dispatchEvent(event : Event) : Boolean"
+          },
+          "close": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "close() : undefined"
+          },
+          "self": {
+            "kind": "v",
+            "type": "WorkerGlobalScope",
+            "menu": "self : WorkerGlobalScope readonly"
+          },
+          "location": {
+            "kind": "v",
+            "type": "Location",
+            "menu": "location : Location readonly"
+          }
+        },
+        "class": "WorkerGlobalScope",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Worker": {
+    "props": {
+      "prototype": {
+        "props": {
+          "terminate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "terminate() : undefined"
+          },
+          "postMessage": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "postMessage(message : Object, [transfer : Array]) : undefined"
+          }
+        },
+        "class": "Worker",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Worker",
+    "menu": "new Worker(scriptURL : String) : Worker",
+    "kind": "f"
+  }
+}

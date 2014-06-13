@@ -1,1 +1,2221 @@
-{"WebGLContextAttributes":{"props":{"prototype":{"kind":"v","type":"Object","class":"WebGLContextAttributes","props":{"alpha":{"menu":"alpha : Boolean","type":"Boolean","kind":"v"},"antialias":{"menu":"antialias : Boolean","type":"Boolean","kind":"v"},"depth":{"menu":"depth : Boolean","type":"Boolean","kind":"v"},"premultipliedAlpha":{"menu":"premultipliedAlpha : Boolean","type":"Boolean","kind":"v"},"preserveDrawingBuffer":{"menu":"preserveDrawingBuffer : Boolean","type":"Boolean","kind":"v"},"stencil":{"menu":"stencil : Boolean","type":"Boolean","kind":"v"}}}},"kind":"f"},"WebGLShader":{"kind":"v"},"WebGLTexture":{"kind":"v"},"WebGLRenderingContext":{"props":{"TEXTURE4":{"menu":"TEXTURE4 : Number  readonly","type":"Number","kind":"v"},"TEXTURE31":{"menu":"TEXTURE31 : Number  readonly","type":"Number","kind":"v"},"TEXTURE30":{"menu":"TEXTURE30 : Number  readonly","type":"Number","kind":"v"},"TEXTURE3":{"menu":"TEXTURE3 : Number  readonly","type":"Number","kind":"v"},"TEXTURE29":{"menu":"TEXTURE29 : Number  readonly","type":"Number","kind":"v"},"TEXTURE28":{"menu":"TEXTURE28 : Number  readonly","type":"Number","kind":"v"},"TEXTURE27":{"menu":"TEXTURE27 : Number  readonly","type":"Number","kind":"v"},"TEXTURE26":{"menu":"TEXTURE26 : Number  readonly","type":"Number","kind":"v"},"TEXTURE25":{"menu":"TEXTURE25 : Number  readonly","type":"Number","kind":"v"},"TEXTURE24":{"menu":"TEXTURE24 : Number  readonly","type":"Number","kind":"v"},"TEXTURE23":{"menu":"TEXTURE23 : Number  readonly","type":"Number","kind":"v"},"TEXTURE22":{"menu":"TEXTURE22 : Number  readonly","type":"Number","kind":"v"},"TEXTURE21":{"menu":"TEXTURE21 : Number  readonly","type":"Number","kind":"v"},"TEXTURE20":{"menu":"TEXTURE20 : Number  readonly","type":"Number","kind":"v"},"TEXTURE2":{"menu":"TEXTURE2 : Number  readonly","type":"Number","kind":"v"},"TEXTURE19":{"menu":"TEXTURE19 : Number  readonly","type":"Number","kind":"v"},"TEXTURE18":{"menu":"TEXTURE18 : Number  readonly","type":"Number","kind":"v"},"TEXTURE17":{"menu":"TEXTURE17 : Number  readonly","type":"Number","kind":"v"},"TEXTURE16":{"menu":"TEXTURE16 : Number  readonly","type":"Number","kind":"v"},"TEXTURE15":{"menu":"TEXTURE15 : Number  readonly","type":"Number","kind":"v"},"TEXTURE14":{"menu":"TEXTURE14 : Number  readonly","type":"Number","kind":"v"},"TEXTURE13":{"menu":"TEXTURE13 : Number  readonly","type":"Number","kind":"v"},"TEXTURE12":{"menu":"TEXTURE12 : Number  readonly","type":"Number","kind":"v"},"TEXTURE11":{"menu":"TEXTURE11 : Number  readonly","type":"Number","kind":"v"},"TEXTURE10":{"menu":"TEXTURE10 : Number  readonly","type":"Number","kind":"v"},"TEXTURE1":{"menu":"TEXTURE1 : Number  readonly","type":"Number","kind":"v"},"TEXTURE0":{"menu":"TEXTURE0 : Number  readonly","type":"Number","kind":"v"},"TEXTURE":{"menu":"TEXTURE : Number  readonly","type":"Number","kind":"v"},"SUBPIXEL_BITS":{"menu":"SUBPIXEL_BITS : Number  readonly","type":"Number","kind":"v"},"STREAM_DRAW":{"menu":"STREAM_DRAW : Number  readonly","type":"Number","kind":"v"},"STENCIL_WRITEMASK":{"menu":"STENCIL_WRITEMASK : Number  readonly","type":"Number","kind":"v"},"STENCIL_VALUE_MASK":{"menu":"STENCIL_VALUE_MASK : Number  readonly","type":"Number","kind":"v"},"STENCIL_TEST":{"menu":"STENCIL_TEST : Number  readonly","type":"Number","kind":"v"},"STENCIL_REF":{"menu":"STENCIL_REF : Number  readonly","type":"Number","kind":"v"},"STENCIL_PASS_DEPTH_PASS":{"menu":"STENCIL_PASS_DEPTH_PASS : Number  readonly","type":"Number","kind":"v"},"STENCIL_PASS_DEPTH_FAIL":{"menu":"STENCIL_PASS_DEPTH_FAIL : Number  readonly","type":"Number","kind":"v"},"STENCIL_INDEX8":{"menu":"STENCIL_INDEX8 : Number  readonly","type":"Number","kind":"v"},"STENCIL_INDEX":{"menu":"STENCIL_INDEX : Number  readonly","type":"Number","kind":"v"},"STENCIL_FUNC":{"menu":"STENCIL_FUNC : Number  readonly","type":"Number","kind":"v"},"STENCIL_FAIL":{"menu":"STENCIL_FAIL : Number  readonly","type":"Number","kind":"v"},"STENCIL_CLEAR_VALUE":{"menu":"STENCIL_CLEAR_VALUE : Number  readonly","type":"Number","kind":"v"},"STENCIL_BUFFER_BIT":{"menu":"STENCIL_BUFFER_BIT : Number  readonly","type":"Number","kind":"v"},"STENCIL_BITS":{"menu":"STENCIL_BITS : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_WRITEMASK":{"menu":"STENCIL_BACK_WRITEMASK : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_VALUE_MASK":{"menu":"STENCIL_BACK_VALUE_MASK : Number  readonly","type":"Number","kind":"v"},"ACTIVE_UNIFORM_MAX_LENGTH":{"menu":"ACTIVE_UNIFORM_MAX_LENGTH : Number  readonly","type":"Number","kind":"v"},"ALIASED_LINE_WIDTH_RANGE":{"menu":"ALIASED_LINE_WIDTH_RANGE : Number  readonly","type":"Number","kind":"v"},"ALIASED_POINT_SIZE_RANGE":{"menu":"ALIASED_POINT_SIZE_RANGE : Number  readonly","type":"Number","kind":"v"},"BLEND_COLOR":{"menu":"BLEND_COLOR : Number  readonly","type":"Number","kind":"v"},"BLEND_DST_ALPHA":{"menu":"BLEND_DST_ALPHA : Number  readonly","type":"Number","kind":"v"},"BLEND_DST_RGB":{"menu":"BLEND_DST_RGB : Number  readonly","type":"Number","kind":"v"},"BLEND_EQUATION":{"menu":"BLEND_EQUATION : Number  readonly","type":"Number","kind":"v"},"BLEND_EQUATION_ALPHA":{"menu":"BLEND_EQUATION_ALPHA : Number  readonly","type":"Number","kind":"v"},"BLEND_EQUATION_RGB":{"menu":"BLEND_EQUATION_RGB : Number  readonly","type":"Number","kind":"v"},"BLEND_SRC_ALPHA":{"menu":"BLEND_SRC_ALPHA : Number  readonly","type":"Number","kind":"v"},"BLEND_SRC_RGB":{"menu":"BLEND_SRC_RGB : Number  readonly","type":"Number","kind":"v"},"BLUE_BITS":{"menu":"BLUE_BITS : Number  readonly","type":"Number","kind":"v"},"BOOL":{"menu":"BOOL : Number  readonly","type":"Number","kind":"v"},"BOOL_VEC2":{"menu":"BOOL_VEC2 : Number  readonly","type":"Number","kind":"v"},"BOOL_VEC3":{"menu":"BOOL_VEC3 : Number  readonly","type":"Number","kind":"v"},"BOOL_VEC4":{"menu":"BOOL_VEC4 : Number  readonly","type":"Number","kind":"v"},"BROWSER_DEFAULT_WEBGL":{"menu":"BROWSER_DEFAULT_WEBGL : Number  readonly","type":"Number","kind":"v"},"BUFFER_SIZE":{"menu":"BUFFER_SIZE : Number  readonly","type":"Number","kind":"v"},"BUFFER_USAGE":{"menu":"BUFFER_USAGE : Number  readonly","type":"Number","kind":"v"},"DITHER":{"menu":"DITHER : Number  readonly","type":"Number","kind":"v"},"DONT_CARE":{"menu":"DONT_CARE : Number  readonly","type":"Number","kind":"v"},"DST_ALPHA":{"menu":"DST_ALPHA : Number  readonly","type":"Number","kind":"v"},"DST_COLOR":{"menu":"DST_COLOR : Number  readonly","type":"Number","kind":"v"},"DYNAMIC_DRAW":{"menu":"DYNAMIC_DRAW : Number  readonly","type":"Number","kind":"v"},"ELEMENT_ARRAY_BUFFER":{"menu":"ELEMENT_ARRAY_BUFFER : Number  readonly","type":"Number","kind":"v"},"ELEMENT_ARRAY_BUFFER_BINDING":{"menu":"ELEMENT_ARRAY_BUFFER_BINDING : Number  readonly","type":"Number","kind":"v"},"EQUAL":{"menu":"EQUAL : Number  readonly","type":"Number","kind":"v"},"FASTEST":{"menu":"FASTEST : Number  readonly","type":"Number","kind":"v"},"FLOAT":{"menu":"FLOAT : Number  readonly","type":"Number","kind":"v"},"FLOAT_MAT2":{"menu":"FLOAT_MAT2 : Number  readonly","type":"Number","kind":"v"},"FLOAT_MAT3":{"menu":"FLOAT_MAT3 : Number  readonly","type":"Number","kind":"v"},"FLOAT_MAT4":{"menu":"FLOAT_MAT4 : Number  readonly","type":"Number","kind":"v"},"FLOAT_VEC2":{"menu":"FLOAT_VEC2 : Number  readonly","type":"Number","kind":"v"},"FLOAT_VEC3":{"menu":"FLOAT_VEC3 : Number  readonly","type":"Number","kind":"v"},"FLOAT_VEC4":{"menu":"FLOAT_VEC4 : Number  readonly","type":"Number","kind":"v"},"FRAGMENT_SHADER":{"menu":"FRAGMENT_SHADER : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER":{"menu":"FRAMEBUFFER : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_ATTACHMENT_OBJECT_NAME":{"menu":"FRAMEBUFFER_ATTACHMENT_OBJECT_NAME : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE":{"menu":"FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE":{"menu":"FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL":{"menu":"FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_BINDING":{"menu":"FRAMEBUFFER_BINDING : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_COMPLETE":{"menu":"FRAMEBUFFER_COMPLETE : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_INCOMPLETE_ATTACHMENT":{"menu":"FRAMEBUFFER_INCOMPLETE_ATTACHMENT : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_INCOMPLETE_DIMENSIONS":{"menu":"FRAMEBUFFER_INCOMPLETE_DIMENSIONS : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT":{"menu":"FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT : Number  readonly","type":"Number","kind":"v"},"FRAMEBUFFER_UNSUPPORTED":{"menu":"FRAMEBUFFER_UNSUPPORTED : Number  readonly","type":"Number","kind":"v"},"FRONT":{"menu":"FRONT : Number  readonly","type":"Number","kind":"v"},"FRONT_AND_BACK":{"menu":"FRONT_AND_BACK : Number  readonly","type":"Number","kind":"v"},"FRONT_FACE":{"menu":"FRONT_FACE : Number  readonly","type":"Number","kind":"v"},"FUNC_ADD":{"menu":"FUNC_ADD : Number  readonly","type":"Number","kind":"v"},"FUNC_REVERSE_SUBTRACT":{"menu":"FUNC_REVERSE_SUBTRACT : Number  readonly","type":"Number","kind":"v"},"FUNC_SUBTRACT":{"menu":"FUNC_SUBTRACT : Number  readonly","type":"Number","kind":"v"},"GENERATE_MIPMAP_HINT":{"menu":"GENERATE_MIPMAP_HINT : Number  readonly","type":"Number","kind":"v"},"GEQUAL":{"menu":"GEQUAL : Number  readonly","type":"Number","kind":"v"},"GREATER":{"menu":"GREATER : Number  readonly","type":"Number","kind":"v"},"GREEN_BITS":{"menu":"GREEN_BITS : Number  readonly","type":"Number","kind":"v"},"HIGH_FLOAT":{"menu":"HIGH_FLOAT : Number  readonly","type":"Number","kind":"v"},"HIGH_INT":{"menu":"HIGH_INT : Number  readonly","type":"Number","kind":"v"},"INCR":{"menu":"INCR : Number  readonly","type":"Number","kind":"v"},"INCR_WRAP":{"menu":"INCR_WRAP : Number  readonly","type":"Number","kind":"v"},"INFO_LOG_LENGTH":{"menu":"INFO_LOG_LENGTH : Number  readonly","type":"Number","kind":"v"},"INT":{"menu":"INT : Number  readonly","type":"Number","kind":"v"},"INT_VEC2":{"menu":"INT_VEC2 : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_POSITIVE_Y":{"menu":"TEXTURE_CUBE_MAP_POSITIVE_Y : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_POSITIVE_Z":{"menu":"TEXTURE_CUBE_MAP_POSITIVE_Z : Number  readonly","type":"Number","kind":"v"},"TEXTURE_MAG_FILTER":{"menu":"TEXTURE_MAG_FILTER : Number  readonly","type":"Number","kind":"v"},"TEXTURE_MIN_FILTER":{"menu":"TEXTURE_MIN_FILTER : Number  readonly","type":"Number","kind":"v"},"TEXTURE_WRAP_S":{"menu":"TEXTURE_WRAP_S : Number  readonly","type":"Number","kind":"v"},"TEXTURE_WRAP_T":{"menu":"TEXTURE_WRAP_T : Number  readonly","type":"Number","kind":"v"},"TRIANGLES":{"menu":"TRIANGLES : Number  readonly","type":"Number","kind":"v"},"TRIANGLE_FAN":{"menu":"TRIANGLE_FAN : Number  readonly","type":"Number","kind":"v"},"TRIANGLE_STRIP":{"menu":"TRIANGLE_STRIP : Number  readonly","type":"Number","kind":"v"},"UNPACK_ALIGNMENT":{"menu":"UNPACK_ALIGNMENT : Number  readonly","type":"Number","kind":"v"},"UNPACK_COLORSPACE_CONVERSION_WEBGL":{"menu":"UNPACK_COLORSPACE_CONVERSION_WEBGL : Number  readonly","type":"Number","kind":"v"},"UNPACK_FLIP_Y_WEBGL":{"menu":"UNPACK_FLIP_Y_WEBGL : Number  readonly","type":"Number","kind":"v"},"UNPACK_PREMULTIPLY_ALPHA_WEBGL":{"menu":"UNPACK_PREMULTIPLY_ALPHA_WEBGL : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_BYTE":{"menu":"UNSIGNED_BYTE : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_INT":{"menu":"UNSIGNED_INT : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_SHORT":{"menu":"UNSIGNED_SHORT : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_NORMALIZED":{"menu":"VERTEX_ATTRIB_ARRAY_NORMALIZED : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_POINTER":{"menu":"VERTEX_ATTRIB_ARRAY_POINTER : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_SIZE":{"menu":"VERTEX_ATTRIB_ARRAY_SIZE : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_STRIDE":{"menu":"VERTEX_ATTRIB_ARRAY_STRIDE : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_TYPE":{"menu":"VERTEX_ATTRIB_ARRAY_TYPE : Number  readonly","type":"Number","kind":"v"},"VERTEX_SHADER":{"menu":"VERTEX_SHADER : Number  readonly","type":"Number","kind":"v"},"VIEWPORT":{"menu":"VIEWPORT : Number  readonly","type":"Number","kind":"v"},"ZERO":{"menu":"ZERO : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_ENABLED":{"menu":"VERTEX_ATTRIB_ARRAY_ENABLED : Number  readonly","type":"Number","kind":"v"},"VERTEX_ATTRIB_ARRAY_BUFFER_BINDING":{"menu":"VERTEX_ATTRIB_ARRAY_BUFFER_BINDING : Number  readonly","type":"Number","kind":"v"},"VERSION":{"menu":"VERSION : Number  readonly","type":"Number","kind":"v"},"VENDOR":{"menu":"VENDOR : Number  readonly","type":"Number","kind":"v"},"VALIDATE_STATUS":{"menu":"VALIDATE_STATUS : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_SHORT_5_6_5":{"menu":"UNSIGNED_SHORT_5_6_5 : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_SHORT_5_5_5_1":{"menu":"UNSIGNED_SHORT_5_5_5_1 : Number  readonly","type":"Number","kind":"v"},"UNSIGNED_SHORT_4_4_4_4":{"menu":"UNSIGNED_SHORT_4_4_4_4 : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_POSITIVE_X":{"menu":"TEXTURE_CUBE_MAP_POSITIVE_X : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_NEGATIVE_Z":{"menu":"TEXTURE_CUBE_MAP_NEGATIVE_Z : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_NEGATIVE_Y":{"menu":"TEXTURE_CUBE_MAP_NEGATIVE_Y : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP_NEGATIVE_X":{"menu":"TEXTURE_CUBE_MAP_NEGATIVE_X : Number  readonly","type":"Number","kind":"v"},"TEXTURE_CUBE_MAP":{"menu":"TEXTURE_CUBE_MAP : Number  readonly","type":"Number","kind":"v"},"TEXTURE_BINDING_CUBE_MAP":{"menu":"TEXTURE_BINDING_CUBE_MAP : Number  readonly","type":"Number","kind":"v"},"TEXTURE_BINDING_2D":{"menu":"TEXTURE_BINDING_2D : Number  readonly","type":"Number","kind":"v"},"TEXTURE_2D":{"menu":"TEXTURE_2D : Number  readonly","type":"Number","kind":"v"},"TEXTURE9":{"menu":"TEXTURE9 : Number  readonly","type":"Number","kind":"v"},"TEXTURE8":{"menu":"TEXTURE8 : Number  readonly","type":"Number","kind":"v"},"TEXTURE7":{"menu":"TEXTURE7 : Number  readonly","type":"Number","kind":"v"},"TEXTURE6":{"menu":"TEXTURE6 : Number  readonly","type":"Number","kind":"v"},"TEXTURE5":{"menu":"TEXTURE5 : Number  readonly","type":"Number","kind":"v"},"LOW_FLOAT":{"menu":"LOW_FLOAT : Number  readonly","type":"Number","kind":"v"},"LINK_STATUS":{"menu":"LINK_STATUS : Number  readonly","type":"Number","kind":"v"},"LINE_WIDTH":{"menu":"LINE_WIDTH : Number  readonly","type":"Number","kind":"v"},"LINE_STRIP":{"menu":"LINE_STRIP : Number  readonly","type":"Number","kind":"v"},"LINE_LOOP":{"menu":"LINE_LOOP : Number  readonly","type":"Number","kind":"v"},"LINES":{"menu":"LINES : Number  readonly","type":"Number","kind":"v"},"LINEAR_MIPMAP_NEAREST":{"menu":"LINEAR_MIPMAP_NEAREST : Number  readonly","type":"Number","kind":"v"},"LINEAR_MIPMAP_LINEAR":{"menu":"LINEAR_MIPMAP_LINEAR : Number  readonly","type":"Number","kind":"v"},"LINEAR":{"menu":"LINEAR : Number  readonly","type":"Number","kind":"v"},"LESS":{"menu":"LESS : Number  readonly","type":"Number","kind":"v"},"LEQUAL":{"menu":"LEQUAL : Number  readonly","type":"Number","kind":"v"},"KEEP":{"menu":"KEEP : Number  readonly","type":"Number","kind":"v"},"INVERT":{"menu":"INVERT : Number  readonly","type":"Number","kind":"v"},"INVALID_VALUE":{"menu":"INVALID_VALUE : Number  readonly","type":"Number","kind":"v"},"INVALID_OPERATION":{"menu":"INVALID_OPERATION : Number  readonly","type":"Number","kind":"v"},"INVALID_FRAMEBUFFER_OPERATION":{"menu":"INVALID_FRAMEBUFFER_OPERATION : Number  readonly","type":"Number","kind":"v"},"INVALID_ENUM":{"menu":"INVALID_ENUM : Number  readonly","type":"Number","kind":"v"},"INT_VEC4":{"menu":"INT_VEC4 : Number  readonly","type":"Number","kind":"v"},"INT_VEC3":{"menu":"INT_VEC3 : Number  readonly","type":"Number","kind":"v"},"ACTIVE_UNIFORMS":{"menu":"ACTIVE_UNIFORMS : Number  readonly","type":"Number","kind":"v"},"ACTIVE_TEXTURE":{"menu":"ACTIVE_TEXTURE : Number  readonly","type":"Number","kind":"v"},"ACTIVE_ATTRIBUTE_MAX_LENGTH":{"menu":"ACTIVE_ATTRIBUTE_MAX_LENGTH : Number  readonly","type":"Number","kind":"v"},"ACTIVE_ATTRIBUTES":{"menu":"ACTIVE_ATTRIBUTES : Number  readonly","type":"Number","kind":"v"},"prototype":{"kind":"v","type":"Object","class":"WebGLRenderingContext","props":{"getProgramInfoLog":{"menu":"getProgramInfoLog(program : WebGLProgram) : String","type":"String","kind":"f"},"getParameter":{"menu":"getParameter(parameter : Number) : Object","type":"Object","kind":"f"},"getFramebufferAttachmentParameter":{"menu":"getFramebufferAttachmentParameter(target : Number, attachment : Number, parameter : Number) : Object","type":"Object","kind":"f"},"getExtension":{"menu":"getExtension(name : String) : Object","type":"Object","kind":"f"},"getError":{"menu":"getError() : Number","type":"Number","kind":"f"},"getContextAttributes":{"menu":"getContextAttributes() : WebGLContextAttributes","type":"WebGLContextAttributes","kind":"f"},"getBufferParameter":{"menu":"getBufferParameter(target : Number, parameter : Number) : Object","type":"Object","kind":"f"},"getAttribLocation":{"menu":"getAttribLocation(program : WebGLProgram, name : String) : Number","type":"Number","kind":"f"},"getAttachedShaders":{"menu":"getAttachedShaders(program : WebGLProgram) : Array<WebGLShader>","type":"WebGLShader","kind":"f"},"getActiveUniform":{"menu":"getActiveUniform(program : WebGLProgram, index : Number) : WebGLActiveInfo","type":"WebGLActiveInfo","kind":"f"},"getActiveAttrib":{"menu":"getActiveAttrib(program : WebGLProgram, index : Number) : WebGLActiveInfo","type":"WebGLActiveInfo","kind":"f"},"generateMipmap":{"menu":"generateMipmap(target : Number) : undefined","type":"undefined","kind":"f"},"frontFace":{"menu":"frontFace(mode : Number) : undefined","type":"undefined","kind":"f"},"framebufferTexture2D":{"menu":"framebufferTexture2D(target : Number, attachment : Number, textarget : Number, texture : WebGLTexture, level : Number) : undefined","type":"undefined","kind":"f"},"framebufferRenderbuffer":{"menu":"framebufferRenderbuffer(target : Number, attachment : Number, renderbuffertarget : Number, renderbuffer : WebGLRenderbuffer) : undefined","type":"undefined","kind":"f"},"flush":{"menu":"flush() : undefined","type":"undefined","kind":"f"},"finish":{"menu":"finish() : undefined","type":"undefined","kind":"f"},"enableVertexAttribArray":{"menu":"enableVertexAttribArray(attributeLocation : Number) : undefined","type":"undefined","kind":"f"},"enable":{"menu":"enable(capability : Number) : undefined","type":"undefined","kind":"f"},"drawElements":{"menu":"drawElements(mode : Number, indicesCount : Number, indicesNumberType : Number, indicesOffset : Number) : undefined","type":"undefined","kind":"f"},"drawArrays":{"menu":"drawArrays(mode : Number, vertexOffset : Number, vertexCount : Number) : undefined","type":"undefined","kind":"f"},"disableVertexAttribArray":{"menu":"disableVertexAttribArray(index : Number) : undefined","type":"undefined","kind":"f"},"disable":{"menu":"disable(capability : Number) : undefined","type":"undefined","kind":"f"},"detachShader":{"menu":"detachShader(program : WebGLProgram, shader : WebGLShader) : undefined","type":"undefined","kind":"f"},"depthRange":{"menu":"depthRange(zNear : Number, zFar : Number) : undefined","type":"undefined","kind":"f"},"depthMask":{"menu":"depthMask(write : Boolean) : undefined","type":"undefined","kind":"f"},"depthFunc":{"menu":"depthFunc(func : Number) : undefined","type":"undefined","kind":"f"},"deleteTexture":{"menu":"deleteTexture(texture : WebGLTexture) : undefined","type":"undefined","kind":"f"},"deleteShader":{"menu":"deleteShader(shader : WebGLShader) : undefined","type":"undefined","kind":"f"},"deleteRenderbuffer":{"menu":"deleteRenderbuffer(renderbuffer : WebGLRenderbuffer) : undefined","type":"undefined","kind":"f"},"deleteProgram":{"menu":"deleteProgram(program : WebGLProgram) : undefined","type":"undefined","kind":"f"},"deleteFramebuffer":{"menu":"deleteFramebuffer(framebuffer : WebGLFramebuffer) : undefined","type":"undefined","kind":"f"},"checkFramebufferStatus":{"menu":"checkFramebufferStatus(target : Number) : Number","type":"Number","kind":"f"},"blendFuncSeparate":{"menu":"blendFuncSeparate(srcRGB : Number, dstRGB : Number, srcAlpha : Number, dstAlpha : Number) : undefined","type":"undefined","kind":"f"},"blendFunc":{"menu":"blendFunc(srcFactor : Number, dstFactor : Number) : undefined","type":"undefined","kind":"f"},"blendEquationSeparate":{"menu":"blendEquationSeparate(modeRGB : Number, modeAlpha : Number) : undefined","type":"undefined","kind":"f"},"blendEquation":{"menu":"blendEquation(mode : Number) : undefined","type":"undefined","kind":"f"},"blendColor":{"menu":"blendColor(red : Number, green : Number, blue : Number, alpha : Number) : undefined","type":"undefined","kind":"f"},"bindTexture":{"menu":"bindTexture(target : Number, texture : WebGLTexture) : undefined","type":"undefined","kind":"f"},"bindRenderbuffer":{"menu":"bindRenderbuffer(target : Number, renderbuffer : WebGLRenderbuffer) : undefined","type":"undefined","kind":"f"},"canvas":{"menu":"canvas : HTMLCanvasElement  readonly","type":"HTMLCanvasElement","kind":"v"},"drawingBufferHeight":{"menu":"drawingBufferHeight : Number  readonly","type":"Number","kind":"v"},"drawingBufferWidth":{"menu":"drawingBufferWidth : Number  readonly","type":"Number","kind":"v"},"activeTexture":{"menu":"activeTexture(unit : Number) : undefined","type":"undefined","kind":"f"},"attachShader":{"menu":"attachShader(program : WebGLProgram, shader : WebGLShader) : undefined","type":"undefined","kind":"f"},"bindAttribLocation":{"menu":"bindAttribLocation(program : WebGLProgram, location : Number, attributeName : String) : undefined","type":"undefined","kind":"f"},"bindBuffer":{"menu":"bindBuffer(target : Number, buffer : WebGLBuffer) : undefined","type":"undefined","kind":"f"},"bindFramebuffer":{"menu":"bindFramebuffer(target : Number, framebuffer : WebGLFramebuffer) : undefined","type":"undefined","kind":"f"},"clear":{"menu":"clear(mask : Number) : undefined","type":"undefined","kind":"f"},"clearColor":{"menu":"clearColor(red : Number, green : Number, blue : Number, alpha : Number) : undefined","type":"undefined","kind":"f"},"clearDepth":{"menu":"clearDepth(depth : Number) : undefined","type":"undefined","kind":"f"},"clearStencil":{"menu":"clearStencil(s : Number) : undefined","type":"undefined","kind":"f"},"colorMask":{"menu":"colorMask(red : Boolean, green : Boolean, blue : Boolean, alpha : Boolean) : undefined","type":"undefined","kind":"f"},"compileShader":{"menu":"compileShader(shader : WebGLShader) : undefined","type":"undefined","kind":"f"},"linkProgram":{"menu":"linkProgram(program : WebGLProgram) : undefined","type":"undefined","kind":"f"},"pixelStorei":{"menu":"pixelStorei(parameter : Number, value : Number) : undefined","type":"undefined","kind":"f"},"polygonOffset":{"menu":"polygonOffset(factor : Number, units : Number) : undefined","type":"undefined","kind":"f"},"readPixels":{"menu":"readPixels(x : Number, y : Number, width : Number, height : Number, format : Number, type : Number, data : ArrayBufferView) : undefined","type":"undefined","kind":"f"},"renderbufferStorage":{"menu":"renderbufferStorage(target : Number, internalformat : Number, width : Number, height : Number) : undefined","type":"undefined","kind":"f"},"sampleCoverage":{"menu":"sampleCoverage(value : Number, invert : Boolean) : undefined","type":"undefined","kind":"f"},"scissor":{"menu":"scissor(x : Number, y : Number, width : Number, height : Number) : undefined","type":"undefined","kind":"f"},"shaderSource":{"menu":"shaderSource(shader : WebGLShader, source : String) : undefined","type":"undefined","kind":"f"},"stencilFunc":{"menu":"stencilFunc(function : Number, reference : Number, mask : Number) : undefined","type":"undefined","kind":"f"},"stencilFuncSeparate":{"menu":"stencilFuncSeparate(face : Number, func : Number, ref : Number, mask : Number) : undefined","type":"undefined","kind":"f"},"stencilMask":{"menu":"stencilMask(mask : Number) : undefined","type":"undefined","kind":"f"},"stencilMaskSeparate":{"menu":"stencilMaskSeparate(face : Number, mask : Number) : undefined","type":"undefined","kind":"f"},"stencilOp":{"menu":"stencilOp(fail : Number, zfail : Number, zpass : Number) : undefined","type":"undefined","kind":"f"},"stencilOpSeparate":{"menu":"stencilOpSeparate(face : Number, fail : Number, zfail : Number, zpass : Number) : undefined","type":"undefined","kind":"f"},"texParameterf":{"menu":"texParameterf(target : Number, parameter : Number, value : Number) : undefined","type":"undefined","kind":"f"},"texParameteri":{"menu":"texParameteri(target : Number, parameter : Number, value : Number) : undefined","type":"undefined","kind":"f"},"useProgram":{"menu":"useProgram(program : WebGLProgram) : undefined","type":"undefined","kind":"f"},"validateProgram":{"menu":"validateProgram(program : WebGLProgram) : undefined","type":"undefined","kind":"f"},"vertexAttrib1f":{"menu":"vertexAttrib1f(attributeLocation : Number, x : Number) : undefined","type":"undefined","kind":"f"},"vertexAttrib2f":{"menu":"vertexAttrib2f(attribLocation : Number, x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"vertexAttrib3f":{"menu":"vertexAttrib3f(attribLocation : Number, x : Number, y : Number, z : Number) : undefined","type":"undefined","kind":"f"},"vertexAttrib4f":{"menu":"vertexAttrib4f(attribLocation : Number, x : Number, y : Number, z : Number, w : Number) : undefined","type":"undefined","kind":"f"},"vertexAttribPointer":{"menu":"vertexAttribPointer(attribLocation : Number, size : Number, dataType : Number, normalized : Boolean, stride : Number, offset : Number) : undefined","type":"undefined","kind":"f"},"viewport":{"menu":"viewport(x : Number, y : Number, width : Number, height : Number) : undefined","type":"undefined","kind":"f"},"uniform4i":{"menu":"uniform4i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined","type":"undefined","kind":"f"},"uniform4f":{"menu":"uniform4f(uniforLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined","type":"undefined","kind":"f"},"uniform3i":{"menu":"uniform3i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined","type":"undefined","kind":"f"},"uniform3f":{"menu":"uniform3f(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined","type":"undefined","kind":"f"},"uniform2i":{"menu":"uniform2i(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"uniform2f":{"menu":"uniform2f(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined","type":"undefined","kind":"f"},"uniform1i":{"menu":"uniform1i(uniformLocation : WebGLUniformLocation, x : Number) : undefined","type":"undefined","kind":"f"},"uniform1f":{"menu":"uniform1f(uniformLocation : WebGLUniformLocation, x : Number) : undefined","type":"undefined","kind":"f"},"lineWidth":{"menu":"lineWidth(width : Number) : undefined","type":"undefined","kind":"f"},"isTexture":{"menu":"isTexture(texture : WebGLTexture) : Boolean","type":"Boolean","kind":"f"},"isShader":{"menu":"isShader(shader : WebGLShader) : Boolean","type":"Boolean","kind":"f"},"isRenderbuffer":{"menu":"isRenderbuffer(renderbuffer : WebGLRenderbuffer) : Boolean","type":"Boolean","kind":"f"},"isProgram":{"menu":"isProgram(program : WebGLProgram) : Boolean","type":"Boolean","kind":"f"},"isFramebuffer":{"menu":"isFramebuffer(framebuffer : WebGLFramebuffer) : Boolean","type":"Boolean","kind":"f"},"isEnabled":{"menu":"isEnabled(capability : Number) : Boolean","type":"Boolean","kind":"f"},"isContextLost":{"menu":"isContextLost() : Boolean","type":"Boolean","kind":"f"},"isBuffer":{"menu":"isBuffer(buffer : WebGLBuffer) : Boolean","type":"Boolean","kind":"f"},"hint":{"menu":"hint(target : Number, mode : Number) : undefined","type":"undefined","kind":"f"},"getVertexAttribOffset":{"menu":"getVertexAttribOffset(index : Number, parameter : Number) : Number","type":"Number","kind":"f"},"getVertexAttrib":{"menu":"getVertexAttrib(index : Number, parameter : Number) : Object","type":"Object","kind":"f"},"getUniformLocation":{"menu":"getUniformLocation(program : WebGLProgram, name : String) : WebGLUniformLocation","type":"WebGLUniformLocation","kind":"f"},"getUniform":{"menu":"getUniform(program : WebGLProgram, location : WebGLUniformLocation) : Object","type":"Object","kind":"f"},"getTexParameter":{"menu":"getTexParameter(target : Number, parameter : Number) : Object","type":"Object","kind":"f"},"getSupportedExtensions":{"menu":"getSupportedExtensions() : Array<String>","type":"String","kind":"f"},"getShaderSource":{"menu":"getShaderSource(shader : WebGLShader) : String","type":"String","kind":"f"},"getShaderPrecisionFormat":{"menu":"getShaderPrecisionFormat(shadertype : Number, precisiontype : Number) : WebGLShaderPrecisionFormat","type":"WebGLShaderPrecisionFormat","kind":"f"},"getShaderParameter":{"menu":"getShaderParameter(shader : WebGLShader, parameter : Number) : Object","type":"Object","kind":"f"},"getShaderInfoLog":{"menu":"getShaderInfoLog(shader : WebGLShader) : String","type":"String","kind":"f"},"getRenderbufferParameter":{"menu":"getRenderbufferParameter(target : Number, parameter : Number) : Object","type":"Object","kind":"f"},"getProgramParameter":{"menu":"getProgramParameter(program : WebGLProgram, parameter : Number) : Object","type":"Object","kind":"f"},"deleteBuffer":{"menu":"deleteBuffer(buffer : WebGLBuffer) : undefined","type":"undefined","kind":"f"},"cullFace":{"menu":"cullFace(mode : Number) : undefined","type":"undefined","kind":"f"},"createTexture":{"menu":"createTexture() : WebGLTexture","type":"WebGLTexture","kind":"f"},"createShader":{"menu":"createShader(type : Number) : WebGLShader","type":"WebGLShader","kind":"f"},"createRenderbuffer":{"menu":"createRenderbuffer() : WebGLRenderbuffer","type":"WebGLRenderbuffer","kind":"f"},"createProgram":{"menu":"createProgram() : WebGLProgram","type":"WebGLProgram","kind":"f"},"createFramebuffer":{"menu":"createFramebuffer() : WebGLFramebuffer","type":"WebGLFramebuffer","kind":"f"},"createBuffer":{"menu":"createBuffer() : WebGLBuffer","type":"WebGLBuffer","kind":"f"},"copyTexSubImage2D":{"menu":"copyTexSubImage2D(target : Number, level : Number, textureX : Number, textureY : Number, framebufferX : Number, framebufferY : Number, width : Number, height : Number) : undefined","type":"undefined","kind":"f"},"copyTexImage2D":{"menu":"copyTexImage2D(target : Number, level : Number, internalformat : Number, x : Number, y : Number, width : Number, height : Number, border : Number) : undefined","type":"undefined","kind":"f"}}},"ALPHA":{"menu":"ALPHA : Number  readonly","type":"Number","kind":"v"},"ALPHA_BITS":{"menu":"ALPHA_BITS : Number  readonly","type":"Number","kind":"v"},"ALWAYS":{"menu":"ALWAYS : Number  readonly","type":"Number","kind":"v"},"ARRAY_BUFFER":{"menu":"ARRAY_BUFFER : Number  readonly","type":"Number","kind":"v"},"ARRAY_BUFFER_BINDING":{"menu":"ARRAY_BUFFER_BINDING : Number  readonly","type":"Number","kind":"v"},"ATTACHED_SHADERS":{"menu":"ATTACHED_SHADERS : Number  readonly","type":"Number","kind":"v"},"BACK":{"menu":"BACK : Number  readonly","type":"Number","kind":"v"},"BLEND":{"menu":"BLEND : Number  readonly","type":"Number","kind":"v"},"BYTE":{"menu":"BYTE : Number  readonly","type":"Number","kind":"v"},"CCW":{"menu":"CCW : Number  readonly","type":"Number","kind":"v"},"CLAMP_TO_EDGE":{"menu":"CLAMP_TO_EDGE : Number  readonly","type":"Number","kind":"v"},"COLOR_ATTACHMENT0":{"menu":"COLOR_ATTACHMENT0 : Number  readonly","type":"Number","kind":"v"},"COLOR_BUFFER_BIT":{"menu":"COLOR_BUFFER_BIT : Number  readonly","type":"Number","kind":"v"},"COLOR_CLEAR_VALUE":{"menu":"COLOR_CLEAR_VALUE : Number  readonly","type":"Number","kind":"v"},"COLOR_WRITEMASK":{"menu":"COLOR_WRITEMASK : Number  readonly","type":"Number","kind":"v"},"COMPILE_STATUS":{"menu":"COMPILE_STATUS : Number  readonly","type":"Number","kind":"v"},"COMPRESSED_TEXTURE_FORMATS":{"menu":"COMPRESSED_TEXTURE_FORMATS : Number  readonly","type":"Number","kind":"v"},"CONSTANT_ALPHA":{"menu":"CONSTANT_ALPHA : Number  readonly","type":"Number","kind":"v"},"CONSTANT_COLOR":{"menu":"CONSTANT_COLOR : Number  readonly","type":"Number","kind":"v"},"CONTEXT_LOST_WEBGL":{"menu":"CONTEXT_LOST_WEBGL : Number  readonly","type":"Number","kind":"v"},"CULL_FACE":{"menu":"CULL_FACE : Number  readonly","type":"Number","kind":"v"},"CULL_FACE_MODE":{"menu":"CULL_FACE_MODE : Number  readonly","type":"Number","kind":"v"},"CURRENT_PROGRAM":{"menu":"CURRENT_PROGRAM : Number  readonly","type":"Number","kind":"v"},"CURRENT_VERTEX_ATTRIB":{"menu":"CURRENT_VERTEX_ATTRIB : Number  readonly","type":"Number","kind":"v"},"CW":{"menu":"CW : Number  readonly","type":"Number","kind":"v"},"DECR":{"menu":"DECR : Number  readonly","type":"Number","kind":"v"},"DECR_WRAP":{"menu":"DECR_WRAP : Number  readonly","type":"Number","kind":"v"},"DELETE_STATUS":{"menu":"DELETE_STATUS : Number  readonly","type":"Number","kind":"v"},"DEPTH_ATTACHMENT":{"menu":"DEPTH_ATTACHMENT : Number  readonly","type":"Number","kind":"v"},"DEPTH_BITS":{"menu":"DEPTH_BITS : Number  readonly","type":"Number","kind":"v"},"DEPTH_BUFFER_BIT":{"menu":"DEPTH_BUFFER_BIT : Number  readonly","type":"Number","kind":"v"},"DEPTH_CLEAR_VALUE":{"menu":"DEPTH_CLEAR_VALUE : Number  readonly","type":"Number","kind":"v"},"DEPTH_COMPONENT":{"menu":"DEPTH_COMPONENT : Number  readonly","type":"Number","kind":"v"},"DEPTH_COMPONENT16":{"menu":"DEPTH_COMPONENT16 : Number  readonly","type":"Number","kind":"v"},"DEPTH_FUNC":{"menu":"DEPTH_FUNC : Number  readonly","type":"Number","kind":"v"},"DEPTH_RANGE":{"menu":"DEPTH_RANGE : Number  readonly","type":"Number","kind":"v"},"DEPTH_STENCIL":{"menu":"DEPTH_STENCIL : Number  readonly","type":"Number","kind":"v"},"DEPTH_STENCIL_ATTACHMENT":{"menu":"DEPTH_STENCIL_ATTACHMENT : Number  readonly","type":"Number","kind":"v"},"DEPTH_TEST":{"menu":"DEPTH_TEST : Number  readonly","type":"Number","kind":"v"},"DEPTH_WRITEMASK":{"menu":"DEPTH_WRITEMASK : Number  readonly","type":"Number","kind":"v"},"LOW_INT":{"menu":"LOW_INT : Number  readonly","type":"Number","kind":"v"},"LUMINANCE":{"menu":"LUMINANCE : Number  readonly","type":"Number","kind":"v"},"LUMINANCE_ALPHA":{"menu":"LUMINANCE_ALPHA : Number  readonly","type":"Number","kind":"v"},"MAX_COMBINED_TEXTURE_IMAGE_UNITS":{"menu":"MAX_COMBINED_TEXTURE_IMAGE_UNITS : Number  readonly","type":"Number","kind":"v"},"MAX_CUBE_MAP_TEXTURE_SIZE":{"menu":"MAX_CUBE_MAP_TEXTURE_SIZE : Number  readonly","type":"Number","kind":"v"},"MAX_FRAGMENT_UNIFORM_VECTORS":{"menu":"MAX_FRAGMENT_UNIFORM_VECTORS : Number  readonly","type":"Number","kind":"v"},"MAX_RENDERBUFFER_SIZE":{"menu":"MAX_RENDERBUFFER_SIZE : Number  readonly","type":"Number","kind":"v"},"MAX_TEXTURE_IMAGE_UNITS":{"menu":"MAX_TEXTURE_IMAGE_UNITS : Number  readonly","type":"Number","kind":"v"},"MAX_TEXTURE_SIZE":{"menu":"MAX_TEXTURE_SIZE : Number  readonly","type":"Number","kind":"v"},"MAX_VARYING_VECTORS":{"menu":"MAX_VARYING_VECTORS : Number  readonly","type":"Number","kind":"v"},"MAX_VERTEX_ATTRIBS":{"menu":"MAX_VERTEX_ATTRIBS : Number  readonly","type":"Number","kind":"v"},"MAX_VERTEX_TEXTURE_IMAGE_UNITS":{"menu":"MAX_VERTEX_TEXTURE_IMAGE_UNITS : Number  readonly","type":"Number","kind":"v"},"MAX_VERTEX_UNIFORM_VECTORS":{"menu":"MAX_VERTEX_UNIFORM_VECTORS : Number  readonly","type":"Number","kind":"v"},"MAX_VIEWPORT_DIMS":{"menu":"MAX_VIEWPORT_DIMS : Number  readonly","type":"Number","kind":"v"},"MEDIUM_FLOAT":{"menu":"MEDIUM_FLOAT : Number  readonly","type":"Number","kind":"v"},"MEDIUM_INT":{"menu":"MEDIUM_INT : Number  readonly","type":"Number","kind":"v"},"MIRRORED_REPEAT":{"menu":"MIRRORED_REPEAT : Number  readonly","type":"Number","kind":"v"},"NEAREST":{"menu":"NEAREST : Number  readonly","type":"Number","kind":"v"},"NEAREST_MIPMAP_LINEAR":{"menu":"NEAREST_MIPMAP_LINEAR : Number  readonly","type":"Number","kind":"v"},"NEAREST_MIPMAP_NEAREST":{"menu":"NEAREST_MIPMAP_NEAREST : Number  readonly","type":"Number","kind":"v"},"NEVER":{"menu":"NEVER : Number  readonly","type":"Number","kind":"v"},"NICEST":{"menu":"NICEST : Number  readonly","type":"Number","kind":"v"},"NONE":{"menu":"NONE : Number  readonly","type":"Number","kind":"v"},"NOTEQUAL":{"menu":"NOTEQUAL : Number  readonly","type":"Number","kind":"v"},"NO_ERROR":{"menu":"NO_ERROR : Number  readonly","type":"Number","kind":"v"},"NUM_COMPRESSED_TEXTURE_FORMATS":{"menu":"NUM_COMPRESSED_TEXTURE_FORMATS : Number  readonly","type":"Number","kind":"v"},"ONE":{"menu":"ONE : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_CONSTANT_ALPHA":{"menu":"ONE_MINUS_CONSTANT_ALPHA : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_CONSTANT_COLOR":{"menu":"ONE_MINUS_CONSTANT_COLOR : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_DST_ALPHA":{"menu":"ONE_MINUS_DST_ALPHA : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_DST_COLOR":{"menu":"ONE_MINUS_DST_COLOR : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_SRC_ALPHA":{"menu":"ONE_MINUS_SRC_ALPHA : Number  readonly","type":"Number","kind":"v"},"ONE_MINUS_SRC_COLOR":{"menu":"ONE_MINUS_SRC_COLOR : Number  readonly","type":"Number","kind":"v"},"OUT_OF_MEMORY":{"menu":"OUT_OF_MEMORY : Number  readonly","type":"Number","kind":"v"},"PACK_ALIGNMENT":{"menu":"PACK_ALIGNMENT : Number  readonly","type":"Number","kind":"v"},"POINTS":{"menu":"POINTS : Number  readonly","type":"Number","kind":"v"},"POLYGON_OFFSET_FACTOR":{"menu":"POLYGON_OFFSET_FACTOR : Number  readonly","type":"Number","kind":"v"},"POLYGON_OFFSET_FILL":{"menu":"POLYGON_OFFSET_FILL : Number  readonly","type":"Number","kind":"v"},"POLYGON_OFFSET_UNITS":{"menu":"POLYGON_OFFSET_UNITS : Number  readonly","type":"Number","kind":"v"},"RED_BITS":{"menu":"RED_BITS : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER":{"menu":"RENDERBUFFER : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_ALPHA_SIZE":{"menu":"RENDERBUFFER_ALPHA_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_BINDING":{"menu":"RENDERBUFFER_BINDING : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_BLUE_SIZE":{"menu":"RENDERBUFFER_BLUE_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_DEPTH_SIZE":{"menu":"RENDERBUFFER_DEPTH_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_GREEN_SIZE":{"menu":"RENDERBUFFER_GREEN_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_HEIGHT":{"menu":"RENDERBUFFER_HEIGHT : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_INTERNAL_FORMAT":{"menu":"RENDERBUFFER_INTERNAL_FORMAT : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_RED_SIZE":{"menu":"RENDERBUFFER_RED_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_STENCIL_SIZE":{"menu":"RENDERBUFFER_STENCIL_SIZE : Number  readonly","type":"Number","kind":"v"},"RENDERBUFFER_WIDTH":{"menu":"RENDERBUFFER_WIDTH : Number  readonly","type":"Number","kind":"v"},"RENDERER":{"menu":"RENDERER : Number  readonly","type":"Number","kind":"v"},"REPEAT":{"menu":"REPEAT : Number  readonly","type":"Number","kind":"v"},"REPLACE":{"menu":"REPLACE : Number  readonly","type":"Number","kind":"v"},"RGB":{"menu":"RGB : Number  readonly","type":"Number","kind":"v"},"RGB565":{"menu":"RGB565 : Number  readonly","type":"Number","kind":"v"},"RGB5_A1":{"menu":"RGB5_A1 : Number  readonly","type":"Number","kind":"v"},"RGBA":{"menu":"RGBA : Number  readonly","type":"Number","kind":"v"},"RGBA4":{"menu":"RGBA4 : Number  readonly","type":"Number","kind":"v"},"SAMPLER_2D":{"menu":"SAMPLER_2D : Number  readonly","type":"Number","kind":"v"},"SAMPLER_CUBE":{"menu":"SAMPLER_CUBE : Number  readonly","type":"Number","kind":"v"},"SAMPLES":{"menu":"SAMPLES : Number  readonly","type":"Number","kind":"v"},"SAMPLE_ALPHA_TO_COVERAGE":{"menu":"SAMPLE_ALPHA_TO_COVERAGE : Number  readonly","type":"Number","kind":"v"},"SAMPLE_BUFFERS":{"menu":"SAMPLE_BUFFERS : Number  readonly","type":"Number","kind":"v"},"SAMPLE_COVERAGE":{"menu":"SAMPLE_COVERAGE : Number  readonly","type":"Number","kind":"v"},"SAMPLE_COVERAGE_INVERT":{"menu":"SAMPLE_COVERAGE_INVERT : Number  readonly","type":"Number","kind":"v"},"SAMPLE_COVERAGE_VALUE":{"menu":"SAMPLE_COVERAGE_VALUE : Number  readonly","type":"Number","kind":"v"},"SCISSOR_BOX":{"menu":"SCISSOR_BOX : Number  readonly","type":"Number","kind":"v"},"SCISSOR_TEST":{"menu":"SCISSOR_TEST : Number  readonly","type":"Number","kind":"v"},"SHADER_SOURCE_LENGTH":{"menu":"SHADER_SOURCE_LENGTH : Number  readonly","type":"Number","kind":"v"},"SHADER_TYPE":{"menu":"SHADER_TYPE : Number  readonly","type":"Number","kind":"v"},"SHADING_LANGUAGE_VERSION":{"menu":"SHADING_LANGUAGE_VERSION : Number  readonly","type":"Number","kind":"v"},"SHORT":{"menu":"SHORT : Number  readonly","type":"Number","kind":"v"},"SRC_ALPHA":{"menu":"SRC_ALPHA : Number  readonly","type":"Number","kind":"v"},"SRC_ALPHA_SATURATE":{"menu":"SRC_ALPHA_SATURATE : Number  readonly","type":"Number","kind":"v"},"SRC_COLOR":{"menu":"SRC_COLOR : Number  readonly","type":"Number","kind":"v"},"STATIC_DRAW":{"menu":"STATIC_DRAW : Number  readonly","type":"Number","kind":"v"},"STENCIL_ATTACHMENT":{"menu":"STENCIL_ATTACHMENT : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_FAIL":{"menu":"STENCIL_BACK_FAIL : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_FUNC":{"menu":"STENCIL_BACK_FUNC : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_PASS_DEPTH_FAIL":{"menu":"STENCIL_BACK_PASS_DEPTH_FAIL : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_PASS_DEPTH_PASS":{"menu":"STENCIL_BACK_PASS_DEPTH_PASS : Number  readonly","type":"Number","kind":"v"},"STENCIL_BACK_REF":{"menu":"STENCIL_BACK_REF : Number  readonly","type":"Number","kind":"v"}},"kind":"f"},"WebGLRenderbuffer":{"kind":"v"},"WebGLBuffer":{"kind":"v"},"WebGLProgram":{"kind":"v"},"WebGLUniformLocation":{"kind":"v"},"WebGLFramebuffer":{"kind":"v"},"WebGLActiveInfo":{"props":{"prototype":{"kind":"v","type":"Object","class":"WebGLActiveInfo","props":{"name":{"menu":"name : String  readonly","type":"String","kind":"v"},"size":{"menu":"size : Number  readonly","type":"Number","kind":"v"},"type":{"menu":"type : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"},"WebGLShaderPrecisionFormat":{"props":{"prototype":{"kind":"v","type":"Object","class":"WebGLShaderPrecisionFormat","props":{"precision":{"menu":"precision : Number  readonly","type":"Number","kind":"v"},"rangeMax":{"menu":"rangeMax : Number  readonly","type":"Number","kind":"v"},"rangeMin":{"menu":"rangeMin : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"}}
+{
+  "WebGLShaderPrecisionFormat": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "rangeMin": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "rangeMin : Number readonly"
+          },
+          "rangeMax": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "rangeMax : Number readonly"
+          },
+          "precision": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "precision : Number readonly"
+          }
+        },
+        "class": "WebGLShaderPrecisionFormat",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "WebGLActiveInfo": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "type": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "type : Number readonly"
+          },
+          "size": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "size : Number readonly"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String readonly"
+          }
+        },
+        "class": "WebGLActiveInfo",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "WebGLFramebuffer": {
+    "kind": "v"
+  },
+  "WebGLContextAttributes": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "stencil": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "stencil : Boolean"
+          },
+          "preserveDrawingBuffer": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "preserveDrawingBuffer : Boolean"
+          },
+          "premultipliedAlpha": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "premultipliedAlpha : Boolean"
+          },
+          "depth": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "depth : Boolean"
+          },
+          "antialias": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "antialias : Boolean"
+          },
+          "alpha": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "alpha : Boolean"
+          }
+        },
+        "class": "WebGLContextAttributes",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "WebGLShader": {
+    "kind": "v"
+  },
+  "WebGLTexture": {
+    "kind": "v"
+  },
+  "WebGLRenderingContext": {
+    "kind": "f",
+    "props": {
+      "STENCIL_BACK_REF": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_REF : Number readonly"
+      },
+      "STENCIL_BACK_PASS_DEPTH_PASS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_PASS_DEPTH_PASS : Number readonly"
+      },
+      "STENCIL_BACK_PASS_DEPTH_FAIL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_PASS_DEPTH_FAIL : Number readonly"
+      },
+      "STENCIL_BACK_FUNC": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_FUNC : Number readonly"
+      },
+      "STENCIL_BACK_FAIL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_FAIL : Number readonly"
+      },
+      "STENCIL_ATTACHMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_ATTACHMENT : Number readonly"
+      },
+      "STATIC_DRAW": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STATIC_DRAW : Number readonly"
+      },
+      "SRC_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SRC_COLOR : Number readonly"
+      },
+      "SRC_ALPHA_SATURATE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SRC_ALPHA_SATURATE : Number readonly"
+      },
+      "SRC_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SRC_ALPHA : Number readonly"
+      },
+      "SHORT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHORT : Number readonly"
+      },
+      "SHADING_LANGUAGE_VERSION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHADING_LANGUAGE_VERSION : Number readonly"
+      },
+      "SHADER_TYPE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHADER_TYPE : Number readonly"
+      },
+      "SHADER_SOURCE_LENGTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHADER_SOURCE_LENGTH : Number readonly"
+      },
+      "SCISSOR_TEST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SCISSOR_TEST : Number readonly"
+      },
+      "SCISSOR_BOX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SCISSOR_BOX : Number readonly"
+      },
+      "SAMPLE_COVERAGE_VALUE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLE_COVERAGE_VALUE : Number readonly"
+      },
+      "SAMPLE_COVERAGE_INVERT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLE_COVERAGE_INVERT : Number readonly"
+      },
+      "SAMPLE_COVERAGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLE_COVERAGE : Number readonly"
+      },
+      "SAMPLE_BUFFERS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLE_BUFFERS : Number readonly"
+      },
+      "SAMPLE_ALPHA_TO_COVERAGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLE_ALPHA_TO_COVERAGE : Number readonly"
+      },
+      "SAMPLES": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLES : Number readonly"
+      },
+      "SAMPLER_CUBE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLER_CUBE : Number readonly"
+      },
+      "SAMPLER_2D": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SAMPLER_2D : Number readonly"
+      },
+      "RGBA4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RGBA4 : Number readonly"
+      },
+      "RGBA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RGBA : Number readonly"
+      },
+      "RGB5_A1": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RGB5_A1 : Number readonly"
+      },
+      "RGB565": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RGB565 : Number readonly"
+      },
+      "RGB": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RGB : Number readonly"
+      },
+      "REPLACE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "REPLACE : Number readonly"
+      },
+      "REPEAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "REPEAT : Number readonly"
+      },
+      "RENDERER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERER : Number readonly"
+      },
+      "RENDERBUFFER_WIDTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_WIDTH : Number readonly"
+      },
+      "RENDERBUFFER_STENCIL_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_STENCIL_SIZE : Number readonly"
+      },
+      "RENDERBUFFER_RED_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_RED_SIZE : Number readonly"
+      },
+      "RENDERBUFFER_INTERNAL_FORMAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_INTERNAL_FORMAT : Number readonly"
+      },
+      "RENDERBUFFER_HEIGHT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_HEIGHT : Number readonly"
+      },
+      "RENDERBUFFER_GREEN_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_GREEN_SIZE : Number readonly"
+      },
+      "RENDERBUFFER_DEPTH_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_DEPTH_SIZE : Number readonly"
+      },
+      "RENDERBUFFER_BLUE_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_BLUE_SIZE : Number readonly"
+      },
+      "RENDERBUFFER_BINDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_BINDING : Number readonly"
+      },
+      "RENDERBUFFER_ALPHA_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER_ALPHA_SIZE : Number readonly"
+      },
+      "RENDERBUFFER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RENDERBUFFER : Number readonly"
+      },
+      "RED_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "RED_BITS : Number readonly"
+      },
+      "POLYGON_OFFSET_UNITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "POLYGON_OFFSET_UNITS : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_SIZE : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_POINTER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_POINTER : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_NORMALIZED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_NORMALIZED : Number readonly"
+      },
+      "UNSIGNED_SHORT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_SHORT : Number readonly"
+      },
+      "UNSIGNED_INT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_INT : Number readonly"
+      },
+      "UNSIGNED_BYTE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_BYTE : Number readonly"
+      },
+      "UNPACK_PREMULTIPLY_ALPHA_WEBGL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNPACK_PREMULTIPLY_ALPHA_WEBGL : Number readonly"
+      },
+      "UNPACK_FLIP_Y_WEBGL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNPACK_FLIP_Y_WEBGL : Number readonly"
+      },
+      "UNPACK_COLORSPACE_CONVERSION_WEBGL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNPACK_COLORSPACE_CONVERSION_WEBGL : Number readonly"
+      },
+      "UNPACK_ALIGNMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNPACK_ALIGNMENT : Number readonly"
+      },
+      "TRIANGLE_STRIP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TRIANGLE_STRIP : Number readonly"
+      },
+      "TRIANGLE_FAN": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TRIANGLE_FAN : Number readonly"
+      },
+      "TRIANGLES": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TRIANGLES : Number readonly"
+      },
+      "TEXTURE_WRAP_T": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_WRAP_T : Number readonly"
+      },
+      "TEXTURE_WRAP_S": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_WRAP_S : Number readonly"
+      },
+      "TEXTURE_MIN_FILTER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_MIN_FILTER : Number readonly"
+      },
+      "TEXTURE_MAG_FILTER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_MAG_FILTER : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_POSITIVE_Z": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_POSITIVE_Z : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_POSITIVE_Y": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_POSITIVE_Y : Number readonly"
+      },
+      "INT_VEC2": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INT_VEC2 : Number readonly"
+      },
+      "INT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INT : Number readonly"
+      },
+      "INFO_LOG_LENGTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INFO_LOG_LENGTH : Number readonly"
+      },
+      "INCR_WRAP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INCR_WRAP : Number readonly"
+      },
+      "INCR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INCR : Number readonly"
+      },
+      "HIGH_INT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HIGH_INT : Number readonly"
+      },
+      "HIGH_FLOAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "HIGH_FLOAT : Number readonly"
+      },
+      "GREEN_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "GREEN_BITS : Number readonly"
+      },
+      "GREATER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "GREATER : Number readonly"
+      },
+      "GEQUAL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "GEQUAL : Number readonly"
+      },
+      "GENERATE_MIPMAP_HINT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "GENERATE_MIPMAP_HINT : Number readonly"
+      },
+      "FUNC_SUBTRACT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FUNC_SUBTRACT : Number readonly"
+      },
+      "FUNC_REVERSE_SUBTRACT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FUNC_REVERSE_SUBTRACT : Number readonly"
+      },
+      "FUNC_ADD": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FUNC_ADD : Number readonly"
+      },
+      "FRONT_FACE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRONT_FACE : Number readonly"
+      },
+      "FRONT_AND_BACK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRONT_AND_BACK : Number readonly"
+      },
+      "FRONT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRONT : Number readonly"
+      },
+      "FRAMEBUFFER_UNSUPPORTED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_UNSUPPORTED : Number readonly"
+      },
+      "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT : Number readonly"
+      },
+      "FRAMEBUFFER_INCOMPLETE_DIMENSIONS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_INCOMPLETE_DIMENSIONS : Number readonly"
+      },
+      "FRAMEBUFFER_INCOMPLETE_ATTACHMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_INCOMPLETE_ATTACHMENT : Number readonly"
+      },
+      "FRAMEBUFFER_COMPLETE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_COMPLETE : Number readonly"
+      },
+      "FRAMEBUFFER_BINDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_BINDING : Number readonly"
+      },
+      "FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL : Number readonly"
+      },
+      "FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE : Number readonly"
+      },
+      "FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE : Number readonly"
+      },
+      "FRAMEBUFFER_ATTACHMENT_OBJECT_NAME": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER_ATTACHMENT_OBJECT_NAME : Number readonly"
+      },
+      "FRAMEBUFFER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAMEBUFFER : Number readonly"
+      },
+      "FRAGMENT_SHADER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FRAGMENT_SHADER : Number readonly"
+      },
+      "FLOAT_VEC4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_VEC4 : Number readonly"
+      },
+      "FLOAT_VEC3": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_VEC3 : Number readonly"
+      },
+      "FLOAT_VEC2": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_VEC2 : Number readonly"
+      },
+      "FLOAT_MAT4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_MAT4 : Number readonly"
+      },
+      "FLOAT_MAT3": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_MAT3 : Number readonly"
+      },
+      "FLOAT_MAT2": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT_MAT2 : Number readonly"
+      },
+      "FLOAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FLOAT : Number readonly"
+      },
+      "FASTEST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FASTEST : Number readonly"
+      },
+      "EQUAL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "EQUAL : Number readonly"
+      },
+      "ELEMENT_ARRAY_BUFFER_BINDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ELEMENT_ARRAY_BUFFER_BINDING : Number readonly"
+      },
+      "ELEMENT_ARRAY_BUFFER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ELEMENT_ARRAY_BUFFER : Number readonly"
+      },
+      "DYNAMIC_DRAW": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DYNAMIC_DRAW : Number readonly"
+      },
+      "DST_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DST_COLOR : Number readonly"
+      },
+      "DST_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DST_ALPHA : Number readonly"
+      },
+      "DONT_CARE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DONT_CARE : Number readonly"
+      },
+      "DITHER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DITHER : Number readonly"
+      },
+      "STENCIL_VALUE_MASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_VALUE_MASK : Number readonly"
+      },
+      "STENCIL_WRITEMASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_WRITEMASK : Number readonly"
+      },
+      "STREAM_DRAW": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STREAM_DRAW : Number readonly"
+      },
+      "SUBPIXEL_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SUBPIXEL_BITS : Number readonly"
+      },
+      "TEXTURE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE : Number readonly"
+      },
+      "TEXTURE0": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE0 : Number readonly"
+      },
+      "TEXTURE1": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE1 : Number readonly"
+      },
+      "TEXTURE10": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE10 : Number readonly"
+      },
+      "TEXTURE11": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE11 : Number readonly"
+      },
+      "TEXTURE12": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE12 : Number readonly"
+      },
+      "TEXTURE13": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE13 : Number readonly"
+      },
+      "TEXTURE14": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE14 : Number readonly"
+      },
+      "TEXTURE15": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE15 : Number readonly"
+      },
+      "TEXTURE16": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE16 : Number readonly"
+      },
+      "TEXTURE17": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE17 : Number readonly"
+      },
+      "TEXTURE18": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE18 : Number readonly"
+      },
+      "TEXTURE26": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE26 : Number readonly"
+      },
+      "TEXTURE27": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE27 : Number readonly"
+      },
+      "TEXTURE28": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE28 : Number readonly"
+      },
+      "TEXTURE29": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE29 : Number readonly"
+      },
+      "TEXTURE3": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE3 : Number readonly"
+      },
+      "TEXTURE30": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE30 : Number readonly"
+      },
+      "TEXTURE31": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE31 : Number readonly"
+      },
+      "TEXTURE4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE4 : Number readonly"
+      },
+      "TEXTURE25": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE25 : Number readonly"
+      },
+      "TEXTURE24": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE24 : Number readonly"
+      },
+      "TEXTURE23": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE23 : Number readonly"
+      },
+      "TEXTURE22": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE22 : Number readonly"
+      },
+      "TEXTURE21": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE21 : Number readonly"
+      },
+      "TEXTURE20": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE20 : Number readonly"
+      },
+      "TEXTURE2": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE2 : Number readonly"
+      },
+      "TEXTURE19": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE19 : Number readonly"
+      },
+      "STENCIL_TEST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_TEST : Number readonly"
+      },
+      "STENCIL_REF": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_REF : Number readonly"
+      },
+      "STENCIL_PASS_DEPTH_PASS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_PASS_DEPTH_PASS : Number readonly"
+      },
+      "STENCIL_PASS_DEPTH_FAIL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_PASS_DEPTH_FAIL : Number readonly"
+      },
+      "STENCIL_INDEX8": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_INDEX8 : Number readonly"
+      },
+      "STENCIL_INDEX": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_INDEX : Number readonly"
+      },
+      "STENCIL_FUNC": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_FUNC : Number readonly"
+      },
+      "STENCIL_FAIL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_FAIL : Number readonly"
+      },
+      "STENCIL_CLEAR_VALUE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_CLEAR_VALUE : Number readonly"
+      },
+      "STENCIL_BUFFER_BIT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BUFFER_BIT : Number readonly"
+      },
+      "STENCIL_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BITS : Number readonly"
+      },
+      "STENCIL_BACK_WRITEMASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_WRITEMASK : Number readonly"
+      },
+      "STENCIL_BACK_VALUE_MASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "STENCIL_BACK_VALUE_MASK : Number readonly"
+      },
+      "ACTIVE_UNIFORM_MAX_LENGTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ACTIVE_UNIFORM_MAX_LENGTH : Number readonly"
+      },
+      "ALIASED_LINE_WIDTH_RANGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ALIASED_LINE_WIDTH_RANGE : Number readonly"
+      },
+      "ALIASED_POINT_SIZE_RANGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ALIASED_POINT_SIZE_RANGE : Number readonly"
+      },
+      "BLEND_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_COLOR : Number readonly"
+      },
+      "BLEND_DST_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_DST_ALPHA : Number readonly"
+      },
+      "BLEND_DST_RGB": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_DST_RGB : Number readonly"
+      },
+      "BLEND_EQUATION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_EQUATION : Number readonly"
+      },
+      "BLEND_EQUATION_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_EQUATION_ALPHA : Number readonly"
+      },
+      "BLEND_EQUATION_RGB": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_EQUATION_RGB : Number readonly"
+      },
+      "BLEND_SRC_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_SRC_ALPHA : Number readonly"
+      },
+      "BLEND_SRC_RGB": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND_SRC_RGB : Number readonly"
+      },
+      "BLUE_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLUE_BITS : Number readonly"
+      },
+      "BOOL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BOOL : Number readonly"
+      },
+      "BOOL_VEC2": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BOOL_VEC2 : Number readonly"
+      },
+      "BOOL_VEC3": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BOOL_VEC3 : Number readonly"
+      },
+      "BOOL_VEC4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BOOL_VEC4 : Number readonly"
+      },
+      "BROWSER_DEFAULT_WEBGL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BROWSER_DEFAULT_WEBGL : Number readonly"
+      },
+      "BUFFER_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BUFFER_SIZE : Number readonly"
+      },
+      "BUFFER_USAGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BUFFER_USAGE : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_STRIDE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_STRIDE : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_TYPE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_TYPE : Number readonly"
+      },
+      "VERTEX_SHADER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_SHADER : Number readonly"
+      },
+      "VIEWPORT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VIEWPORT : Number readonly"
+      },
+      "ZERO": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ZERO : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_ENABLED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_ENABLED : Number readonly"
+      },
+      "VERTEX_ATTRIB_ARRAY_BUFFER_BINDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERTEX_ATTRIB_ARRAY_BUFFER_BINDING : Number readonly"
+      },
+      "VERSION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VERSION : Number readonly"
+      },
+      "VENDOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VENDOR : Number readonly"
+      },
+      "VALIDATE_STATUS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "VALIDATE_STATUS : Number readonly"
+      },
+      "UNSIGNED_SHORT_5_6_5": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_SHORT_5_6_5 : Number readonly"
+      },
+      "UNSIGNED_SHORT_5_5_5_1": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_SHORT_5_5_5_1 : Number readonly"
+      },
+      "UNSIGNED_SHORT_4_4_4_4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "UNSIGNED_SHORT_4_4_4_4 : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_POSITIVE_X": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_POSITIVE_X : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_NEGATIVE_Z": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_NEGATIVE_Z : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_NEGATIVE_Y": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_NEGATIVE_Y : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP_NEGATIVE_X": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP_NEGATIVE_X : Number readonly"
+      },
+      "TEXTURE_CUBE_MAP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_CUBE_MAP : Number readonly"
+      },
+      "TEXTURE_BINDING_CUBE_MAP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_BINDING_CUBE_MAP : Number readonly"
+      },
+      "TEXTURE_BINDING_2D": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_BINDING_2D : Number readonly"
+      },
+      "TEXTURE_2D": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE_2D : Number readonly"
+      },
+      "TEXTURE9": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE9 : Number readonly"
+      },
+      "TEXTURE8": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE8 : Number readonly"
+      },
+      "TEXTURE7": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE7 : Number readonly"
+      },
+      "TEXTURE6": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE6 : Number readonly"
+      },
+      "TEXTURE5": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXTURE5 : Number readonly"
+      },
+      "LOW_FLOAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LOW_FLOAT : Number readonly"
+      },
+      "LINK_STATUS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINK_STATUS : Number readonly"
+      },
+      "LINE_WIDTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINE_WIDTH : Number readonly"
+      },
+      "LINE_STRIP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINE_STRIP : Number readonly"
+      },
+      "LINE_LOOP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINE_LOOP : Number readonly"
+      },
+      "LINES": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINES : Number readonly"
+      },
+      "LINEAR_MIPMAP_NEAREST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINEAR_MIPMAP_NEAREST : Number readonly"
+      },
+      "LINEAR_MIPMAP_LINEAR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINEAR_MIPMAP_LINEAR : Number readonly"
+      },
+      "LINEAR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LINEAR : Number readonly"
+      },
+      "LESS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LESS : Number readonly"
+      },
+      "LEQUAL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LEQUAL : Number readonly"
+      },
+      "KEEP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "KEEP : Number readonly"
+      },
+      "INVERT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INVERT : Number readonly"
+      },
+      "INVALID_VALUE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INVALID_VALUE : Number readonly"
+      },
+      "INVALID_OPERATION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INVALID_OPERATION : Number readonly"
+      },
+      "INVALID_FRAMEBUFFER_OPERATION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INVALID_FRAMEBUFFER_OPERATION : Number readonly"
+      },
+      "INVALID_ENUM": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INVALID_ENUM : Number readonly"
+      },
+      "INT_VEC4": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INT_VEC4 : Number readonly"
+      },
+      "INT_VEC3": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "INT_VEC3 : Number readonly"
+      },
+      "ACTIVE_UNIFORMS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ACTIVE_UNIFORMS : Number readonly"
+      },
+      "ACTIVE_TEXTURE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ACTIVE_TEXTURE : Number readonly"
+      },
+      "ACTIVE_ATTRIBUTE_MAX_LENGTH": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ACTIVE_ATTRIBUTE_MAX_LENGTH : Number readonly"
+      },
+      "ACTIVE_ATTRIBUTES": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ACTIVE_ATTRIBUTES : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "copyTexImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "copyTexImage2D(target : Number, level : Number, internalformat : Number, x : Number, y : Number, width : Number, height : Number, border : Number) : undefined"
+          },
+          "copyTexSubImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "copyTexSubImage2D(target : Number, level : Number, textureX : Number, textureY : Number, framebufferX : Number, framebufferY : Number, width : Number, height : Number) : undefined"
+          },
+          "createBuffer": {
+            "kind": "f",
+            "type": "WebGLBuffer",
+            "menu": "createBuffer() : WebGLBuffer"
+          },
+          "createFramebuffer": {
+            "kind": "f",
+            "type": "WebGLFramebuffer",
+            "menu": "createFramebuffer() : WebGLFramebuffer"
+          },
+          "createProgram": {
+            "kind": "f",
+            "type": "WebGLProgram",
+            "menu": "createProgram() : WebGLProgram"
+          },
+          "createRenderbuffer": {
+            "kind": "f",
+            "type": "WebGLRenderbuffer",
+            "menu": "createRenderbuffer() : WebGLRenderbuffer"
+          },
+          "createShader": {
+            "kind": "f",
+            "type": "WebGLShader",
+            "menu": "createShader(type : Number) : WebGLShader"
+          },
+          "createTexture": {
+            "kind": "f",
+            "type": "WebGLTexture",
+            "menu": "createTexture() : WebGLTexture"
+          },
+          "cullFace": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "cullFace(mode : Number) : undefined"
+          },
+          "deleteBuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteBuffer(buffer : WebGLBuffer) : undefined"
+          },
+          "getProgramParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getProgramParameter(program : WebGLProgram, parameter : Number) : Object"
+          },
+          "getRenderbufferParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getRenderbufferParameter(target : Number, parameter : Number) : Object"
+          },
+          "getShaderInfoLog": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getShaderInfoLog(shader : WebGLShader) : String"
+          },
+          "getShaderParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getShaderParameter(shader : WebGLShader, parameter : Number) : Object"
+          },
+          "getShaderPrecisionFormat": {
+            "kind": "f",
+            "type": "WebGLShaderPrecisionFormat",
+            "menu": "getShaderPrecisionFormat(shadertype : Number, precisiontype : Number) : WebGLShaderPrecisionFormat"
+          },
+          "getShaderSource": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getShaderSource(shader : WebGLShader) : String"
+          },
+          "getSupportedExtensions": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getSupportedExtensions() : Array<String>"
+          },
+          "getTexParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getTexParameter(target : Number, parameter : Number) : Object"
+          },
+          "getUniform": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getUniform(program : WebGLProgram, location : WebGLUniformLocation) : Object"
+          },
+          "getUniformLocation": {
+            "kind": "f",
+            "type": "WebGLUniformLocation",
+            "menu": "getUniformLocation(program : WebGLProgram, name : String) : WebGLUniformLocation"
+          },
+          "getVertexAttrib": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getVertexAttrib(index : Number, parameter : Number) : Object"
+          },
+          "getVertexAttribOffset": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getVertexAttribOffset(index : Number, parameter : Number) : Number"
+          },
+          "hint": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "hint(target : Number, mode : Number) : undefined"
+          },
+          "isBuffer": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isBuffer(buffer : WebGLBuffer) : Boolean"
+          },
+          "isContextLost": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isContextLost() : Boolean"
+          },
+          "isEnabled": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isEnabled(capability : Number) : Boolean"
+          },
+          "isFramebuffer": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isFramebuffer(framebuffer : WebGLFramebuffer) : Boolean"
+          },
+          "isProgram": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isProgram(program : WebGLProgram) : Boolean"
+          },
+          "isRenderbuffer": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isRenderbuffer(renderbuffer : WebGLRenderbuffer) : Boolean"
+          },
+          "isShader": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isShader(shader : WebGLShader) : Boolean"
+          },
+          "isTexture": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isTexture(texture : WebGLTexture) : Boolean"
+          },
+          "lineWidth": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "lineWidth(width : Number) : undefined"
+          },
+          "uniform1f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform1f(uniformLocation : WebGLUniformLocation, x : Number) : undefined"
+          },
+          "uniform1i": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform1i(uniformLocation : WebGLUniformLocation, x : Number) : undefined"
+          },
+          "uniform2f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform2f(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined"
+          },
+          "uniform2i": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform2i(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined"
+          },
+          "uniform3f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform3f(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined"
+          },
+          "uniform3i": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform3i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined"
+          },
+          "uniform4f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform4f(uniforLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined"
+          },
+          "uniform4i": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform4i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined"
+          },
+          "viewport": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "viewport(x : Number, y : Number, width : Number, height : Number) : undefined"
+          },
+          "vertexAttribPointer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttribPointer(attribLocation : Number, size : Number, dataType : Number, normalized : Boolean, stride : Number, offset : Number) : undefined"
+          },
+          "vertexAttrib4f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib4f(attribLocation : Number, x : Number, y : Number, z : Number, w : Number) : undefined"
+          },
+          "vertexAttrib3f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib3f(attribLocation : Number, x : Number, y : Number, z : Number) : undefined"
+          },
+          "vertexAttrib2f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib2f(attribLocation : Number, x : Number, y : Number) : undefined"
+          },
+          "vertexAttrib1f": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib1f(attributeLocation : Number, x : Number) : undefined"
+          },
+          "validateProgram": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "validateProgram(program : WebGLProgram) : undefined"
+          },
+          "useProgram": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "useProgram(program : WebGLProgram) : undefined"
+          },
+          "texParameteri": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "texParameteri(target : Number, parameter : Number, value : Number) : undefined"
+          },
+          "texParameterf": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "texParameterf(target : Number, parameter : Number, value : Number) : undefined"
+          },
+          "stencilOpSeparate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilOpSeparate(face : Number, fail : Number, zfail : Number, zpass : Number) : undefined"
+          },
+          "stencilOp": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilOp(fail : Number, zfail : Number, zpass : Number) : undefined"
+          },
+          "stencilMaskSeparate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilMaskSeparate(face : Number, mask : Number) : undefined"
+          },
+          "stencilMask": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilMask(mask : Number) : undefined"
+          },
+          "deleteFramebuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteFramebuffer(framebuffer : WebGLFramebuffer) : undefined"
+          },
+          "deleteProgram": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteProgram(program : WebGLProgram) : undefined"
+          },
+          "deleteRenderbuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteRenderbuffer(renderbuffer : WebGLRenderbuffer) : undefined"
+          },
+          "deleteShader": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteShader(shader : WebGLShader) : undefined"
+          },
+          "deleteTexture": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteTexture(texture : WebGLTexture) : undefined"
+          },
+          "depthFunc": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "depthFunc(func : Number) : undefined"
+          },
+          "depthMask": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "depthMask(write : Boolean) : undefined"
+          },
+          "depthRange": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "depthRange(zNear : Number, zFar : Number) : undefined"
+          },
+          "detachShader": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "detachShader(program : WebGLProgram, shader : WebGLShader) : undefined"
+          },
+          "disable": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "disable(capability : Number) : undefined"
+          },
+          "disableVertexAttribArray": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "disableVertexAttribArray(index : Number) : undefined"
+          },
+          "drawArrays": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "drawArrays(mode : Number, vertexOffset : Number, vertexCount : Number) : undefined"
+          },
+          "drawElements": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "drawElements(mode : Number, indicesCount : Number, indicesNumberType : Number, indicesOffset : Number) : undefined"
+          },
+          "enable": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "enable(capability : Number) : undefined"
+          },
+          "enableVertexAttribArray": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "enableVertexAttribArray(attributeLocation : Number) : undefined"
+          },
+          "finish": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "finish() : undefined"
+          },
+          "getAttribLocation": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getAttribLocation(program : WebGLProgram, name : String) : Number"
+          },
+          "getBufferParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getBufferParameter(target : Number, parameter : Number) : Object"
+          },
+          "getContextAttributes": {
+            "kind": "f",
+            "type": "WebGLContextAttributes",
+            "menu": "getContextAttributes() : WebGLContextAttributes"
+          },
+          "getError": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "getError() : Number"
+          },
+          "getExtension": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getExtension(name : String) : Object"
+          },
+          "getFramebufferAttachmentParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getFramebufferAttachmentParameter(target : Number, attachment : Number, parameter : Number) : Object"
+          },
+          "getParameter": {
+            "kind": "f",
+            "type": "Object",
+            "menu": "getParameter(parameter : Number) : Object"
+          },
+          "getProgramInfoLog": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getProgramInfoLog(program : WebGLProgram) : String"
+          },
+          "getAttachedShaders": {
+            "kind": "f",
+            "type": "WebGLShader",
+            "menu": "getAttachedShaders(program : WebGLProgram) : Array<WebGLShader>"
+          },
+          "getActiveUniform": {
+            "kind": "f",
+            "type": "WebGLActiveInfo",
+            "menu": "getActiveUniform(program : WebGLProgram, index : Number) : WebGLActiveInfo"
+          },
+          "getActiveAttrib": {
+            "kind": "f",
+            "type": "WebGLActiveInfo",
+            "menu": "getActiveAttrib(program : WebGLProgram, index : Number) : WebGLActiveInfo"
+          },
+          "generateMipmap": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "generateMipmap(target : Number) : undefined"
+          },
+          "frontFace": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "frontFace(mode : Number) : undefined"
+          },
+          "framebufferTexture2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "framebufferTexture2D(target : Number, attachment : Number, textarget : Number, texture : WebGLTexture, level : Number) : undefined"
+          },
+          "framebufferRenderbuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "framebufferRenderbuffer(target : Number, attachment : Number, renderbuffertarget : Number, renderbuffer : WebGLRenderbuffer) : undefined"
+          },
+          "flush": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "flush() : undefined"
+          },
+          "checkFramebufferStatus": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "checkFramebufferStatus(target : Number) : Number"
+          },
+          "blendFuncSeparate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blendFuncSeparate(srcRGB : Number, dstRGB : Number, srcAlpha : Number, dstAlpha : Number) : undefined"
+          },
+          "blendFunc": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blendFunc(srcFactor : Number, dstFactor : Number) : undefined"
+          },
+          "blendEquationSeparate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blendEquationSeparate(modeRGB : Number, modeAlpha : Number) : undefined"
+          },
+          "blendEquation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blendEquation(mode : Number) : undefined"
+          },
+          "blendColor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blendColor(red : Number, green : Number, blue : Number, alpha : Number) : undefined"
+          },
+          "bindTexture": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bindTexture(target : Number, texture : WebGLTexture) : undefined"
+          },
+          "bindRenderbuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bindRenderbuffer(target : Number, renderbuffer : WebGLRenderbuffer) : undefined"
+          },
+          "canvas": {
+            "kind": "v",
+            "type": "HTMLCanvasElement",
+            "menu": "canvas : HTMLCanvasElement readonly"
+          },
+          "drawingBufferHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "drawingBufferHeight : Number readonly"
+          },
+          "drawingBufferWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "drawingBufferWidth : Number readonly"
+          },
+          "activeTexture": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "activeTexture(unit : Number) : undefined"
+          },
+          "attachShader": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "attachShader(program : WebGLProgram, shader : WebGLShader) : undefined"
+          },
+          "bindAttribLocation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bindAttribLocation(program : WebGLProgram, location : Number, attributeName : String) : undefined"
+          },
+          "bindBuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bindBuffer(target : Number, buffer : WebGLBuffer) : undefined"
+          },
+          "bindFramebuffer": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bindFramebuffer(target : Number, framebuffer : WebGLFramebuffer) : undefined"
+          },
+          "clear": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clear(mask : Number) : undefined"
+          },
+          "clearColor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clearColor(red : Number, green : Number, blue : Number, alpha : Number) : undefined"
+          },
+          "clearDepth": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clearDepth(depth : Number) : undefined"
+          },
+          "clearStencil": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clearStencil(s : Number) : undefined"
+          },
+          "colorMask": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "colorMask(red : Boolean, green : Boolean, blue : Boolean, alpha : Boolean) : undefined"
+          },
+          "compileShader": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "compileShader(shader : WebGLShader) : undefined"
+          },
+          "linkProgram": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "linkProgram(program : WebGLProgram) : undefined"
+          },
+          "pixelStorei": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "pixelStorei(parameter : Number, value : Number) : undefined"
+          },
+          "polygonOffset": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "polygonOffset(factor : Number, units : Number) : undefined"
+          },
+          "readPixels": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "readPixels(x : Number, y : Number, width : Number, height : Number, format : Number, type : Number, data : ArrayBufferView) : undefined"
+          },
+          "renderbufferStorage": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "renderbufferStorage(target : Number, internalformat : Number, width : Number, height : Number) : undefined"
+          },
+          "sampleCoverage": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "sampleCoverage(value : Number, invert : Boolean) : undefined"
+          },
+          "scissor": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "scissor(x : Number, y : Number, width : Number, height : Number) : undefined"
+          },
+          "shaderSource": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "shaderSource(shader : WebGLShader, source : String) : undefined"
+          },
+          "stencilFunc": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilFunc(function : Number, reference : Number, mask : Number) : undefined"
+          },
+          "stencilFuncSeparate": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stencilFuncSeparate(face : Number, func : Number, ref : Number, mask : Number) : undefined"
+          }
+        },
+        "class": "WebGLRenderingContext",
+        "type": "Object",
+        "kind": "v"
+      },
+      "ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ALPHA : Number readonly"
+      },
+      "ALPHA_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ALPHA_BITS : Number readonly"
+      },
+      "ALWAYS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ALWAYS : Number readonly"
+      },
+      "ARRAY_BUFFER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ARRAY_BUFFER : Number readonly"
+      },
+      "ARRAY_BUFFER_BINDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ARRAY_BUFFER_BINDING : Number readonly"
+      },
+      "ATTACHED_SHADERS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ATTACHED_SHADERS : Number readonly"
+      },
+      "BACK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BACK : Number readonly"
+      },
+      "BLEND": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BLEND : Number readonly"
+      },
+      "BYTE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BYTE : Number readonly"
+      },
+      "CCW": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CCW : Number readonly"
+      },
+      "CLAMP_TO_EDGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CLAMP_TO_EDGE : Number readonly"
+      },
+      "COLOR_ATTACHMENT0": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COLOR_ATTACHMENT0 : Number readonly"
+      },
+      "COLOR_BUFFER_BIT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COLOR_BUFFER_BIT : Number readonly"
+      },
+      "COLOR_CLEAR_VALUE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COLOR_CLEAR_VALUE : Number readonly"
+      },
+      "COLOR_WRITEMASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COLOR_WRITEMASK : Number readonly"
+      },
+      "COMPILE_STATUS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COMPILE_STATUS : Number readonly"
+      },
+      "COMPRESSED_TEXTURE_FORMATS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COMPRESSED_TEXTURE_FORMATS : Number readonly"
+      },
+      "CONSTANT_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CONSTANT_ALPHA : Number readonly"
+      },
+      "CONSTANT_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CONSTANT_COLOR : Number readonly"
+      },
+      "CONTEXT_LOST_WEBGL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CONTEXT_LOST_WEBGL : Number readonly"
+      },
+      "CULL_FACE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CULL_FACE : Number readonly"
+      },
+      "CULL_FACE_MODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CULL_FACE_MODE : Number readonly"
+      },
+      "CURRENT_PROGRAM": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CURRENT_PROGRAM : Number readonly"
+      },
+      "CURRENT_VERTEX_ATTRIB": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CURRENT_VERTEX_ATTRIB : Number readonly"
+      },
+      "CW": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CW : Number readonly"
+      },
+      "DECR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DECR : Number readonly"
+      },
+      "DECR_WRAP": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DECR_WRAP : Number readonly"
+      },
+      "DELETE_STATUS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DELETE_STATUS : Number readonly"
+      },
+      "DEPTH_ATTACHMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_ATTACHMENT : Number readonly"
+      },
+      "DEPTH_BITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_BITS : Number readonly"
+      },
+      "DEPTH_BUFFER_BIT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_BUFFER_BIT : Number readonly"
+      },
+      "DEPTH_CLEAR_VALUE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_CLEAR_VALUE : Number readonly"
+      },
+      "DEPTH_COMPONENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_COMPONENT : Number readonly"
+      },
+      "DEPTH_COMPONENT16": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_COMPONENT16 : Number readonly"
+      },
+      "DEPTH_FUNC": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_FUNC : Number readonly"
+      },
+      "DEPTH_RANGE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_RANGE : Number readonly"
+      },
+      "DEPTH_STENCIL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_STENCIL : Number readonly"
+      },
+      "DEPTH_STENCIL_ATTACHMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_STENCIL_ATTACHMENT : Number readonly"
+      },
+      "DEPTH_TEST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_TEST : Number readonly"
+      },
+      "DEPTH_WRITEMASK": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DEPTH_WRITEMASK : Number readonly"
+      },
+      "LOW_INT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LOW_INT : Number readonly"
+      },
+      "LUMINANCE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LUMINANCE : Number readonly"
+      },
+      "LUMINANCE_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "LUMINANCE_ALPHA : Number readonly"
+      },
+      "MAX_COMBINED_TEXTURE_IMAGE_UNITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_COMBINED_TEXTURE_IMAGE_UNITS : Number readonly"
+      },
+      "MAX_CUBE_MAP_TEXTURE_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_CUBE_MAP_TEXTURE_SIZE : Number readonly"
+      },
+      "MAX_FRAGMENT_UNIFORM_VECTORS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_FRAGMENT_UNIFORM_VECTORS : Number readonly"
+      },
+      "MAX_RENDERBUFFER_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_RENDERBUFFER_SIZE : Number readonly"
+      },
+      "MAX_TEXTURE_IMAGE_UNITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_TEXTURE_IMAGE_UNITS : Number readonly"
+      },
+      "MAX_TEXTURE_SIZE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_TEXTURE_SIZE : Number readonly"
+      },
+      "MAX_VARYING_VECTORS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_VARYING_VECTORS : Number readonly"
+      },
+      "MAX_VERTEX_ATTRIBS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_VERTEX_ATTRIBS : Number readonly"
+      },
+      "MAX_VERTEX_TEXTURE_IMAGE_UNITS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_VERTEX_TEXTURE_IMAGE_UNITS : Number readonly"
+      },
+      "MAX_VERTEX_UNIFORM_VECTORS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_VERTEX_UNIFORM_VECTORS : Number readonly"
+      },
+      "MAX_VIEWPORT_DIMS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MAX_VIEWPORT_DIMS : Number readonly"
+      },
+      "MEDIUM_FLOAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIUM_FLOAT : Number readonly"
+      },
+      "MEDIUM_INT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MEDIUM_INT : Number readonly"
+      },
+      "MIRRORED_REPEAT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "MIRRORED_REPEAT : Number readonly"
+      },
+      "NEAREST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NEAREST : Number readonly"
+      },
+      "NEAREST_MIPMAP_LINEAR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NEAREST_MIPMAP_LINEAR : Number readonly"
+      },
+      "NEAREST_MIPMAP_NEAREST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NEAREST_MIPMAP_NEAREST : Number readonly"
+      },
+      "NEVER": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NEVER : Number readonly"
+      },
+      "NICEST": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NICEST : Number readonly"
+      },
+      "NONE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NONE : Number readonly"
+      },
+      "NOTEQUAL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NOTEQUAL : Number readonly"
+      },
+      "NO_ERROR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NO_ERROR : Number readonly"
+      },
+      "NUM_COMPRESSED_TEXTURE_FORMATS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NUM_COMPRESSED_TEXTURE_FORMATS : Number readonly"
+      },
+      "ONE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE : Number readonly"
+      },
+      "ONE_MINUS_CONSTANT_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_CONSTANT_ALPHA : Number readonly"
+      },
+      "ONE_MINUS_CONSTANT_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_CONSTANT_COLOR : Number readonly"
+      },
+      "ONE_MINUS_DST_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_DST_ALPHA : Number readonly"
+      },
+      "ONE_MINUS_DST_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_DST_COLOR : Number readonly"
+      },
+      "ONE_MINUS_SRC_ALPHA": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_SRC_ALPHA : Number readonly"
+      },
+      "ONE_MINUS_SRC_COLOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ONE_MINUS_SRC_COLOR : Number readonly"
+      },
+      "OUT_OF_MEMORY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "OUT_OF_MEMORY : Number readonly"
+      },
+      "PACK_ALIGNMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "PACK_ALIGNMENT : Number readonly"
+      },
+      "POINTS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "POINTS : Number readonly"
+      },
+      "POLYGON_OFFSET_FACTOR": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "POLYGON_OFFSET_FACTOR : Number readonly"
+      },
+      "POLYGON_OFFSET_FILL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "POLYGON_OFFSET_FILL : Number readonly"
+      }
+    }
+  },
+  "WebGLRenderbuffer": {
+    "kind": "v"
+  },
+  "WebGLBuffer": {
+    "kind": "v"
+  },
+  "WebGLProgram": {
+    "kind": "v"
+  },
+  "WebGLUniformLocation": {
+    "kind": "v"
+  }
+}

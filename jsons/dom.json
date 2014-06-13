@@ -1,1 +1,3270 @@
-{"HTMLHRElement":{"kind":"v"},"MutationObserver":{"kind":"f","menu":"new MutationObserver(callback : Function) : MutationObserver","type":"MutationObserver","props":{"prototype":{"kind":"v","type":"Object","class":"MutationObserver","props":{"disconnect":{"menu":"disconnect() : undefined","type":"undefined","kind":"f"},"observe":{"menu":"observe(target : Node, options : Object) : undefined","type":"undefined","kind":"f"},"takeRecords":{"menu":"takeRecords() : Array","type":"Array","kind":"f"}}}}},"HTMLParagraphElement":{"kind":"v"},"UIEvent":{"kind":"f","menu":"new UIEvent(type : String, [eventInit : Object]) : UIEvent","type":"UIEvent","props":{"prototype":{"kind":"v","type":"Object","class":"UIEvent","props":{"view":{"menu":"view : Window  readonly","type":"Window","kind":"v"},"initUIEvent":{"menu":"initUIEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number) : undefined","type":"undefined","kind":"f"}}},"detail":{"menu":"detail : Number  readonly","type":"Number","kind":"v"}}},"Storage":{"props":{"prototype":{"kind":"v","type":"Object","class":"Storage","props":{"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"clear":{"menu":"clear() : undefined","type":"undefined","kind":"f"},"getItem":{"menu":"getItem(key : String) : String","type":"String","kind":"f"},"key":{"menu":"key(index : Number) : String","type":"String","kind":"f"},"removeItem":{"menu":"removeItem(key : String) : undefined","type":"undefined","kind":"f"},"setItem":{"menu":"setItem(key : String, value : String) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"Document":{"props":{"prototype":{"kind":"v","type":"Object","class":"Document","props":{"querySelector":{"menu":"querySelector(selectors : String) : Element","type":"Element","kind":"f"},"doctype":{"menu":"doctype : DocumentType  readonly","type":"DocumentType","kind":"v"},"contentType":{"menu":"contentType : String","type":"String","kind":"v"},"compatMode":{"menu":"compatMode : String","type":"String","kind":"v"},"characterSet":{"menu":"characterSet : String","type":"String","kind":"v"},"body":{"menu":"body : HTMLBodyElement","type":"HTMLBodyElement","kind":"v"},"activeElement":{"menu":"activeElement : Element","type":"Element","kind":"v"},"URL":{"menu":"URL : String","type":"String","kind":"v"},"documentURI":{"menu":"documentURI : String","type":"String","kind":"v"},"querySelectorAll":{"menu":"querySelectorAll(cssSelector : String) : NodeList","type":"NodeList","kind":"f"},"createDocumentFragment":{"menu":"createDocumentFragment() : DocumentFragment","type":"DocumentFragment","kind":"f"},"createComment":{"menu":"createComment(data : String) : Comment","type":"Comment","kind":"f"},"append":{"menu":"append(node0 : Node, [node1 : Node, [...]]) : undefined","type":"undefined","kind":"f"},"adoptNode":{"menu":"adoptNode(source : Node) : Node","type":"Node","kind":"f"},"styleSheets":{"menu":"styleSheets : StyleSheetList","type":"StyleSheetList","kind":"v"},"readyState":{"menu":"readyState : String","type":"String","kind":"v"},"implementation":{"menu":"implementation : DOMImplementation  readonly","type":"DOMImplementation","kind":"v"},"documentElement":{"menu":"documentElement : Element  readonly","type":"Element","kind":"v"},"createElement":{"menu":"createElement(tagName : String) : Element","type":"Element","kind":"f"},"createElementNS":{"menu":"createElementNS(namespaceURI : String, qualifiedName : String) : Element","type":"Element","kind":"f"},"createEvent":{"menu":"createEvent(eventInterfaceName : String) : Event","type":"Event","kind":"f"},"createNodeIterator":{"menu":"createNodeIterator(root : Node, [whatToShow : Number, [filter : NodeFilter]]) : NodeIterator","type":"NodeIterator","kind":"f"},"createProcessingInstruction":{"menu":"createProcessingInstruction(target : String, data : String) : ProcessingInstruction","type":"ProcessingInstruction","kind":"f"},"createRange":{"menu":"createRange() : Range","type":"Range","kind":"f"},"createTextNode":{"menu":"createTextNode(data : String) : Text","type":"Text","kind":"f"},"createTreeWalker":{"menu":"createTreeWalker(root : Node, [whatToShow : Number, [filter : NodeFilter]]) : TreeWalker","type":"TreeWalker","kind":"f"},"getElementById":{"menu":"getElementById(elementId : String) : Element","type":"Element","kind":"f"},"getElementsByClassName":{"menu":"getElementsByClassName(classNames : String) : NodeList","type":"NodeList","kind":"f"},"getElementsByTagName":{"menu":"getElementsByTagName(tagname : String) : NodeList","type":"NodeList","kind":"f"},"getElementsByTagNameNS":{"menu":"getElementsByTagNameNS(namespaceURI : String, localName : String) : NodeList","type":"NodeList","kind":"f"},"hasFocus":{"menu":"hasFocus() : Boolean","type":"Boolean","kind":"f"},"importNode":{"menu":"importNode(importedNode : Node, deep : Boolean) : Node","type":"Node","kind":"f"},"prepend":{"menu":"prepend(node0 : Node, [node1 : Node, [...]]) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"CompositionEvent":{"props":{"prototype":{"kind":"v","type":"Object","class":"CompositionEvent","props":{"data":{"menu":"data : String  readonly","type":"String","kind":"v"},"locale":{"menu":"locale : String  readonly","type":"String","kind":"v"}}}},"kind":"f"},"HTMLModElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLModElement","props":{"cite":{"menu":"cite : String","type":"String","kind":"v"},"dateTime":{"menu":"dateTime : String","type":"String","kind":"v"}}}},"kind":"f"},"DOMSettableTokenList":{"props":{"prototype":{"kind":"v","type":"Object","class":"DOMSettableTokenList","props":{"value":{"menu":"value : String","type":"String","kind":"v"}}}},"kind":"f"},"DOMParser":{"kind":"f","menu":"new DOMParser() : DOMParser","type":"DOMParser","props":{"prototype":{"kind":"v","type":"Object","class":"DOMParser","props":{"parseFromString":{"menu":"parseFromString(string : String, mimeType : String) : Document","type":"Document","kind":"f"}}}}},"HTMLOptGroupElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLOptGroupElement","props":{"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"label":{"menu":"label : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLHeadingElement":{"kind":"v"},"ValidityState":{"props":{"prototype":{"kind":"v","type":"Object","class":"ValidityState","props":{"valid":{"menu":"valid : Boolean  readonly","type":"Boolean","kind":"v"},"valueMissing":{"menu":"valueMissing : Boolean  readonly","type":"Boolean","kind":"v"},"customError":{"menu":"customError : Boolean  readonly","type":"Boolean","kind":"v"},"patternMismatch":{"menu":"patternMismatch : Boolean  readonly","type":"Boolean","kind":"v"},"rangeOverflow":{"menu":"rangeOverflow : Boolean  readonly","type":"Boolean","kind":"v"},"rangeUnderflow":{"menu":"rangeUnderflow : Boolean  readonly","type":"Boolean","kind":"v"},"stepMismatch":{"menu":"stepMismatch : Boolean  readonly","type":"Boolean","kind":"v"},"tooLong":{"menu":"tooLong : Boolean  readonly","type":"Boolean","kind":"v"},"typeMismatch":{"menu":"typeMismatch : Boolean  readonly","type":"Boolean","kind":"v"}}}},"kind":"f"},"KeyboardEvent":{"props":{"prototype":{"kind":"v","type":"Object","class":"KeyboardEvent","props":{"altKey":{"menu":"altKey : Boolean  readonly","type":"Boolean","kind":"v"},"charCode":{"menu":"charCode : Number  readonly","type":"Number","kind":"v"},"ctrlKey":{"menu":"ctrlKey : Boolean  readonly","type":"Boolean","kind":"v"},"keyCode":{"menu":"keyCode : Number  readonly","type":"Number","kind":"v"},"metaKey":{"menu":"metaKey : Boolean  readonly","type":"Boolean","kind":"v"},"shiftKey":{"menu":"shiftKey : Boolean  readonly","type":"Boolean","kind":"v"},"which":{"menu":"which : Number  readonly","type":"Number","kind":"v"}}}},"kind":"f"},"HTMLInputElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLInputElement","props":{"selectionStart":{"menu":"selectionStart : Number","type":"Number","kind":"v"},"selectionEnd":{"menu":"selectionEnd : Number","type":"Number","kind":"v"},"selectionDirection":{"menu":"selectionDirection : String","type":"String","kind":"v"},"required":{"menu":"required : Boolean","type":"Boolean","kind":"v"},"readOnly":{"menu":"readOnly : Boolean","type":"Boolean","kind":"v"},"placeholder":{"menu":"placeholder : String","type":"String","kind":"v"},"pattern":{"menu":"pattern : String","type":"String","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"},"multiple":{"menu":"multiple : Boolean","type":"Boolean","kind":"v"},"min":{"menu":"min : String","type":"String","kind":"v"},"maxLength":{"menu":"maxLength : Number","type":"Number","kind":"v"},"max":{"menu":"max : String","type":"String","kind":"v"},"list":{"menu":"list : HTMLElement  readonly","type":"HTMLElement","kind":"v"},"labels":{"menu":"labels : NodeList  readonly","type":"NodeList","kind":"v"},"indeterminate":{"menu":"indeterminate : Boolean","type":"Boolean","kind":"v"},"height":{"menu":"height : Number","type":"Number","kind":"v"},"dirName":{"menu":"dirName : String","type":"String","kind":"v"},"src":{"menu":"src : String","type":"String","kind":"v"},"step":{"menu":"step : String","type":"String","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"},"validationMessage":{"menu":"validationMessage : String  readonly","type":"String","kind":"v"},"validity":{"menu":"validity : ValidityState  readonly","type":"ValidityState","kind":"v"},"value":{"menu":"value : String","type":"String","kind":"v"},"valueAsDate":{"menu":"valueAsDate : Date","type":"Date","kind":"v"},"valueAsNumber":{"menu":"valueAsNumber : Number","type":"Number","kind":"v"},"stepUp":{"menu":"stepUp([n : Number]) : undefined","type":"undefined","kind":"f"},"stepDown":{"menu":"stepDown([n : Number]) : undefined","type":"undefined","kind":"f"},"setSelectionRange":{"menu":"setSelectionRange(start : Number, end : Number, [direction : String]) : undefined","type":"undefined","kind":"f"},"setCustomValidity":{"menu":"setCustomValidity(error : String) : undefined","type":"undefined","kind":"f"},"select":{"menu":"select() : undefined","type":"undefined","kind":"f"},"checkValidity":{"menu":"checkValidity() : Boolean","type":"Boolean","kind":"f"},"willValidate":{"menu":"willValidate : Boolean  readonly","type":"Boolean","kind":"v"},"width":{"menu":"width : Number","type":"Number","kind":"v"},"size":{"menu":"size : Number","type":"Number","kind":"v"},"formTarget":{"menu":"formTarget : String","type":"String","kind":"v"},"formNoValidate":{"menu":"formNoValidate : Boolean","type":"Boolean","kind":"v"},"formMethod":{"menu":"formMethod : String","type":"String","kind":"v"},"formEnctype":{"menu":"formEnctype : String","type":"String","kind":"v"},"formAction":{"menu":"formAction : String","type":"String","kind":"v"},"form":{"menu":"form : HTMLFormElement  readonly","type":"HTMLFormElement","kind":"v"},"files":{"menu":"files : FileList  readonly","type":"FileList","kind":"v"},"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"accept":{"menu":"accept : String","type":"String","kind":"v"},"alt":{"menu":"alt : String","type":"String","kind":"v"},"autocomplete":{"menu":"autocomplete : String","type":"String","kind":"v"},"autofocus":{"menu":"autofocus : Boolean","type":"Boolean","kind":"v"},"checked":{"menu":"checked : Boolean","type":"Boolean","kind":"v"},"defaultChecked":{"menu":"defaultChecked : Boolean","type":"Boolean","kind":"v"},"defaultValue":{"menu":"defaultValue : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLMetaElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLMetaElement","props":{"content":{"menu":"content : String","type":"String","kind":"v"},"httpEquiv":{"menu":"httpEquiv : String","type":"String","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLTitleElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLTitleElement","props":{"text":{"menu":"text : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLHeadElement":{"kind":"v"},"Range":{"props":{"prototype":{"kind":"v","type":"Object","class":"Range","props":{"selectNodeContents":{"menu":"selectNodeContents(refNode : Node) : undefined","type":"undefined","kind":"f"},"selectNode":{"menu":"selectNode(refNode : Node) : undefined","type":"undefined","kind":"f"},"insertNode":{"menu":"insertNode(newNode : Node) : undefined","type":"undefined","kind":"f"},"extractContents":{"menu":"extractContents() : DocumentFragment","type":"DocumentFragment","kind":"f"},"detach":{"menu":"detach() : undefined","type":"undefined","kind":"f"},"deleteContents":{"menu":"deleteContents() : undefined","type":"undefined","kind":"f"},"compareBoundaryPoints":{"menu":"compareBoundaryPoints(how : Number, sourceRange : Range) : Number","type":"Number","kind":"f"},"cloneRange":{"menu":"cloneRange() : Range","type":"Range","kind":"f"},"setEnd":{"menu":"setEnd(refNode : Node, offset : Number) : undefined","type":"undefined","kind":"f"},"setEndAfter":{"menu":"setEndAfter(refNode : Node) : undefined","type":"undefined","kind":"f"},"setEndBefore":{"menu":"setEndBefore(refNode : Node) : undefined","type":"undefined","kind":"f"},"setStart":{"menu":"setStart(refNode : Node, offset : Number) : undefined","type":"undefined","kind":"f"},"setStartAfter":{"menu":"setStartAfter(refNode : Node) : undefined","type":"undefined","kind":"f"},"setStartBefore":{"menu":"setStartBefore(refNode : Node) : undefined","type":"undefined","kind":"f"},"surroundContents":{"menu":"surroundContents(newParent : Node) : undefined","type":"undefined","kind":"f"},"cloneContents":{"menu":"cloneContents() : DocumentFragment","type":"DocumentFragment","kind":"f"},"startOffset":{"menu":"startOffset : Number  readonly","type":"Number","kind":"v"},"startContainer":{"menu":"startContainer : Node  readonly","type":"Node","kind":"v"},"endOffset":{"menu":"endOffset : Number  readonly","type":"Number","kind":"v"},"endContainer":{"menu":"endContainer : Node  readonly","type":"Node","kind":"v"},"commonAncestorContainer":{"menu":"commonAncestorContainer : Node  readonly","type":"Node","kind":"v"},"collapsed":{"menu":"collapsed : Boolean  readonly","type":"Boolean","kind":"v"},"collapse":{"menu":"collapse(toStart : Boolean) : undefined","type":"undefined","kind":"f"}}},"END_TO_END":{"menu":"END_TO_END : Number  readonly  value = 2","type":"Number","kind":"v"},"END_TO_START":{"menu":"END_TO_START : Number  readonly  value = 3","type":"Number","kind":"v"},"START_TO_END":{"menu":"START_TO_END : Number  readonly  value = 1","type":"Number","kind":"v"},"START_TO_START":{"menu":"START_TO_START : Number  readonly  value = 0","type":"Number","kind":"v"}},"kind":"f"},"HTMLBaseElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLBaseElement","props":{"href":{"menu":"href : String","type":"String","kind":"v"},"target":{"menu":"target : String","type":"String","kind":"v"}}}},"kind":"f"},"Image":{"kind":"f","menu":"new Image([width : Number, [height : Number]]) : Image","type":"Image"},"HTMLScriptElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLScriptElement","props":{"async":{"menu":"async : Boolean","type":"Boolean","kind":"v"},"charset":{"menu":"charset : String","type":"String","kind":"v"},"defer":{"menu":"defer : Boolean","type":"Boolean","kind":"v"},"src":{"menu":"src : String","type":"String","kind":"v"},"text":{"menu":"text : String","type":"String","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"}}}},"kind":"f"},"DocumentFragment":{"props":{"prototype":{"kind":"v","type":"Object","class":"DocumentFragment","props":{"querySelector":{"menu":"querySelector(cssSelector : String) : Element","type":"Element","kind":"f"},"querySelectorAll":{"menu":"querySelectorAll(cssSelector : String) : NodeList","type":"NodeList","kind":"f"}}}},"kind":"f"},"HTMLBodyElement":{"kind":"v"},"HTMLMenuElement":{"kind":"v"},"StorageEvent":{"props":{"prototype":{"kind":"v","type":"Object","class":"StorageEvent","props":{"key":{"menu":"key : String  readonly","type":"String","kind":"v"},"newValue":{"menu":"newValue : String  readonly","type":"String","kind":"v"},"oldValue":{"menu":"oldValue : String  readonly","type":"String","kind":"v"},"storageArea":{"menu":"storageArea : Storage  readonly","type":"Storage","kind":"v"},"url":{"menu":"url : String  readonly","type":"String","kind":"v"}}}},"kind":"f"},"HTMLButtonElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLButtonElement","props":{"checkValidity":{"menu":"checkValidity() : Boolean","type":"Boolean","kind":"f"},"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"form":{"menu":"form : HTMLFormElement  readonly","type":"HTMLFormElement","kind":"v"},"formAction":{"menu":"formAction : String","type":"String","kind":"v"},"formEnctype":{"menu":"formEnctype : String","type":"String","kind":"v"},"formMethod":{"menu":"formMethod : String","type":"String","kind":"v"},"formNoValidate":{"menu":"formNoValidate : Boolean","type":"Boolean","kind":"v"},"formTarget":{"menu":"formTarget : String","type":"String","kind":"v"},"setCustomValidity":{"menu":"setCustomValidity(error : String) : undefined","type":"undefined","kind":"f"},"autofocus":{"menu":"autofocus : Boolean","type":"Boolean","kind":"v"},"labels":{"menu":"labels : NodeList","type":"NodeList","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"},"validationMessage":{"menu":"validationMessage : String  readonly","type":"String","kind":"v"},"validity":{"menu":"validity : ValidityState  readonly","type":"ValidityState","kind":"v"},"value":{"menu":"value : String","type":"String","kind":"v"},"willValidate":{"menu":"willValidate : Boolean  readonly","type":"Boolean","kind":"v"}}}},"kind":"f"},"HTMLLIElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLLIElement","props":{"value":{"menu":"value : Number","type":"Number","kind":"v"}}}},"kind":"f"},"DOMImplementation":{"props":{"prototype":{"kind":"v","type":"Object","class":"DOMImplementation","props":{"createCSSStyleSheet":{"menu":"createCSSStyleSheet(title : String, media : String) : CSSStyleSheet","type":"CSSStyleSheet","kind":"f"},"createDocument":{"menu":"createDocument(namespace : String, qualifiedName : String, [documentType : DocumentType]) : XMLDocument","type":"XMLDocument","kind":"f"},"createDocumentType":{"menu":"createDocumentType(qualifiedName : String, publicId : String, systemId : String) : DocumentType","type":"DocumentType","kind":"f"},"createHTMLDocument":{"menu":"createHTMLDocument([title : String]) : Document","type":"Document","kind":"f"},"hasFeature":{"menu":"hasFeature(feature : String, version : String) : Boolean","type":"Boolean","kind":"f"}}}},"kind":"f"},"HTMLIFrameElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLIFrameElement","props":{"src":{"menu":"src : String","type":"String","kind":"v"},"seamless":{"menu":"seamless : Boolean","type":"Boolean","kind":"v"},"width":{"menu":"width : String","type":"String","kind":"v"},"srcdoc":{"menu":"srcdoc : String","type":"String","kind":"v"},"allowFullscreen":{"menu":"allowFullscreen : Boolean","type":"Boolean","kind":"v"},"contentDocument":{"menu":"contentDocument : Document  readonly","type":"Document","kind":"v"},"contentWindow":{"menu":"contentWindow : Window  readonly","type":"Window","kind":"v"},"height":{"menu":"height : String","type":"String","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"},"sandbox":{"menu":"sandbox : DOMSettableTokenList  readonly","type":"DOMSettableTokenList","kind":"v"}}}},"kind":"f"},"HTMLEmbedElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLEmbedElement","props":{"height":{"menu":"height : String","type":"String","kind":"v"},"src":{"menu":"src : String","type":"String","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"},"width":{"menu":"width : String","type":"String","kind":"v"}}}},"kind":"f"},"NodeList":{"props":{"prototype":{"kind":"v","type":"Object","class":"NodeList","props":{"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"item":{"menu":"item(index : Number) : Node","type":"Node","kind":"f"}}}},"kind":"f"},"HTMLBRElement":{"kind":"v"},"Event":{"kind":"f","menu":"new Event(type : String, [eventInit : Object]) : Event","type":"Event","props":{"prototype":{"kind":"v","type":"Object","class":"Event","props":{"timeStamp":{"menu":"timeStamp : Number  readonly","type":"Number","kind":"v"},"target":{"menu":"target : Object  readonly","type":"Object","kind":"v"},"isTrusted":{"menu":"isTrusted : Boolean  readonly","type":"Boolean","kind":"v"},"eventPhase":{"menu":"eventPhase : Number  readonly","type":"Number","kind":"v"},"defaultPrevented":{"menu":"defaultPrevented : Boolean  readonly","type":"Boolean","kind":"v"},"stopPropagation":{"menu":"stopPropagation() : undefined","type":"undefined","kind":"f"},"stopImmediatePropagation":{"menu":"stopImmediatePropagation() : undefined","type":"undefined","kind":"f"},"preventDefault":{"menu":"preventDefault() : undefined","type":"undefined","kind":"f"},"initEvent":{"menu":"initEvent(type : String, canBubble : Boolean, cancelable : Boolean) : undefined","type":"undefined","kind":"f"},"type":{"menu":"type : String  readonly","type":"String","kind":"v"},"bubbles":{"menu":"bubbles : Boolean  readonly","type":"Boolean","kind":"v"},"cancelable":{"menu":"cancelable : Boolean  readonly","type":"Boolean","kind":"v"},"currentTarget":{"menu":"currentTarget : Object  readonly","type":"Object","kind":"v"}}},"AT_TARGET":{"menu":"AT_TARGET : Number  readonly","type":"Number","kind":"v"},"BUBBLING_PHASE":{"menu":"BUBBLING_PHASE : Number  readonly","type":"Number","kind":"v"},"CAPTURING_PHASE":{"menu":"CAPTURING_PHASE : Number  readonly","type":"Number","kind":"v"},"NONE":{"menu":"NONE : Number  readonly","type":"Number","kind":"v"}}},"NodeIterator":{"kind":"v"},"DOMTokenList":{"props":{"prototype":{"kind":"v","type":"Object","class":"DOMTokenList","props":{"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"add":{"menu":"add(token : String) : undefined","type":"undefined","kind":"f"},"contains":{"menu":"contains(token : String) : Boolean","type":"Boolean","kind":"f"},"item":{"menu":"item(index : Number) : String","type":"String","kind":"f"},"remove":{"menu":"remove(token : String) : undefined","type":"undefined","kind":"f"},"toggle":{"menu":"toggle(token : String) : Boolean","type":"Boolean","kind":"f"}}}},"kind":"f"},"HTMLCanvasElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLCanvasElement","props":{"height":{"menu":"height : Number","type":"Number","kind":"v"},"width":{"menu":"width : Number","type":"Number","kind":"v"},"getContext":{"menu":"getContext(contextType : String, [contextAttributes : Object]) : CanvasRenderingContext","type":"CanvasRenderingContext","kind":"f"},"toDataURL":{"menu":"toDataURL([type = 'image/png' : String, [jpegCompressionRatio : Number]]) : String","type":"String","kind":"f"}}}},"kind":"f"},"HTMLOptionsCollection":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLOptionsCollection","props":{"length":{"menu":"length : Number","type":"Number","kind":"v"},"selectedIndex":{"menu":"selectedIndex : Number","type":"Number","kind":"v"},"remove":{"menu":"remove(index : Number) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"Element":{"props":{"prototype":{"kind":"v","type":"Object","class":"Element","props":{"hasAttributeNS":{"menu":"hasAttributeNS(namespaceURI : String, localName : String) : Boolean","type":"Boolean","kind":"f"},"hasAttribute":{"menu":"hasAttribute(name : String) : Boolean","type":"Boolean","kind":"f"},"getElementsByTagNameNS":{"menu":"getElementsByTagNameNS(namespaceURI : String, localName : String) : NodeList","type":"NodeList","kind":"f"},"getElementsByTagName":{"menu":"getElementsByTagName(name : String) : NodeList","type":"NodeList","kind":"f"},"getElementsByClassName":{"menu":"getElementsByClassName(classNames : String) : NodeList","type":"NodeList","kind":"f"},"getClientRects":{"menu":"getClientRects() : ClientRectList","type":"ClientRectList","kind":"f"},"getBoundingClientRect":{"menu":"getBoundingClientRect() : ClientRect","type":"ClientRect","kind":"f"},"getAttributeNS":{"menu":"getAttributeNS(namespaceURI : String, localName : String) : String","type":"String","kind":"f"},"clientWidth":{"menu":"clientWidth : Number  readonly","type":"Number","kind":"v"},"dataset":{"menu":"dataset : DOMStringMap","type":"DOMStringMap","kind":"v"},"firstElementChild":{"menu":"firstElementChild : Element","type":"Element","kind":"v"},"id":{"menu":"id : String","type":"String","kind":"v"},"lastElementChild":{"menu":"lastElementChild : Element","type":"Element","kind":"v"},"localName":{"menu":"localName : String","type":"String","kind":"v"},"namespaceURI":{"menu":"namespaceURI : String","type":"String","kind":"v"},"nextElementSibling":{"menu":"nextElementSibling : Element","type":"Element","kind":"v"},"setAttributeNS":{"menu":"setAttributeNS(namespaceURI : String, qualifiedName : String, value : String) : undefined","type":"undefined","kind":"f"},"setAttribute":{"menu":"setAttribute(name : String, value : String) : undefined","type":"undefined","kind":"f"},"scrollIntoView":{"menu":"scrollIntoView([top = false : Boolean]) : undefined","type":"undefined","kind":"f"},"removeAttributeNS":{"menu":"removeAttributeNS(namespaceURI : String, localName : String) : undefined","type":"undefined","kind":"f"},"removeAttribute":{"menu":"removeAttribute(name : String) : undefined","type":"undefined","kind":"f"},"querySelectorAll":{"menu":"querySelectorAll(cssSelector : String) : NodeList","type":"NodeList","kind":"f"},"querySelector":{"menu":"querySelector(selectors : String) : Element","type":"Element","kind":"f"},"hasAttributes":{"menu":"hasAttributes() : Boolean","type":"Boolean","kind":"f"},"Attributes":{"menu":"Attributes : Array","type":"Array","kind":"v"},"childElementCount":{"menu":"childElementCount : Number","type":"Number","kind":"v"},"children":{"menu":"children : HTMLCollection","type":"HTMLCollection","kind":"v"},"classList":{"menu":"classList : DOMTokenList","type":"DOMTokenList","kind":"v"},"className":{"menu":"className : String","type":"String","kind":"v"},"clientHeight":{"menu":"clientHeight : Number  readonly","type":"Number","kind":"v"},"clientLeft":{"menu":"clientLeft : Number  readonly","type":"Number","kind":"v"},"clientTop":{"menu":"clientTop : Number  readonly","type":"Number","kind":"v"},"prefix":{"menu":"prefix : String","type":"String","kind":"v"},"previousElementSibling":{"menu":"previousElementSibling : Element","type":"Element","kind":"v"},"scrollHeight":{"menu":"scrollHeight : Number  readonly","type":"Number","kind":"v"},"scrollLeft":{"menu":"scrollLeft : Number","type":"Number","kind":"v"},"scrollTop":{"menu":"scrollTop : Number","type":"Number","kind":"v"},"scrollWidth":{"menu":"scrollWidth : Number  readonly","type":"Number","kind":"v"},"tagName":{"menu":"tagName : String  readonly","type":"String","kind":"v"},"getAttribute":{"menu":"getAttribute(name : String) : String","type":"String","kind":"f"}}}},"kind":"f"},"HTMLStyleElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLStyleElement","props":{"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"media":{"menu":"media : String","type":"String","kind":"v"},"scoped":{"menu":"scoped : Boolean","type":"Boolean","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"}}}},"kind":"f"},"Node":{"props":{"ENTITY_REFERENCE_NODE":{"menu":"ENTITY_REFERENCE_NODE : Number  readonly","type":"Number","kind":"v"},"ENTITY_NODE":{"menu":"ENTITY_NODE : Number  readonly","type":"Number","kind":"v"},"ELEMENT_NODE":{"menu":"ELEMENT_NODE : Number  readonly","type":"Number","kind":"v"},"COMMENT_NODE":{"menu":"COMMENT_NODE : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_FRAGMENT_NODE":{"menu":"DOCUMENT_FRAGMENT_NODE : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_NODE":{"menu":"DOCUMENT_NODE : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_POSITION_CONTAINED_BY":{"menu":"DOCUMENT_POSITION_CONTAINED_BY : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_POSITION_CONTAINS":{"menu":"DOCUMENT_POSITION_CONTAINS : Number  readonly","type":"Number","kind":"v"},"NOTATION_NODE":{"menu":"NOTATION_NODE : Number  readonly","type":"Number","kind":"v"},"PROCESSING_INSTRUCTION_NODE":{"menu":"PROCESSING_INSTRUCTION_NODE : Number  readonly","type":"Number","kind":"v"},"TEXT_NODE":{"menu":"TEXT_NODE : Number  readonly","type":"Number","kind":"v"},"CDATA_SECTION_NODE":{"menu":"CDATA_SECTION_NODE : Number  readonly","type":"Number","kind":"v"},"ATTRIBUTE_NODE":{"menu":"ATTRIBUTE_NODE : Number  readonly","type":"Number","kind":"v"},"prototype":{"kind":"v","type":"Object","class":"Node","props":{"compareDocumentPosition":{"menu":"compareDocumentPosition(other : Node) : Number","type":"Number","kind":"f"},"cloneNode":{"menu":"cloneNode(deep : Boolean) : Node","type":"Node","kind":"f"},"appendChild":{"menu":"appendChild(newChild : Node) : Node","type":"Node","kind":"f"},"textContent":{"menu":"textContent : String","type":"String","kind":"v"},"previousSibling":{"menu":"previousSibling : Node  readonly","type":"Node","kind":"v"},"parentNode":{"menu":"parentNode : Node  readonly","type":"Node","kind":"v"},"parentElement":{"menu":"parentElement : Element  readonly","type":"Element","kind":"v"},"ownerDocument":{"menu":"ownerDocument : Document  readonly","type":"Document","kind":"v"},"baseURI":{"menu":"baseURI : String  readonly","type":"String","kind":"v"},"childNodes":{"menu":"childNodes : NodeList  readonly","type":"NodeList","kind":"v"},"insertBefore":{"menu":"insertBefore(newChild : Node, [refChild : Node]) : Node","type":"Node","kind":"f"},"isDefaultNamespace":{"menu":"isDefaultNamespace(namespaceURI : Boolean) : Boolean","type":"Boolean","kind":"f"},"isEqualNode":{"menu":"isEqualNode(arg : Node) : Boolean","type":"Boolean","kind":"f"},"lookupNamespaceURI":{"menu":"lookupNamespaceURI(prefix : String) : String","type":"String","kind":"f"},"lookupPrefix":{"menu":"lookupPrefix(namespaceURI : String) : String","type":"String","kind":"f"},"normalize":{"menu":"normalize() : undefined","type":"undefined","kind":"f"},"removeChild":{"menu":"removeChild(oldChild : Node) : Node","type":"Node","kind":"f"},"replaceChild":{"menu":"replaceChild(newChild : Node, oldChild : Node) : Node","type":"Node","kind":"f"},"hasChildNodes":{"menu":"hasChildNodes() : Boolean","type":"Boolean","kind":"f"},"contains":{"menu":"contains(other : Node) : Boolean","type":"Boolean","kind":"f"},"nodeValue":{"menu":"nodeValue : String","type":"String","kind":"v"},"nodeType":{"menu":"nodeType : Number  readonly","type":"Number","kind":"v"},"nodeName":{"menu":"nodeName : String  readonly","type":"String","kind":"v"},"nextSibling":{"menu":"nextSibling : Node  readonly","type":"Node","kind":"v"},"lastChild":{"menu":"lastChild : Node  readonly","type":"Node","kind":"v"},"firstChild":{"menu":"firstChild : Node  readonly","type":"Node","kind":"v"}}},"DOCUMENT_POSITION_DISCONNECTED":{"menu":"DOCUMENT_POSITION_DISCONNECTED : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_POSITION_FOLLOWING":{"menu":"DOCUMENT_POSITION_FOLLOWING : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC":{"menu":"DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_POSITION_PRECEDING":{"menu":"DOCUMENT_POSITION_PRECEDING : Number  readonly","type":"Number","kind":"v"},"DOCUMENT_TYPE_NODE":{"menu":"DOCUMENT_TYPE_NODE : Number  readonly","type":"Number","kind":"v"}},"kind":"f"},"HTMLOListElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLOListElement","props":{"reversed":{"menu":"reversed : Boolean","type":"Boolean","kind":"v"},"start":{"menu":"start : Number","type":"Number","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"}}}},"kind":"f"},"EventTarget":{"props":{"prototype":{"kind":"v","type":"Object","class":"EventTarget","props":{"dispatchEvent":{"menu":"dispatchEvent(event : Event) : Boolean","type":"Boolean","kind":"f"}}}},"kind":"f"},"EventListener":{"props":{"prototype":{"kind":"v","type":"Object","class":"EventListener","props":{"handleEvent":{"menu":"handleEvent(event : Event) : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"HTMLDListElement":{"kind":"v"},"XMLDocument":{"kind":"v"},"TreeWalker":{"kind":"v"},"HTMLAnchorElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLAnchorElement","props":{"port":{"menu":"port : String","type":"String","kind":"v"},"pathname":{"menu":"pathname : String","type":"String","kind":"v"},"media":{"menu":"media : String","type":"String","kind":"v"},"hreflang":{"menu":"hreflang : String","type":"String","kind":"v"},"href":{"menu":"href : String","type":"String","kind":"v"},"hostname":{"menu":"hostname : String","type":"String","kind":"v"},"host":{"menu":"host : String","type":"String","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"},"text":{"menu":"text : String","type":"String","kind":"v"},"target":{"menu":"target : String","type":"String","kind":"v"},"search":{"menu":"search : String","type":"String","kind":"v"},"relList":{"menu":"relList : DOMTokenList  readonly","type":"DOMTokenList","kind":"v"},"rel":{"menu":"rel : String","type":"String","kind":"v"},"protocol":{"menu":"protocol : String","type":"String","kind":"v"},"hash":{"menu":"hash : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLSelectElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLSelectElement","props":{"validity":{"menu":"validity : ValidityState  readonly","type":"ValidityState","kind":"v"},"validationMessage":{"menu":"validationMessage : String  readonly","type":"String","kind":"v"},"type":{"menu":"type : String  readonly","type":"String","kind":"v"},"size":{"menu":"size : Number","type":"Number","kind":"v"},"labels":{"menu":"labels : NodeList  readonly","type":"NodeList","kind":"v"},"length":{"menu":"length : Number","type":"Number","kind":"v"},"multiple":{"menu":"multiple : Boolean","type":"Boolean","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"},"value":{"menu":"value : String","type":"String","kind":"v"},"willValidate":{"menu":"willValidate : Boolean  readonly","type":"Boolean","kind":"v"},"remove":{"menu":"remove(index : Number) : undefined","type":"undefined","kind":"f"},"setCustomValidity":{"menu":"setCustomValidity(error : String) : undefined","type":"undefined","kind":"f"},"form":{"menu":"form : HTMLFormElement  readonly","type":"HTMLFormElement","kind":"v"},"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"checkValidity":{"menu":"checkValidity : Boolean","type":"Boolean","kind":"v"},"autofocus":{"menu":"autofocus : Boolean","type":"Boolean","kind":"v"},"options":{"menu":"options : HTMLOptionsCollection  readonly","type":"HTMLOptionsCollection","kind":"v"},"required":{"menu":"required : Boolean","type":"Boolean","kind":"v"},"selectedIndex":{"menu":"selectedIndex : Number","type":"Number","kind":"v"},"selectedOptions":{"menu":"selectedOptions : HTMLCollection  readonly","type":"HTMLCollection","kind":"v"}}}},"kind":"f"},"HTMLCollection":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLCollection","props":{"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"item":{"menu":"item(index : Number) : Element","type":"Element","kind":"f"},"namedItem":{"menu":"namedItem(name : String) : Element","type":"Element","kind":"f"}}}},"kind":"f"},"HTMLFormElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLFormElement","props":{"method":{"menu":"method : String","type":"String","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"enctype":{"menu":"enctype : String","type":"String","kind":"v"},"encoding":{"menu":"encoding : String","type":"String","kind":"v"},"elements":{"menu":"elements : HTMLFormControlsCollection  readonly","type":"HTMLFormControlsCollection","kind":"v"},"autocomplete":{"menu":"autocomplete : String","type":"String","kind":"v"},"submit":{"menu":"submit() : undefined","type":"undefined","kind":"f"},"reset":{"menu":"reset() : undefined","type":"undefined","kind":"f"},"checkValidity":{"menu":"checkValidity() : Boolean","type":"Boolean","kind":"f"},"target":{"menu":"target : String","type":"String","kind":"v"},"noValidate":{"menu":"noValidate : Boolean","type":"Boolean","kind":"v"},"name":{"menu":"name : String","type":"String","kind":"v"},"acceptCharset":{"menu":"acceptCharset : String","type":"String","kind":"v"},"action":{"menu":"action : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLOptionElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLOptionElement","props":{"defaultSelected":{"menu":"defaultSelected : Boolean","type":"Boolean","kind":"v"},"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"form":{"menu":"form : HTMLFormElement  readonly","type":"HTMLFormElement","kind":"v"},"index":{"menu":"index : Number  readonly","type":"Number","kind":"v"},"label":{"menu":"label : String","type":"String","kind":"v"},"selected":{"menu":"selected : Boolean","type":"Boolean","kind":"v"},"text":{"menu":"text : String","type":"String","kind":"v"},"value":{"menu":"value : String","type":"String","kind":"v"}}}},"kind":"f"},"FocusEvent":{"kind":"f","menu":"new FocusEvent(type : String, [eventInit : Object]) : Event","type":"Event","props":{"prototype":{"kind":"v","type":"Object","class":"FocusEvent","props":{"view":{"menu":"view : Window  readonly","type":"Window","kind":"v"},"initUIEvent":{"menu":"initUIEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number) : undefined","type":"undefined","kind":"f"}}},"detail":{"menu":"detail : Number  readonly","type":"Number","kind":"v"}}},"Text":{"kind":"v"},"HTMLSpanElement":{"kind":"v"},"ClientRectList":{"props":{"prototype":{"kind":"v","type":"Object","class":"ClientRectList","props":{"length":{"menu":"length : Number","type":"Number","kind":"v"},"item":{"menu":"item(index : Number) : ClientRect","type":"ClientRect","kind":"f"}}}},"kind":"f"},"HTMLFormControlsCollection":{"kind":"v"},"NodeFilter":{"props":{"SHOW_DOCUMENT":{"menu":"SHOW_DOCUMENT : Number  readonly  value = 256","type":"Number","kind":"v"},"SHOW_COMMENT":{"menu":"SHOW_COMMENT : Number  readonly  value = 128","type":"Number","kind":"v"},"SHOW_CDATA_SECTION":{"menu":"SHOW_CDATA_SECTION : Number  readonly  value = 8","type":"Number","kind":"v"},"SHOW_ATTRIBUTE":{"menu":"SHOW_ATTRIBUTE : Number  readonly  value = 2","type":"Number","kind":"v"},"SHOW_ALL":{"menu":"SHOW_ALL : Number  readonly  value = 4294967295","type":"Number","kind":"v"},"FILTER_REJECT":{"menu":"FILTER_REJECT : Number  readonly  value = 2","type":"Number","kind":"v"},"FILTER_ACCEPT":{"menu":"FILTER_ACCEPT : Number  readonly  value = 1","type":"Number","kind":"v"},"prototype":{"kind":"v","type":"Object","class":"NodeFilter","props":{"acceptNode":{"menu":"acceptNode(n : Node) : Number","type":"Number","kind":"f"}}},"SHOW_TEXT":{"menu":"SHOW_TEXT : Number  readonly  value = 4","type":"Number","kind":"v"},"SHOW_PROCESSING_INSTRUCTION":{"menu":"SHOW_PROCESSING_INSTRUCTION : Number  readonly  value = 64","type":"Number","kind":"v"},"SHOW_NOTATION":{"menu":"SHOW_NOTATION : Number  readonly  value = 2048","type":"Number","kind":"v"},"SHOW_ENTITY_REFERENCE":{"menu":"SHOW_ENTITY_REFERENCE : Number  readonly  value = 16","type":"Number","kind":"v"},"SHOW_ENTITY":{"menu":"SHOW_ENTITY : Number  readonly  value = 32","type":"Number","kind":"v"},"SHOW_ELEMENT":{"menu":"SHOW_ELEMENT : Number  readonly  value = 1","type":"Number","kind":"v"},"SHOW_DOCUMENT_TYPE":{"menu":"SHOW_DOCUMENT_TYPE : Number  readonly  value = 512","type":"Number","kind":"v"},"SHOW_DOCUMENT_FRAGMENT":{"menu":"SHOW_DOCUMENT_FRAGMENT : Number  readonly  value = 1024","type":"Number","kind":"v"}},"kind":"f"},"HTMLTimeElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLTimeElement","props":{"datetime":{"menu":"datetime : String","type":"String","kind":"v"}}}},"kind":"f"},"CharacterData":{"props":{"prototype":{"kind":"v","type":"Object","class":"CharacterData","props":{"data":{"menu":"data : String","type":"String","kind":"v"},"length":{"menu":"length : Number  readonly","type":"Number","kind":"v"},"appendData":{"menu":"appendData(data : String) : undefined","type":"undefined","kind":"f"},"deleteData":{"menu":"deleteData(offset : Number, count : Number) : undefined","type":"undefined","kind":"f"},"insertData":{"menu":"insertData(offset : Number, data : String) : undefined","type":"undefined","kind":"f"},"remove":{"menu":"remove() : undefined","type":"undefined","kind":"f"},"replaceData":{"menu":"replaceData(offset : Number, count : Number, data : String) : undefined","type":"undefined","kind":"f"},"substringData":{"menu":"substringData(offset : Number, count : Number) : String","type":"String","kind":"f"}}}},"kind":"f"},"HTMLPreElement":{"kind":"v"},"HTMLElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLElement","props":{"focus":{"menu":"focus() : undefined","type":"undefined","kind":"f"},"click":{"menu":"click() : undefined","type":"undefined","kind":"f"},"commandDisabled":{"menu":"commandDisabled : Boolean  readonly","type":"Boolean","kind":"v"},"commandChecked":{"menu":"commandChecked : Boolean  readonly","type":"Boolean","kind":"v"},"className":{"menu":"className : String","type":"String","kind":"v"},"classList":{"menu":"classList : DOMTokenList  readonly","type":"DOMTokenList","kind":"v"},"accessKeyLabel":{"menu":"accessKeyLabel : String  readonly","type":"String","kind":"v"},"accessKey":{"menu":"accessKey : String","type":"String","kind":"v"},"commandLabel":{"menu":"commandLabel : String  readonly","type":"String","kind":"v"},"commandType":{"menu":"commandType : String  readonly","type":"String","kind":"v"},"scrollIntoView":{"menu":"scrollIntoView([top = false : Boolean]) : undefined","type":"undefined","kind":"f"},"insertAdjacentHTML":{"menu":"insertAdjacentHTML(position : String, html : String) : undefined","type":"undefined","kind":"f"},"hidden":{"menu":"hidden : Boolean","type":"Boolean","kind":"v"},"dropzone":{"menu":"dropzone : DOMSettableTokenList  readonly","type":"DOMSettableTokenList","kind":"v"},"draggable":{"menu":"draggable : Boolean","type":"Boolean","kind":"v"},"dir":{"menu":"dir : String","type":"String","kind":"v"},"contextMenu":{"menu":"contextMenu : HTMLMenuElement","type":"HTMLMenuElement","kind":"v"},"contentEditable":{"menu":"contentEditable : String","type":"String","kind":"v"},"commandHidden":{"menu":"commandHidden : Boolean  readonly","type":"Boolean","kind":"v"},"commandIcon":{"menu":"commandIcon : String  readonly","type":"String","kind":"v"},"innerHTML":{"menu":"innerHTML : String","type":"String","kind":"v"},"isContentEditable":{"menu":"isContentEditable : Boolean  readonly","type":"Boolean","kind":"v"},"lang":{"menu":"lang : String","type":"String","kind":"v"},"offsetHeight":{"menu":"offsetHeight : Number  readonly","type":"Number","kind":"v"},"offsetLeft":{"menu":"offsetLeft : Number  readonly","type":"Number","kind":"v"},"offsetParent":{"menu":"offsetParent : Element  readonly","type":"Element","kind":"v"},"offsetTop":{"menu":"offsetTop : Number  readonly","type":"Number","kind":"v"},"offsetWidth":{"menu":"offsetWidth : Number  readonly","type":"Number","kind":"v"},"outerHTML":{"menu":"outerHTML : String","type":"String","kind":"v"},"spellcheck":{"menu":"spellcheck : Boolean","type":"Boolean","kind":"v"},"style":{"menu":"style : CSSStyleDeclaration  readonly","type":"CSSStyleDeclaration","kind":"v"},"tabIndex":{"menu":"tabIndex : Number","type":"Number","kind":"v"},"title":{"menu":"title : String","type":"String","kind":"v"},"blur":{"menu":"blur() : undefined","type":"undefined","kind":"f"}}}},"kind":"f"},"HTMLDivElement":{"kind":"v"},"Comment":{"kind":"v"},"MutationRecord":{"props":{"prototype":{"kind":"v","type":"Object","class":"MutationRecord","props":{"target":{"menu":"target : Node  readonly","type":"Node","kind":"v"},"type":{"menu":"type : String  readonly","type":"String","kind":"v"},"addedNodes":{"menu":"addedNodes : NodeList  readonly","type":"NodeList","kind":"v"},"attributeName":{"menu":"attributeName : String  readonly","type":"String","kind":"v"},"attributeNamespace":{"menu":"attributeNamespace : String  readonly","type":"String","kind":"v"},"nextSibling":{"menu":"nextSibling : Node  readonly","type":"Node","kind":"v"},"oldValue":{"menu":"oldValue : String  readonly","type":"String","kind":"v"},"previousSibling":{"menu":"previousSibling : Node  readonly","type":"Node","kind":"v"},"removedNodes":{"menu":"removedNodes : NodeList  readonly","type":"NodeList","kind":"v"}}}},"kind":"f"},"ClientRect":{"props":{"prototype":{"kind":"v","type":"Object","class":"ClientRect","props":{"bottom":{"menu":"bottom : Number","type":"Number","kind":"v"},"height":{"menu":"height : Number","type":"Number","kind":"v"},"left":{"menu":"left : Number","type":"Number","kind":"v"},"right":{"menu":"right : Number","type":"Number","kind":"v"},"top":{"menu":"top : Number","type":"Number","kind":"v"},"width":{"menu":"width : Number","type":"Number","kind":"v"}}}},"kind":"f"},"HTMLQuoteElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLQuoteElement","props":{"cite":{"menu":"cite : String","type":"String","kind":"v"}}}},"kind":"f"},"ProcessingInstruction":{"kind":"v"},"DocumentType":{"kind":"v"},"HTMLImageElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLImageElement","props":{"alt":{"menu":"alt : String","type":"String","kind":"v"},"complete":{"menu":"complete : Boolean","type":"Boolean","kind":"v"},"height":{"menu":"height : Number","type":"Number","kind":"v"},"naturalHeight":{"menu":"naturalHeight : Number  readonly","type":"Number","kind":"v"},"naturalWidth":{"menu":"naturalWidth : Number  readonly","type":"Number","kind":"v"},"src":{"menu":"src : String","type":"String","kind":"v"},"width":{"menu":"width : Number","type":"Number","kind":"v"}}}},"kind":"f"},"DOMStringMap":{"kind":"v"},"HTMLHtmlElement":{"kind":"v"},"MouseEvent":{"kind":"f","menu":"new MouseEvent(type : String, [eventInit : Object]) : MouseEvent","type":"MouseEvent","props":{"prototype":{"kind":"v","type":"Object","class":"MouseEvent","props":{"x":{"menu":"x : Number  readonly","type":"Number","kind":"v"},"shiftKey":{"menu":"shiftKey : Boolean  readonly","type":"Boolean","kind":"v"},"screenY":{"menu":"screenY : Number  readonly","type":"Number","kind":"v"},"clientX":{"menu":"clientX : Number  readonly","type":"Number","kind":"v"},"clientY":{"menu":"clientY : Number  readonly","type":"Number","kind":"v"},"ctrlKey":{"menu":"ctrlKey : Boolean  readonly","type":"Boolean","kind":"v"},"metaKey":{"menu":"metaKey : Boolean  readonly","type":"Boolean","kind":"v"},"offsetX":{"menu":"offsetX : Number  readonly","type":"Number","kind":"v"},"y":{"menu":"y : Number  readonly","type":"Number","kind":"v"},"getModifierState":{"menu":"getModifierState(keyArg : String) : Boolean","type":"Boolean","kind":"f"},"initMouseEvent":{"menu":"initMouseEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number, screenX : Number, screenY : Number, clientX : Number, clientY : Number, ctrlKey : Boolean, altKey : Boolean, shiftKey : Boolean, metaKey : Boolean, button : Number, [relatedTarget : Element]) : undefined","type":"undefined","kind":"f"},"buttons":{"menu":"buttons : Number  readonly","type":"Number","kind":"v"},"button":{"menu":"button : Number  readonly","type":"Number","kind":"v"},"altKey":{"menu":"altKey : Boolean  readonly","type":"Boolean","kind":"v"},"offsetY":{"menu":"offsetY : Number  readonly","type":"Number","kind":"v"},"pageX":{"menu":"pageX : Number  readonly","type":"Number","kind":"v"},"pageY":{"menu":"pageY : Number  readonly","type":"Number","kind":"v"},"relatedTarget":{"menu":"relatedTarget : Element  readonly","type":"Element","kind":"v"},"screenX":{"menu":"screenX : Number  readonly","type":"Number","kind":"v"}}}}},"XMLSerializer":{"kind":"f","menu":"new XMLSerializer() : XMLSerializer","type":"XMLSerializer","props":{"prototype":{"kind":"v","type":"Object","class":"XMLSerializer","props":{"serializeToString":{"menu":"serializeToString(root : Node) : String","type":"String","kind":"f"}}}}},"FormData":{"kind":"f","menu":"new FormData(form : HTMLFormElement) : FormData","type":"FormData","props":{"prototype":{"kind":"v","type":"Object","class":"FormData","props":{}}}},"HTMLLinkElement":{"props":{"prototype":{"kind":"v","type":"Object","class":"HTMLLinkElement","props":{"disabled":{"menu":"disabled : Boolean","type":"Boolean","kind":"v"},"href":{"menu":"href : String","type":"String","kind":"v"},"hreflang":{"menu":"hreflang : String","type":"String","kind":"v"},"media":{"menu":"media : String","type":"String","kind":"v"},"rel":{"menu":"rel : String","type":"String","kind":"v"},"relList":{"menu":"relList : DOMTokenList  readonly","type":"DOMTokenList","kind":"v"},"sizes":{"menu":"sizes : DOMSettableTokenList  readonly","type":"DOMSettableTokenList","kind":"v"},"type":{"menu":"type : String","type":"String","kind":"v"}}}},"kind":"f"},"HTMLUListElement":{"kind":"v"},"ProgressEvent":{"kind":"f","menu":"new ProgressEvent(type : String, [args : Object]) : ProgressEvent","type":"ProgressEvent","props":{"prototype":{"kind":"v","type":"Object","class":"ProgressEvent","props":{"lengthComputable":{"menu":"lengthComputable : Boolean","type":"Boolean","kind":"v"},"loaded":{"menu":"loaded : Number","type":"Number","kind":"v"},"total":{"menu":"total : Number","type":"Number","kind":"v"}}}}}}
+{
+  "ProgressEvent": {
+    "props": {
+      "prototype": {
+        "props": {
+          "total": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "total : Number"
+          },
+          "loaded": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "loaded : Number"
+          },
+          "lengthComputable": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "lengthComputable : Boolean"
+          }
+        },
+        "class": "ProgressEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "ProgressEvent",
+    "menu": "new ProgressEvent(type : String, [args : Object]) : ProgressEvent",
+    "kind": "f"
+  },
+  "HTMLUListElement": {
+    "kind": "v"
+  },
+  "HTMLLinkElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "sizes": {
+            "kind": "v",
+            "type": "DOMSettableTokenList",
+            "menu": "sizes : DOMSettableTokenList readonly"
+          },
+          "relList": {
+            "kind": "v",
+            "type": "DOMTokenList",
+            "menu": "relList : DOMTokenList readonly"
+          },
+          "rel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "rel : String"
+          },
+          "media": {
+            "kind": "v",
+            "type": "String",
+            "menu": "media : String"
+          },
+          "hreflang": {
+            "kind": "v",
+            "type": "String",
+            "menu": "hreflang : String"
+          },
+          "href": {
+            "kind": "v",
+            "type": "String",
+            "menu": "href : String"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          }
+        },
+        "class": "HTMLLinkElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "FormData": {
+    "props": {
+      "prototype": {
+        "props": {},
+        "class": "FormData",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "FormData",
+    "menu": "new FormData(form : HTMLFormElement) : FormData",
+    "kind": "f"
+  },
+  "XMLSerializer": {
+    "props": {
+      "prototype": {
+        "props": {
+          "serializeToString": {
+            "kind": "f",
+            "type": "String",
+            "menu": "serializeToString(root : Node) : String"
+          }
+        },
+        "class": "XMLSerializer",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "XMLSerializer",
+    "menu": "new XMLSerializer() : XMLSerializer",
+    "kind": "f"
+  },
+  "MouseEvent": {
+    "props": {
+      "prototype": {
+        "props": {
+          "screenX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "screenX : Number readonly"
+          },
+          "relatedTarget": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "relatedTarget : Element readonly"
+          },
+          "pageY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "pageY : Number readonly"
+          },
+          "offsetX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetX : Number readonly"
+          },
+          "metaKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "metaKey : Boolean readonly"
+          },
+          "ctrlKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "ctrlKey : Boolean readonly"
+          },
+          "clientY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientY : Number readonly"
+          },
+          "clientX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientX : Number readonly"
+          },
+          "screenY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "screenY : Number readonly"
+          },
+          "shiftKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "shiftKey : Boolean readonly"
+          },
+          "x": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "x : Number readonly"
+          },
+          "y": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "y : Number readonly"
+          },
+          "getModifierState": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "getModifierState(keyArg : String) : Boolean"
+          },
+          "initMouseEvent": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "initMouseEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number, screenX : Number, screenY : Number, clientX : Number, clientY : Number, ctrlKey : Boolean, altKey : Boolean, shiftKey : Boolean, metaKey : Boolean, button : Number, [relatedTarget : Element]) : undefined"
+          },
+          "buttons": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "buttons : Number readonly"
+          },
+          "button": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "button : Number readonly"
+          },
+          "altKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "altKey : Boolean readonly"
+          },
+          "offsetY": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetY : Number readonly"
+          },
+          "pageX": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "pageX : Number readonly"
+          }
+        },
+        "class": "MouseEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "MouseEvent",
+    "menu": "new MouseEvent(type : String, [eventInit : Object]) : MouseEvent",
+    "kind": "f"
+  },
+  "HTMLHtmlElement": {
+    "kind": "v"
+  },
+  "DOMStringMap": {
+    "kind": "v"
+  },
+  "HTMLImageElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "naturalWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "naturalWidth : Number readonly"
+          },
+          "naturalHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "naturalHeight : Number readonly"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          },
+          "complete": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "complete : Boolean"
+          },
+          "alt": {
+            "kind": "v",
+            "type": "String",
+            "menu": "alt : String"
+          }
+        },
+        "class": "HTMLImageElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "DocumentType": {
+    "kind": "v"
+  },
+  "ProcessingInstruction": {
+    "kind": "v"
+  },
+  "HTMLQuoteElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "cite": {
+            "kind": "v",
+            "type": "String",
+            "menu": "cite : String"
+          }
+        },
+        "class": "HTMLQuoteElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "ClientRect": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "top": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "top : Number"
+          },
+          "right": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "right : Number"
+          },
+          "left": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "left : Number"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          },
+          "bottom": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "bottom : Number"
+          }
+        },
+        "class": "ClientRect",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "MutationRecord": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "removedNodes": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "removedNodes : NodeList readonly"
+          },
+          "target": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "target : Node readonly"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String readonly"
+          },
+          "addedNodes": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "addedNodes : NodeList readonly"
+          },
+          "attributeName": {
+            "kind": "v",
+            "type": "String",
+            "menu": "attributeName : String readonly"
+          },
+          "attributeNamespace": {
+            "kind": "v",
+            "type": "String",
+            "menu": "attributeNamespace : String readonly"
+          },
+          "nextSibling": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "nextSibling : Node readonly"
+          },
+          "oldValue": {
+            "kind": "v",
+            "type": "String",
+            "menu": "oldValue : String readonly"
+          },
+          "previousSibling": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "previousSibling : Node readonly"
+          }
+        },
+        "class": "MutationRecord",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "NodeList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "item": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "item(index : Number) : Node"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          }
+        },
+        "class": "NodeList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLEmbedElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "width": {
+            "kind": "v",
+            "type": "String",
+            "menu": "width : String"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "height": {
+            "kind": "v",
+            "type": "String",
+            "menu": "height : String"
+          }
+        },
+        "class": "HTMLEmbedElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLIFrameElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "sandbox": {
+            "kind": "v",
+            "type": "DOMSettableTokenList",
+            "menu": "sandbox : DOMSettableTokenList readonly"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "seamless": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "seamless : Boolean"
+          },
+          "width": {
+            "kind": "v",
+            "type": "String",
+            "menu": "width : String"
+          },
+          "srcdoc": {
+            "kind": "v",
+            "type": "String",
+            "menu": "srcdoc : String"
+          },
+          "allowFullscreen": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "allowFullscreen : Boolean"
+          },
+          "contentDocument": {
+            "kind": "v",
+            "type": "Document",
+            "menu": "contentDocument : Document readonly"
+          },
+          "contentWindow": {
+            "kind": "v",
+            "type": "Window",
+            "menu": "contentWindow : Window readonly"
+          },
+          "height": {
+            "kind": "v",
+            "type": "String",
+            "menu": "height : String"
+          }
+        },
+        "class": "HTMLIFrameElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "DOMImplementation": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "hasFeature": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasFeature(feature : String, version : String) : Boolean"
+          },
+          "createHTMLDocument": {
+            "kind": "f",
+            "type": "Document",
+            "menu": "createHTMLDocument([title : String]) : Document"
+          },
+          "createDocumentType": {
+            "kind": "f",
+            "type": "DocumentType",
+            "menu": "createDocumentType(qualifiedName : String, publicId : String, systemId : String) : DocumentType"
+          },
+          "createDocument": {
+            "kind": "f",
+            "type": "XMLDocument",
+            "menu": "createDocument(namespace : String, qualifiedName : String, [documentType : DocumentType]) : XMLDocument"
+          },
+          "createCSSStyleSheet": {
+            "kind": "f",
+            "type": "CSSStyleSheet",
+            "menu": "createCSSStyleSheet(title : String, media : String) : CSSStyleSheet"
+          }
+        },
+        "class": "DOMImplementation",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLLIElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "value": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "value : Number"
+          }
+        },
+        "class": "HTMLLIElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLButtonElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "willValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "willValidate : Boolean readonly"
+          },
+          "formTarget": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formTarget : String"
+          },
+          "formNoValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "formNoValidate : Boolean"
+          },
+          "formMethod": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formMethod : String"
+          },
+          "formEnctype": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formEnctype : String"
+          },
+          "formAction": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formAction : String"
+          },
+          "form": {
+            "kind": "v",
+            "type": "HTMLFormElement",
+            "menu": "form : HTMLFormElement readonly"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          },
+          "checkValidity": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "checkValidity() : Boolean"
+          },
+          "setCustomValidity": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setCustomValidity(error : String) : undefined"
+          },
+          "autofocus": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "autofocus : Boolean"
+          },
+          "labels": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "labels : NodeList"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "validationMessage": {
+            "kind": "v",
+            "type": "String",
+            "menu": "validationMessage : String readonly"
+          },
+          "validity": {
+            "kind": "v",
+            "type": "ValidityState",
+            "menu": "validity : ValidityState readonly"
+          },
+          "value": {
+            "kind": "v",
+            "type": "String",
+            "menu": "value : String"
+          }
+        },
+        "class": "HTMLButtonElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "StorageEvent": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "url": {
+            "kind": "v",
+            "type": "String",
+            "menu": "url : String readonly"
+          },
+          "storageArea": {
+            "kind": "v",
+            "type": "Storage",
+            "menu": "storageArea : Storage readonly"
+          },
+          "oldValue": {
+            "kind": "v",
+            "type": "String",
+            "menu": "oldValue : String readonly"
+          },
+          "newValue": {
+            "kind": "v",
+            "type": "String",
+            "menu": "newValue : String readonly"
+          },
+          "key": {
+            "kind": "v",
+            "type": "String",
+            "menu": "key : String readonly"
+          }
+        },
+        "class": "StorageEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLMenuElement": {
+    "kind": "v"
+  },
+  "HTMLBodyElement": {
+    "kind": "v"
+  },
+  "DocumentFragment": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "querySelectorAll": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "querySelectorAll(cssSelector : String) : NodeList"
+          },
+          "querySelector": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "querySelector(cssSelector : String) : Element"
+          }
+        },
+        "class": "DocumentFragment",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLScriptElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "text": {
+            "kind": "v",
+            "type": "String",
+            "menu": "text : String"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "defer": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "defer : Boolean"
+          },
+          "charset": {
+            "kind": "v",
+            "type": "String",
+            "menu": "charset : String"
+          },
+          "async": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "async : Boolean"
+          }
+        },
+        "class": "HTMLScriptElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Image": {
+    "type": "Image",
+    "menu": "new Image([width : Number, [height : Number]]) : Image",
+    "kind": "f"
+  },
+  "HTMLBaseElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "target": {
+            "kind": "v",
+            "type": "String",
+            "menu": "target : String"
+          },
+          "href": {
+            "kind": "v",
+            "type": "String",
+            "menu": "href : String"
+          }
+        },
+        "class": "HTMLBaseElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Range": {
+    "kind": "f",
+    "props": {
+      "START_TO_START": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "START_TO_START : Number readonly value = 0"
+      },
+      "START_TO_END": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "START_TO_END : Number readonly value = 1"
+      },
+      "END_TO_START": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "END_TO_START : Number readonly value = 3"
+      },
+      "END_TO_END": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "END_TO_END : Number readonly value = 2"
+      },
+      "prototype": {
+        "props": {
+          "collapse": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "collapse(toStart : Boolean) : undefined"
+          },
+          "collapsed": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "collapsed : Boolean readonly"
+          },
+          "commonAncestorContainer": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "commonAncestorContainer : Node readonly"
+          },
+          "endContainer": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "endContainer : Node readonly"
+          },
+          "endOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "endOffset : Number readonly"
+          },
+          "startContainer": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "startContainer : Node readonly"
+          },
+          "startOffset": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "startOffset : Number readonly"
+          },
+          "cloneRange": {
+            "kind": "f",
+            "type": "Range",
+            "menu": "cloneRange() : Range"
+          },
+          "compareBoundaryPoints": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "compareBoundaryPoints(how : Number, sourceRange : Range) : Number"
+          },
+          "deleteContents": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteContents() : undefined"
+          },
+          "detach": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "detach() : undefined"
+          },
+          "extractContents": {
+            "kind": "f",
+            "type": "DocumentFragment",
+            "menu": "extractContents() : DocumentFragment"
+          },
+          "insertNode": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "insertNode(newNode : Node) : undefined"
+          },
+          "selectNode": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "selectNode(refNode : Node) : undefined"
+          },
+          "selectNodeContents": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "selectNodeContents(refNode : Node) : undefined"
+          },
+          "setEnd": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setEnd(refNode : Node, offset : Number) : undefined"
+          },
+          "setEndAfter": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setEndAfter(refNode : Node) : undefined"
+          },
+          "setEndBefore": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setEndBefore(refNode : Node) : undefined"
+          },
+          "setStart": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setStart(refNode : Node, offset : Number) : undefined"
+          },
+          "setStartAfter": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setStartAfter(refNode : Node) : undefined"
+          },
+          "setStartBefore": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setStartBefore(refNode : Node) : undefined"
+          },
+          "surroundContents": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "surroundContents(newParent : Node) : undefined"
+          },
+          "cloneContents": {
+            "kind": "f",
+            "type": "DocumentFragment",
+            "menu": "cloneContents() : DocumentFragment"
+          }
+        },
+        "class": "Range",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLHeadElement": {
+    "kind": "v"
+  },
+  "HTMLTitleElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "text": {
+            "kind": "v",
+            "type": "String",
+            "menu": "text : String"
+          }
+        },
+        "class": "HTMLTitleElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLModElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "dateTime": {
+            "kind": "v",
+            "type": "String",
+            "menu": "dateTime : String"
+          },
+          "cite": {
+            "kind": "v",
+            "type": "String",
+            "menu": "cite : String"
+          }
+        },
+        "class": "HTMLModElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "CompositionEvent": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "locale": {
+            "kind": "v",
+            "type": "String",
+            "menu": "locale : String readonly"
+          },
+          "data": {
+            "kind": "v",
+            "type": "String",
+            "menu": "data : String readonly"
+          }
+        },
+        "class": "CompositionEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Document": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "prepend": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "prepend(node0 : Node, [node1 : Node, [...]]) : undefined"
+          },
+          "readyState": {
+            "kind": "v",
+            "type": "String",
+            "menu": "readyState : String"
+          },
+          "styleSheets": {
+            "kind": "v",
+            "type": "StyleSheetList",
+            "menu": "styleSheets : StyleSheetList"
+          },
+          "adoptNode": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "adoptNode(source : Node) : Node"
+          },
+          "append": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "append(node0 : Node, [node1 : Node, [...]]) : undefined"
+          },
+          "createComment": {
+            "kind": "f",
+            "type": "Comment",
+            "menu": "createComment(data : String) : Comment"
+          },
+          "createDocumentFragment": {
+            "kind": "f",
+            "type": "DocumentFragment",
+            "menu": "createDocumentFragment() : DocumentFragment"
+          },
+          "querySelectorAll": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "querySelectorAll(cssSelector : String) : NodeList"
+          },
+          "documentURI": {
+            "kind": "v",
+            "type": "String",
+            "menu": "documentURI : String"
+          },
+          "querySelector": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "querySelector(selectors : String) : Element"
+          },
+          "doctype": {
+            "kind": "v",
+            "type": "DocumentType",
+            "menu": "doctype : DocumentType readonly"
+          },
+          "contentType": {
+            "kind": "v",
+            "type": "String",
+            "menu": "contentType : String"
+          },
+          "compatMode": {
+            "kind": "v",
+            "type": "String",
+            "menu": "compatMode : String"
+          },
+          "characterSet": {
+            "kind": "v",
+            "type": "String",
+            "menu": "characterSet : String"
+          },
+          "body": {
+            "kind": "v",
+            "type": "HTMLBodyElement",
+            "menu": "body : HTMLBodyElement"
+          },
+          "activeElement": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "activeElement : Element"
+          },
+          "URL": {
+            "kind": "v",
+            "type": "String",
+            "menu": "URL : String"
+          },
+          "implementation": {
+            "kind": "v",
+            "type": "DOMImplementation",
+            "menu": "implementation : DOMImplementation readonly"
+          },
+          "documentElement": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "documentElement : Element readonly"
+          },
+          "createElement": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "createElement(tagName : String) : Element"
+          },
+          "createElementNS": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "createElementNS(namespaceURI : String, qualifiedName : String) : Element"
+          },
+          "createEvent": {
+            "kind": "f",
+            "type": "Event",
+            "menu": "createEvent(eventInterfaceName : String) : Event"
+          },
+          "createNodeIterator": {
+            "kind": "f",
+            "type": "NodeIterator",
+            "menu": "createNodeIterator(root : Node, [whatToShow : Number, [filter : NodeFilter]]) : NodeIterator"
+          },
+          "createProcessingInstruction": {
+            "kind": "f",
+            "type": "ProcessingInstruction",
+            "menu": "createProcessingInstruction(target : String, data : String) : ProcessingInstruction"
+          },
+          "createRange": {
+            "kind": "f",
+            "type": "Range",
+            "menu": "createRange() : Range"
+          },
+          "createTextNode": {
+            "kind": "f",
+            "type": "Text",
+            "menu": "createTextNode(data : String) : Text"
+          },
+          "createTreeWalker": {
+            "kind": "f",
+            "type": "TreeWalker",
+            "menu": "createTreeWalker(root : Node, [whatToShow : Number, [filter : NodeFilter]]) : TreeWalker"
+          },
+          "getElementById": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "getElementById(elementId : String) : Element"
+          },
+          "getElementsByClassName": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByClassName(classNames : String) : NodeList"
+          },
+          "getElementsByTagName": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByTagName(tagname : String) : NodeList"
+          },
+          "getElementsByTagNameNS": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByTagNameNS(namespaceURI : String, localName : String) : NodeList"
+          },
+          "hasFocus": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasFocus() : Boolean"
+          },
+          "importNode": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "importNode(importedNode : Node, deep : Boolean) : Node"
+          }
+        },
+        "class": "Document",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Storage": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "setItem": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setItem(key : String, value : String) : undefined"
+          },
+          "removeItem": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "removeItem(key : String) : undefined"
+          },
+          "key": {
+            "kind": "f",
+            "type": "String",
+            "menu": "key(index : Number) : String"
+          },
+          "getItem": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getItem(key : String) : String"
+          },
+          "clear": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "clear() : undefined"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          }
+        },
+        "class": "Storage",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "UIEvent": {
+    "props": {
+      "detail": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "detail : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "initUIEvent": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "initUIEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number) : undefined"
+          },
+          "view": {
+            "kind": "v",
+            "type": "Window",
+            "menu": "view : Window readonly"
+          }
+        },
+        "class": "UIEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "UIEvent",
+    "menu": "new UIEvent(type : String, [eventInit : Object]) : UIEvent",
+    "kind": "f"
+  },
+  "HTMLParagraphElement": {
+    "kind": "v"
+  },
+  "MutationObserver": {
+    "props": {
+      "prototype": {
+        "props": {
+          "takeRecords": {
+            "kind": "f",
+            "type": "Array",
+            "menu": "takeRecords() : Array"
+          },
+          "observe": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "observe(target : Node, options : Object) : undefined"
+          },
+          "disconnect": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "disconnect() : undefined"
+          }
+        },
+        "class": "MutationObserver",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "MutationObserver",
+    "menu": "new MutationObserver(callback : Function) : MutationObserver",
+    "kind": "f"
+  },
+  "HTMLHRElement": {
+    "kind": "v"
+  },
+  "DOMSettableTokenList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "value": {
+            "kind": "v",
+            "type": "String",
+            "menu": "value : String"
+          }
+        },
+        "class": "DOMSettableTokenList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "DOMParser": {
+    "props": {
+      "prototype": {
+        "props": {
+          "parseFromString": {
+            "kind": "f",
+            "type": "Document",
+            "menu": "parseFromString(string : String, mimeType : String) : Document"
+          }
+        },
+        "class": "DOMParser",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "DOMParser",
+    "menu": "new DOMParser() : DOMParser",
+    "kind": "f"
+  },
+  "HTMLOptGroupElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "label": {
+            "kind": "v",
+            "type": "String",
+            "menu": "label : String"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          }
+        },
+        "class": "HTMLOptGroupElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLHeadingElement": {
+    "kind": "v"
+  },
+  "ValidityState": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "typeMismatch": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "typeMismatch : Boolean readonly"
+          },
+          "valid": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "valid : Boolean readonly"
+          },
+          "valueMissing": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "valueMissing : Boolean readonly"
+          },
+          "customError": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "customError : Boolean readonly"
+          },
+          "patternMismatch": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "patternMismatch : Boolean readonly"
+          },
+          "rangeOverflow": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "rangeOverflow : Boolean readonly"
+          },
+          "rangeUnderflow": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "rangeUnderflow : Boolean readonly"
+          },
+          "stepMismatch": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "stepMismatch : Boolean readonly"
+          },
+          "tooLong": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "tooLong : Boolean readonly"
+          }
+        },
+        "class": "ValidityState",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "KeyboardEvent": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "which": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "which : Number readonly"
+          },
+          "shiftKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "shiftKey : Boolean readonly"
+          },
+          "metaKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "metaKey : Boolean readonly"
+          },
+          "keyCode": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "keyCode : Number readonly"
+          },
+          "ctrlKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "ctrlKey : Boolean readonly"
+          },
+          "charCode": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "charCode : Number readonly"
+          },
+          "altKey": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "altKey : Boolean readonly"
+          }
+        },
+        "class": "KeyboardEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLInputElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "defaultValue": {
+            "kind": "v",
+            "type": "String",
+            "menu": "defaultValue : String"
+          },
+          "defaultChecked": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "defaultChecked : Boolean"
+          },
+          "checked": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "checked : Boolean"
+          },
+          "autofocus": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "autofocus : Boolean"
+          },
+          "autocomplete": {
+            "kind": "v",
+            "type": "String",
+            "menu": "autocomplete : String"
+          },
+          "alt": {
+            "kind": "v",
+            "type": "String",
+            "menu": "alt : String"
+          },
+          "accept": {
+            "kind": "v",
+            "type": "String",
+            "menu": "accept : String"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          },
+          "files": {
+            "kind": "v",
+            "type": "FileList",
+            "menu": "files : FileList readonly"
+          },
+          "form": {
+            "kind": "v",
+            "type": "HTMLFormElement",
+            "menu": "form : HTMLFormElement readonly"
+          },
+          "formAction": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formAction : String"
+          },
+          "formEnctype": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formEnctype : String"
+          },
+          "formMethod": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formMethod : String"
+          },
+          "formNoValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "formNoValidate : Boolean"
+          },
+          "formTarget": {
+            "kind": "v",
+            "type": "String",
+            "menu": "formTarget : String"
+          },
+          "size": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "size : Number"
+          },
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          },
+          "indeterminate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "indeterminate : Boolean"
+          },
+          "labels": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "labels : NodeList readonly"
+          },
+          "list": {
+            "kind": "v",
+            "type": "HTMLElement",
+            "menu": "list : HTMLElement readonly"
+          },
+          "max": {
+            "kind": "v",
+            "type": "String",
+            "menu": "max : String"
+          },
+          "maxLength": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "maxLength : Number"
+          },
+          "min": {
+            "kind": "v",
+            "type": "String",
+            "menu": "min : String"
+          },
+          "multiple": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "multiple : Boolean"
+          },
+          "selectionStart": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "selectionStart : Number"
+          },
+          "selectionEnd": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "selectionEnd : Number"
+          },
+          "selectionDirection": {
+            "kind": "v",
+            "type": "String",
+            "menu": "selectionDirection : String"
+          },
+          "required": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "required : Boolean"
+          },
+          "readOnly": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "readOnly : Boolean"
+          },
+          "placeholder": {
+            "kind": "v",
+            "type": "String",
+            "menu": "placeholder : String"
+          },
+          "pattern": {
+            "kind": "v",
+            "type": "String",
+            "menu": "pattern : String"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "dirName": {
+            "kind": "v",
+            "type": "String",
+            "menu": "dirName : String"
+          },
+          "src": {
+            "kind": "v",
+            "type": "String",
+            "menu": "src : String"
+          },
+          "step": {
+            "kind": "v",
+            "type": "String",
+            "menu": "step : String"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "validationMessage": {
+            "kind": "v",
+            "type": "String",
+            "menu": "validationMessage : String readonly"
+          },
+          "validity": {
+            "kind": "v",
+            "type": "ValidityState",
+            "menu": "validity : ValidityState readonly"
+          },
+          "value": {
+            "kind": "v",
+            "type": "String",
+            "menu": "value : String"
+          },
+          "valueAsDate": {
+            "kind": "v",
+            "type": "Date",
+            "menu": "valueAsDate : Date"
+          },
+          "valueAsNumber": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "valueAsNumber : Number"
+          },
+          "stepUp": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stepUp([n : Number]) : undefined"
+          },
+          "stepDown": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stepDown([n : Number]) : undefined"
+          },
+          "setSelectionRange": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setSelectionRange(start : Number, end : Number, [direction : String]) : undefined"
+          },
+          "setCustomValidity": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setCustomValidity(error : String) : undefined"
+          },
+          "select": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "select() : undefined"
+          },
+          "checkValidity": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "checkValidity() : Boolean"
+          },
+          "willValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "willValidate : Boolean readonly"
+          }
+        },
+        "class": "HTMLInputElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLMetaElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "httpEquiv": {
+            "kind": "v",
+            "type": "String",
+            "menu": "httpEquiv : String"
+          },
+          "content": {
+            "kind": "v",
+            "type": "String",
+            "menu": "content : String"
+          }
+        },
+        "class": "HTMLMetaElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLBRElement": {
+    "kind": "v"
+  },
+  "Event": {
+    "props": {
+      "NONE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NONE : Number readonly"
+      },
+      "CAPTURING_PHASE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CAPTURING_PHASE : Number readonly"
+      },
+      "BUBBLING_PHASE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "BUBBLING_PHASE : Number readonly"
+      },
+      "AT_TARGET": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "AT_TARGET : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "currentTarget": {
+            "kind": "v",
+            "type": "Object",
+            "menu": "currentTarget : Object readonly"
+          },
+          "cancelable": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "cancelable : Boolean readonly"
+          },
+          "bubbles": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "bubbles : Boolean readonly"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String readonly"
+          },
+          "initEvent": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "initEvent(type : String, canBubble : Boolean, cancelable : Boolean) : undefined"
+          },
+          "timeStamp": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "timeStamp : Number readonly"
+          },
+          "target": {
+            "kind": "v",
+            "type": "Object",
+            "menu": "target : Object readonly"
+          },
+          "isTrusted": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "isTrusted : Boolean readonly"
+          },
+          "eventPhase": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "eventPhase : Number readonly"
+          },
+          "defaultPrevented": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "defaultPrevented : Boolean readonly"
+          },
+          "stopPropagation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stopPropagation() : undefined"
+          },
+          "stopImmediatePropagation": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "stopImmediatePropagation() : undefined"
+          },
+          "preventDefault": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "preventDefault() : undefined"
+          }
+        },
+        "class": "Event",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Event",
+    "menu": "new Event(type : String, [eventInit : Object]) : Event",
+    "kind": "f"
+  },
+  "NodeIterator": {
+    "kind": "v"
+  },
+  "DOMTokenList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "toggle": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "toggle(token : String) : Boolean"
+          },
+          "remove": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "remove(token : String) : undefined"
+          },
+          "item": {
+            "kind": "f",
+            "type": "String",
+            "menu": "item(index : Number) : String"
+          },
+          "contains": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "contains(token : String) : Boolean"
+          },
+          "add": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "add(token : String) : undefined"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          }
+        },
+        "class": "DOMTokenList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLCanvasElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "toDataURL": {
+            "kind": "f",
+            "type": "String",
+            "menu": "toDataURL([type?=?'image/png' : String, [jpegCompressionRatio : Number]]) : String"
+          },
+          "getContext": {
+            "kind": "f",
+            "type": "CanvasRenderingContext",
+            "menu": "getContext(contextType : String, [contextAttributes : Object]) : CanvasRenderingContext"
+          },
+          "width": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "width : Number"
+          },
+          "height": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "height : Number"
+          }
+        },
+        "class": "HTMLCanvasElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLOptionsCollection": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "remove": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "remove(index : Number) : undefined"
+          },
+          "selectedIndex": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "selectedIndex : Number"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number"
+          }
+        },
+        "class": "HTMLOptionsCollection",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Element": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "getAttribute": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getAttribute(name : String) : String"
+          },
+          "tagName": {
+            "kind": "v",
+            "type": "String",
+            "menu": "tagName : String readonly"
+          },
+          "scrollWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "scrollWidth : Number readonly"
+          },
+          "scrollTop": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "scrollTop : Number"
+          },
+          "scrollLeft": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "scrollLeft : Number"
+          },
+          "scrollHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "scrollHeight : Number readonly"
+          },
+          "previousElementSibling": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "previousElementSibling : Element"
+          },
+          "prefix": {
+            "kind": "v",
+            "type": "String",
+            "menu": "prefix : String"
+          },
+          "nextElementSibling": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "nextElementSibling : Element"
+          },
+          "namespaceURI": {
+            "kind": "v",
+            "type": "String",
+            "menu": "namespaceURI : String"
+          },
+          "localName": {
+            "kind": "v",
+            "type": "String",
+            "menu": "localName : String"
+          },
+          "lastElementChild": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "lastElementChild : Element"
+          },
+          "id": {
+            "kind": "v",
+            "type": "String",
+            "menu": "id : String"
+          },
+          "firstElementChild": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "firstElementChild : Element"
+          },
+          "dataset": {
+            "kind": "v",
+            "type": "DOMStringMap",
+            "menu": "dataset : DOMStringMap"
+          },
+          "clientWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientWidth : Number readonly"
+          },
+          "hasAttributeNS": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasAttributeNS(namespaceURI : String, localName : String) : Boolean"
+          },
+          "hasAttribute": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasAttribute(name : String) : Boolean"
+          },
+          "getElementsByTagNameNS": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByTagNameNS(namespaceURI : String, localName : String) : NodeList"
+          },
+          "getElementsByTagName": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByTagName(name : String) : NodeList"
+          },
+          "getElementsByClassName": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "getElementsByClassName(classNames : String) : NodeList"
+          },
+          "getClientRects": {
+            "kind": "f",
+            "type": "ClientRectList",
+            "menu": "getClientRects() : ClientRectList"
+          },
+          "getBoundingClientRect": {
+            "kind": "f",
+            "type": "ClientRect",
+            "menu": "getBoundingClientRect() : ClientRect"
+          },
+          "getAttributeNS": {
+            "kind": "f",
+            "type": "String",
+            "menu": "getAttributeNS(namespaceURI : String, localName : String) : String"
+          },
+          "setAttributeNS": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setAttributeNS(namespaceURI : String, qualifiedName : String, value : String) : undefined"
+          },
+          "setAttribute": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setAttribute(name : String, value : String) : undefined"
+          },
+          "scrollIntoView": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "scrollIntoView([top?=?false : Boolean]) : undefined"
+          },
+          "removeAttributeNS": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "removeAttributeNS(namespaceURI : String, localName : String) : undefined"
+          },
+          "removeAttribute": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "removeAttribute(name : String) : undefined"
+          },
+          "querySelectorAll": {
+            "kind": "f",
+            "type": "NodeList",
+            "menu": "querySelectorAll(cssSelector : String) : NodeList"
+          },
+          "querySelector": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "querySelector(selectors : String) : Element"
+          },
+          "hasAttributes": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasAttributes() : Boolean"
+          },
+          "Attributes": {
+            "kind": "v",
+            "type": "Array",
+            "menu": "Attributes : Array"
+          },
+          "childElementCount": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "childElementCount : Number"
+          },
+          "children": {
+            "kind": "v",
+            "type": "HTMLCollection",
+            "menu": "children : HTMLCollection"
+          },
+          "classList": {
+            "kind": "v",
+            "type": "DOMTokenList",
+            "menu": "classList : DOMTokenList"
+          },
+          "className": {
+            "kind": "v",
+            "type": "String",
+            "menu": "className : String"
+          },
+          "clientHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientHeight : Number readonly"
+          },
+          "clientLeft": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientLeft : Number readonly"
+          },
+          "clientTop": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "clientTop : Number readonly"
+          }
+        },
+        "class": "Element",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLStyleElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "scoped": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "scoped : Boolean"
+          },
+          "media": {
+            "kind": "v",
+            "type": "String",
+            "menu": "media : String"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          }
+        },
+        "class": "HTMLStyleElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "Node": {
+    "kind": "f",
+    "props": {
+      "DOCUMENT_TYPE_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_TYPE_NODE : Number readonly"
+      },
+      "DOCUMENT_POSITION_PRECEDING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_PRECEDING : Number readonly"
+      },
+      "DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC : Number readonly"
+      },
+      "DOCUMENT_POSITION_CONTAINS": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_CONTAINS : Number readonly"
+      },
+      "DOCUMENT_POSITION_CONTAINED_BY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_CONTAINED_BY : Number readonly"
+      },
+      "DOCUMENT_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_NODE : Number readonly"
+      },
+      "DOCUMENT_FRAGMENT_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_FRAGMENT_NODE : Number readonly"
+      },
+      "COMMENT_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "COMMENT_NODE : Number readonly"
+      },
+      "ELEMENT_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ELEMENT_NODE : Number readonly"
+      },
+      "ENTITY_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ENTITY_NODE : Number readonly"
+      },
+      "ENTITY_REFERENCE_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ENTITY_REFERENCE_NODE : Number readonly"
+      },
+      "NOTATION_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "NOTATION_NODE : Number readonly"
+      },
+      "PROCESSING_INSTRUCTION_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "PROCESSING_INSTRUCTION_NODE : Number readonly"
+      },
+      "TEXT_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "TEXT_NODE : Number readonly"
+      },
+      "CDATA_SECTION_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "CDATA_SECTION_NODE : Number readonly"
+      },
+      "ATTRIBUTE_NODE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "ATTRIBUTE_NODE : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "firstChild": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "firstChild : Node readonly"
+          },
+          "lastChild": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "lastChild : Node readonly"
+          },
+          "nextSibling": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "nextSibling : Node readonly"
+          },
+          "nodeName": {
+            "kind": "v",
+            "type": "String",
+            "menu": "nodeName : String readonly"
+          },
+          "nodeType": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "nodeType : Number readonly"
+          },
+          "nodeValue": {
+            "kind": "v",
+            "type": "String",
+            "menu": "nodeValue : String"
+          },
+          "contains": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "contains(other : Node) : Boolean"
+          },
+          "hasChildNodes": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "hasChildNodes() : Boolean"
+          },
+          "replaceChild": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "replaceChild(newChild : Node, oldChild : Node) : Node"
+          },
+          "removeChild": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "removeChild(oldChild : Node) : Node"
+          },
+          "ownerDocument": {
+            "kind": "v",
+            "type": "Document",
+            "menu": "ownerDocument : Document readonly"
+          },
+          "parentElement": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "parentElement : Element readonly"
+          },
+          "parentNode": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "parentNode : Node readonly"
+          },
+          "previousSibling": {
+            "kind": "v",
+            "type": "Node",
+            "menu": "previousSibling : Node readonly"
+          },
+          "textContent": {
+            "kind": "v",
+            "type": "String",
+            "menu": "textContent : String"
+          },
+          "appendChild": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "appendChild(newChild : Node) : Node"
+          },
+          "cloneNode": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "cloneNode(deep : Boolean) : Node"
+          },
+          "compareDocumentPosition": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "compareDocumentPosition(other : Node) : Number"
+          },
+          "baseURI": {
+            "kind": "v",
+            "type": "String",
+            "menu": "baseURI : String readonly"
+          },
+          "childNodes": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "childNodes : NodeList readonly"
+          },
+          "insertBefore": {
+            "kind": "f",
+            "type": "Node",
+            "menu": "insertBefore(newChild : Node, [refChild : Node]) : Node"
+          },
+          "isDefaultNamespace": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isDefaultNamespace(namespaceURI : Boolean) : Boolean"
+          },
+          "isEqualNode": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "isEqualNode(arg : Node) : Boolean"
+          },
+          "lookupNamespaceURI": {
+            "kind": "f",
+            "type": "String",
+            "menu": "lookupNamespaceURI(prefix : String) : String"
+          },
+          "lookupPrefix": {
+            "kind": "f",
+            "type": "String",
+            "menu": "lookupPrefix(namespaceURI : String) : String"
+          },
+          "normalize": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "normalize() : undefined"
+          }
+        },
+        "class": "Node",
+        "type": "Object",
+        "kind": "v"
+      },
+      "DOCUMENT_POSITION_DISCONNECTED": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_DISCONNECTED : Number readonly"
+      },
+      "DOCUMENT_POSITION_FOLLOWING": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "DOCUMENT_POSITION_FOLLOWING : Number readonly"
+      }
+    }
+  },
+  "HTMLOListElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          },
+          "start": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "start : Number"
+          },
+          "reversed": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "reversed : Boolean"
+          }
+        },
+        "class": "HTMLOListElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "EventTarget": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "dispatchEvent": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "dispatchEvent(event : Event) : Boolean"
+          }
+        },
+        "class": "EventTarget",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "EventListener": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "handleEvent": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "handleEvent(event : Event) : undefined"
+          }
+        },
+        "class": "EventListener",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLDListElement": {
+    "kind": "v"
+  },
+  "XMLDocument": {
+    "kind": "v"
+  },
+  "TreeWalker": {
+    "kind": "v"
+  },
+  "HTMLAnchorElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "hash": {
+            "kind": "v",
+            "type": "String",
+            "menu": "hash : String"
+          },
+          "protocol": {
+            "kind": "v",
+            "type": "String",
+            "menu": "protocol : String"
+          },
+          "rel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "rel : String"
+          },
+          "relList": {
+            "kind": "v",
+            "type": "DOMTokenList",
+            "menu": "relList : DOMTokenList readonly"
+          },
+          "search": {
+            "kind": "v",
+            "type": "String",
+            "menu": "search : String"
+          },
+          "target": {
+            "kind": "v",
+            "type": "String",
+            "menu": "target : String"
+          },
+          "text": {
+            "kind": "v",
+            "type": "String",
+            "menu": "text : String"
+          },
+          "port": {
+            "kind": "v",
+            "type": "String",
+            "menu": "port : String"
+          },
+          "pathname": {
+            "kind": "v",
+            "type": "String",
+            "menu": "pathname : String"
+          },
+          "media": {
+            "kind": "v",
+            "type": "String",
+            "menu": "media : String"
+          },
+          "hreflang": {
+            "kind": "v",
+            "type": "String",
+            "menu": "hreflang : String"
+          },
+          "href": {
+            "kind": "v",
+            "type": "String",
+            "menu": "href : String"
+          },
+          "hostname": {
+            "kind": "v",
+            "type": "String",
+            "menu": "hostname : String"
+          },
+          "host": {
+            "kind": "v",
+            "type": "String",
+            "menu": "host : String"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String"
+          }
+        },
+        "class": "HTMLAnchorElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLSelectElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "selectedOptions": {
+            "kind": "v",
+            "type": "HTMLCollection",
+            "menu": "selectedOptions : HTMLCollection readonly"
+          },
+          "selectedIndex": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "selectedIndex : Number"
+          },
+          "required": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "required : Boolean"
+          },
+          "options": {
+            "kind": "v",
+            "type": "HTMLOptionsCollection",
+            "menu": "options : HTMLOptionsCollection readonly"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "multiple": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "multiple : Boolean"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number"
+          },
+          "labels": {
+            "kind": "v",
+            "type": "NodeList",
+            "menu": "labels : NodeList readonly"
+          },
+          "size": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "size : Number"
+          },
+          "type": {
+            "kind": "v",
+            "type": "String",
+            "menu": "type : String readonly"
+          },
+          "validationMessage": {
+            "kind": "v",
+            "type": "String",
+            "menu": "validationMessage : String readonly"
+          },
+          "validity": {
+            "kind": "v",
+            "type": "ValidityState",
+            "menu": "validity : ValidityState readonly"
+          },
+          "value": {
+            "kind": "v",
+            "type": "String",
+            "menu": "value : String"
+          },
+          "willValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "willValidate : Boolean readonly"
+          },
+          "remove": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "remove(index : Number) : undefined"
+          },
+          "setCustomValidity": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "setCustomValidity(error : String) : undefined"
+          },
+          "form": {
+            "kind": "v",
+            "type": "HTMLFormElement",
+            "menu": "form : HTMLFormElement readonly"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          },
+          "checkValidity": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "checkValidity : Boolean"
+          },
+          "autofocus": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "autofocus : Boolean"
+          }
+        },
+        "class": "HTMLSelectElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLCollection": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "namedItem": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "namedItem(name : String) : Element"
+          },
+          "item": {
+            "kind": "f",
+            "type": "Element",
+            "menu": "item(index : Number) : Element"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          }
+        },
+        "class": "HTMLCollection",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLFormElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "action": {
+            "kind": "v",
+            "type": "String",
+            "menu": "action : String"
+          },
+          "acceptCharset": {
+            "kind": "v",
+            "type": "String",
+            "menu": "acceptCharset : String"
+          },
+          "name": {
+            "kind": "v",
+            "type": "String",
+            "menu": "name : String"
+          },
+          "noValidate": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "noValidate : Boolean"
+          },
+          "target": {
+            "kind": "v",
+            "type": "String",
+            "menu": "target : String"
+          },
+          "checkValidity": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "checkValidity() : Boolean"
+          },
+          "method": {
+            "kind": "v",
+            "type": "String",
+            "menu": "method : String"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "enctype": {
+            "kind": "v",
+            "type": "String",
+            "menu": "enctype : String"
+          },
+          "encoding": {
+            "kind": "v",
+            "type": "String",
+            "menu": "encoding : String"
+          },
+          "elements": {
+            "kind": "v",
+            "type": "HTMLFormControlsCollection",
+            "menu": "elements : HTMLFormControlsCollection readonly"
+          },
+          "autocomplete": {
+            "kind": "v",
+            "type": "String",
+            "menu": "autocomplete : String"
+          },
+          "submit": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "submit() : undefined"
+          },
+          "reset": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "reset() : undefined"
+          }
+        },
+        "class": "HTMLFormElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLOptionElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "value": {
+            "kind": "v",
+            "type": "String",
+            "menu": "value : String"
+          },
+          "text": {
+            "kind": "v",
+            "type": "String",
+            "menu": "text : String"
+          },
+          "selected": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "selected : Boolean"
+          },
+          "label": {
+            "kind": "v",
+            "type": "String",
+            "menu": "label : String"
+          },
+          "index": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "index : Number readonly"
+          },
+          "form": {
+            "kind": "v",
+            "type": "HTMLFormElement",
+            "menu": "form : HTMLFormElement readonly"
+          },
+          "disabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "disabled : Boolean"
+          },
+          "defaultSelected": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "defaultSelected : Boolean"
+          }
+        },
+        "class": "HTMLOptionElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "FocusEvent": {
+    "props": {
+      "detail": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "detail : Number readonly"
+      },
+      "prototype": {
+        "props": {
+          "initUIEvent": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "initUIEvent(type : String, bubbles : Boolean, cancelable : Boolean, view : Window, detail : Number) : undefined"
+          },
+          "view": {
+            "kind": "v",
+            "type": "Window",
+            "menu": "view : Window readonly"
+          }
+        },
+        "class": "FocusEvent",
+        "type": "Object",
+        "kind": "v"
+      }
+    },
+    "type": "Event",
+    "menu": "new FocusEvent(type : String, [eventInit : Object]) : Event",
+    "kind": "f"
+  },
+  "Text": {
+    "kind": "v"
+  },
+  "HTMLSpanElement": {
+    "kind": "v"
+  },
+  "ClientRectList": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "item": {
+            "kind": "f",
+            "type": "ClientRect",
+            "menu": "item(index : Number) : ClientRect"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number"
+          }
+        },
+        "class": "ClientRectList",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLFormControlsCollection": {
+    "kind": "v"
+  },
+  "NodeFilter": {
+    "kind": "f",
+    "props": {
+      "SHOW_DOCUMENT_FRAGMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_DOCUMENT_FRAGMENT : Number readonly value = 1024"
+      },
+      "SHOW_DOCUMENT_TYPE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_DOCUMENT_TYPE : Number readonly value = 512"
+      },
+      "SHOW_ELEMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_ELEMENT : Number readonly value = 1"
+      },
+      "SHOW_ENTITY": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_ENTITY : Number readonly value = 32"
+      },
+      "SHOW_ENTITY_REFERENCE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_ENTITY_REFERENCE : Number readonly value = 16"
+      },
+      "SHOW_NOTATION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_NOTATION : Number readonly value = 2048"
+      },
+      "SHOW_PROCESSING_INSTRUCTION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_PROCESSING_INSTRUCTION : Number readonly value = 64"
+      },
+      "SHOW_TEXT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_TEXT : Number readonly value = 4"
+      },
+      "SHOW_DOCUMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_DOCUMENT : Number readonly value = 256"
+      },
+      "SHOW_COMMENT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_COMMENT : Number readonly value = 128"
+      },
+      "SHOW_CDATA_SECTION": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_CDATA_SECTION : Number readonly value = 8"
+      },
+      "SHOW_ATTRIBUTE": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_ATTRIBUTE : Number readonly value = 2"
+      },
+      "SHOW_ALL": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "SHOW_ALL : Number readonly value = 4294967295"
+      },
+      "FILTER_REJECT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FILTER_REJECT : Number readonly value = 2"
+      },
+      "FILTER_ACCEPT": {
+        "kind": "v",
+        "type": "Number",
+        "menu": "FILTER_ACCEPT : Number readonly value = 1"
+      },
+      "prototype": {
+        "props": {
+          "acceptNode": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "acceptNode(n : Node) : Number"
+          }
+        },
+        "class": "NodeFilter",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLTimeElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "datetime": {
+            "kind": "v",
+            "type": "String",
+            "menu": "datetime : String"
+          }
+        },
+        "class": "HTMLTimeElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "CharacterData": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "substringData": {
+            "kind": "f",
+            "type": "String",
+            "menu": "substringData(offset : Number, count : Number) : String"
+          },
+          "replaceData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "replaceData(offset : Number, count : Number, data : String) : undefined"
+          },
+          "remove": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "remove() : undefined"
+          },
+          "insertData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "insertData(offset : Number, data : String) : undefined"
+          },
+          "deleteData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "deleteData(offset : Number, count : Number) : undefined"
+          },
+          "appendData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "appendData(data : String) : undefined"
+          },
+          "length": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "length : Number readonly"
+          },
+          "data": {
+            "kind": "v",
+            "type": "String",
+            "menu": "data : String"
+          }
+        },
+        "class": "CharacterData",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLPreElement": {
+    "kind": "v"
+  },
+  "HTMLElement": {
+    "kind": "f",
+    "props": {
+      "prototype": {
+        "props": {
+          "blur": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "blur() : undefined"
+          },
+          "title": {
+            "kind": "v",
+            "type": "String",
+            "menu": "title : String"
+          },
+          "dir": {
+            "kind": "v",
+            "type": "String",
+            "menu": "dir : String"
+          },
+          "draggable": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "draggable : Boolean"
+          },
+          "dropzone": {
+            "kind": "v",
+            "type": "DOMSettableTokenList",
+            "menu": "dropzone : DOMSettableTokenList readonly"
+          },
+          "hidden": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "hidden : Boolean"
+          },
+          "insertAdjacentHTML": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "insertAdjacentHTML(position : String, html : String) : undefined"
+          },
+          "scrollIntoView": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "scrollIntoView([top?=?false : Boolean]) : undefined"
+          },
+          "commandType": {
+            "kind": "v",
+            "type": "String",
+            "menu": "commandType : String readonly"
+          },
+          "commandLabel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "commandLabel : String readonly"
+          },
+          "focus": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "focus() : undefined"
+          },
+          "click": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "click() : undefined"
+          },
+          "commandDisabled": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "commandDisabled : Boolean readonly"
+          },
+          "commandChecked": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "commandChecked : Boolean readonly"
+          },
+          "className": {
+            "kind": "v",
+            "type": "String",
+            "menu": "className : String"
+          },
+          "classList": {
+            "kind": "v",
+            "type": "DOMTokenList",
+            "menu": "classList : DOMTokenList readonly"
+          },
+          "accessKeyLabel": {
+            "kind": "v",
+            "type": "String",
+            "menu": "accessKeyLabel : String readonly"
+          },
+          "accessKey": {
+            "kind": "v",
+            "type": "String",
+            "menu": "accessKey : String"
+          },
+          "contextMenu": {
+            "kind": "v",
+            "type": "HTMLMenuElement",
+            "menu": "contextMenu : HTMLMenuElement"
+          },
+          "contentEditable": {
+            "kind": "v",
+            "type": "String",
+            "menu": "contentEditable : String"
+          },
+          "commandHidden": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "commandHidden : Boolean readonly"
+          },
+          "commandIcon": {
+            "kind": "v",
+            "type": "String",
+            "menu": "commandIcon : String readonly"
+          },
+          "innerHTML": {
+            "kind": "v",
+            "type": "String",
+            "menu": "innerHTML : String"
+          },
+          "isContentEditable": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "isContentEditable : Boolean readonly"
+          },
+          "lang": {
+            "kind": "v",
+            "type": "String",
+            "menu": "lang : String"
+          },
+          "offsetHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetHeight : Number readonly"
+          },
+          "offsetLeft": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetLeft : Number readonly"
+          },
+          "offsetParent": {
+            "kind": "v",
+            "type": "Element",
+            "menu": "offsetParent : Element readonly"
+          },
+          "offsetTop": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetTop : Number readonly"
+          },
+          "offsetWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetWidth : Number readonly"
+          },
+          "outerHTML": {
+            "kind": "v",
+            "type": "String",
+            "menu": "outerHTML : String"
+          },
+          "spellcheck": {
+            "kind": "v",
+            "type": "Boolean",
+            "menu": "spellcheck : Boolean"
+          },
+          "style": {
+            "kind": "v",
+            "type": "CSSStyleDeclaration",
+            "menu": "style : CSSStyleDeclaration readonly"
+          },
+          "tabIndex": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "tabIndex : Number"
+          }
+        },
+        "class": "HTMLElement",
+        "type": "Object",
+        "kind": "v"
+      }
+    }
+  },
+  "HTMLDivElement": {
+    "kind": "v"
+  },
+  "Comment": {
+    "kind": "v"
+  }
+}

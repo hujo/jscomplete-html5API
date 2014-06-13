@@ -1,1 +1,57 @@
-{"DataTransfer":{"props":{"prototype":{"props":{"getData":{"type":"String","menu":"getData(type : String) : String","kind":"f"},"setData":{"menu":"setData(type :String, data : String)","kind":"f"},"setDragImage":{"menu":"setDragImage(image : Elemet, x : Number, y : Number)","kind":"f"},"dropEffect":{"menu":"DataTransfer.dropEffect","type":"String","kind":"v"},"effectAllowed":{"type":"String","menu":"DataTransfer.effectAllowed","kind":"v"},"files":{"type":"FileList","menu":"DataTransfer.files","kind":"v"},"types":{"type":"Array","menu":"DataTransfer.types","kind":"v"},"addElement":{"menu":"addElement(element : Element)","kind":"f"},"clearData":{"menu":"clearData([type : String])","kind":"f"}},"class":"DataTransfer","type":"Object","kind":"v"}},"type":"Object","menu":"DataTransfer","kind":"f"}}
+{
+  "DataTransfer": {
+    "kind": "f",
+    "menu": "DataTransfer",
+    "type": "Object",
+    "props": {
+      "prototype": {
+        "kind": "v",
+        "type": "Object",
+        "class": "DataTransfer",
+        "props": {
+          "clearData": {
+            "kind": "f",
+            "menu": "clearData([type : String])"
+          },
+          "getData": {
+            "kind": "f",
+            "menu": "getData(type : String) : String",
+            "type": "String"
+          },
+          "setData": {
+            "kind": "f",
+            "menu": "setData(type :String, data : String)"
+          },
+          "setDragImage": {
+            "kind": "f",
+            "menu": "setDragImage(image : Elemet, x : Number, y : Number)"
+          },
+          "dropEffect": {
+            "kind": "v",
+            "type": "String",
+            "menu": "DataTransfer.dropEffect"
+          },
+          "effectAllowed": {
+            "kind": "v",
+            "menu": "DataTransfer.effectAllowed",
+            "type": "String"
+          },
+          "files": {
+            "kind": "v",
+            "menu": "DataTransfer.files",
+            "type": "FileList"
+          },
+          "types": {
+            "kind": "v",
+            "menu": "DataTransfer.types",
+            "type": "Array"
+          },
+          "addElement": {
+            "kind": "f",
+            "menu": "addElement(element : Element)"
+          }
+        }
+      }
+    }
+  }
+}
