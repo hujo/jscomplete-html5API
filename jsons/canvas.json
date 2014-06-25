@@ -7,7 +7,7 @@
           "arc": {
             "kind": "f",
             "type": "undefined",
-            "menu": "arc(x : Number, y : Number, radius : Number, startAngle : Number, endAngle : Number, [counterclockwise?=?false : Boolean]) : undefined"
+            "menu": "arc(x : Number, y : Number, radius : Number, startAngle : Number, endAngle : Number, [counterclockwise = false : Boolean]) : undefined"
           },
           "lineWidth": {
             "kind": "v",

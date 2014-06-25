@@ -1898,7 +1898,7 @@
           "toDataURL": {
             "kind": "f",
             "type": "String",
-            "menu": "toDataURL([type?=?'image/png' : String, [jpegCompressionRatio : Number]]) : String"
+            "menu": "toDataURL([type = 'image/png' : String, [jpegCompressionRatio : Number]]) : String"
           },
           "getContext": {
             "kind": "f",
@@ -2087,7 +2087,7 @@
           "scrollIntoView": {
             "kind": "f",
             "type": "undefined",
-            "menu": "scrollIntoView([top?=?false : Boolean]) : undefined"
+            "menu": "scrollIntoView([top = false : Boolean]) : undefined"
           },
           "removeAttributeNS": {
             "kind": "f",
@@ -3122,7 +3122,7 @@
           "scrollIntoView": {
             "kind": "f",
             "type": "undefined",
-            "menu": "scrollIntoView([top?=?false : Boolean]) : undefined"
+            "menu": "scrollIntoView([top = false : Boolean]) : undefined"
           },
           "commandType": {
             "kind": "v",

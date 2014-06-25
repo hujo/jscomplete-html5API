@@ -260,7 +260,7 @@
           "open": {
             "kind": "f",
             "type": "Window",
-            "menu": "open([url : String, [target?=?'_blank' : String, [features : String, [replace : Boolean]]]]) : Window"
+            "menu": "open([url : String, [target = '_blank' : String, [features : String, [replace : Boolean]]]]) : Window"
           },
           "print": {
             "kind": "f",
@@ -493,7 +493,7 @@
           "open": {
             "kind": "f",
             "type": "undefined",
-            "menu": "open(method : String, url : String, [async?=?true : Boolean, [user : String, [password : String]]]) : undefined"
+            "menu": "open(method : String, url : String, [async = true : Boolean, [user : String, [password : String]]]) : undefined"
           },
           "getResponseHeader": {
             "kind": "f",

@@ -65,7 +65,7 @@
           "createScriptProcessor": {
             "type": "ScriptProcessorNode",
             "kind": "f",
-            "menu": "createScriptProcessor([bufferSize?=?0 : Number, [numberOfInputChannels?=?2 : Number, [numberOfOutputChannels?=?2 : Number]]]) : ScriptProcessorNode"
+            "menu": "createScriptProcessor([bufferSize = 0 : Number, [numberOfInputChannels = 2 : Number, [numberOfOutputChannels = 2 : Number]]]) : ScriptProcessorNode"
           },
           "createBufferSource": {
             "type": "AudioBufferSourceNode",
@@ -80,7 +80,7 @@
           "createChannelMerger": {
             "type": "ChannelMergerNode",
             "kind": "f",
-            "menu": "createChannelMerger([numberOfInputs?=?6 : Number]) : ChannelMergerNode"
+            "menu": "createChannelMerger([numberOfInputs = 6 : Number]) : ChannelMergerNode"
           },
           "createConvolver": {
             "type": "ConvolverNode",
@@ -145,7 +145,7 @@
           "createDelay": {
             "type": "DelayNode",
             "kind": "f",
-            "menu": "createDelay([maxDelayTime?=?1.0 : Number]) : DelayNode"
+            "menu": "createDelay([maxDelayTime = 1.0 : Number]) : DelayNode"
           },
           "createMediaStreamSource": {
             "type": "MediaStreamAudioSourceNode",
@@ -165,7 +165,7 @@
           "createChannelSplitter": {
             "type": "ChannelSplitterNode",
             "kind": "f",
-            "menu": "createChannelSplitter([numberOfOutputs?=?6 : Number]) : ChannelSplitterNode"
+            "menu": "createChannelSplitter([numberOfOutputs = 6 : Number]) : ChannelSplitterNode"
           },
           "createGain": {
             "type": "GainNode",
@@ -193,7 +193,7 @@
           "disconnect": {
             "type": "undefined",
             "kind": "f",
-            "menu": "disconnect([output?=?0 : Number]) : undefined"
+            "menu": "disconnect([output = 0 : Number]) : undefined"
           },
           "numberOfOutputs": {
             "type": "Number",
@@ -271,7 +271,7 @@
           "start": {
             "type": "undefined",
             "kind": "f",
-            "menu": "start([when?=?0 : Number, [offset?=?0 : Number, [duration : Number]]]) : undefined"
+            "menu": "start([when = 0 : Number, [offset = 0 : Number, [duration : Number]]]) : undefined"
           },
           "loopEnd": {
             "type": "Number",
@@ -281,7 +281,7 @@
           "stop": {
             "type": "undefined",
             "kind": "f",
-            "menu": "stop([when?=?0 : Number]) : undefined"
+            "menu": "stop([when = 0 : Number]) : undefined"
           },
           "loop": {
             "type": "Boolean",

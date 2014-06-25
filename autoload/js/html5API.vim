@@ -91,4 +91,4 @@ endfunction
 let &cpo = s:save_cpo
 unlet s:save_cpo
 " __END__ {{{1
-" vim:set foldmethod=marker sw=4 ts=4 tw=4:
+" vim :set fdm=marker fmr={{{,}}} fenc=utf-8:

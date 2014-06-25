@@ -70,7 +70,7 @@
           "slice": {
             "kind": "f",
             "type": "Blob",
-            "menu": "slice([start?=?0 : Number, [end : Number, [contentType : String]]]) : Blob"
+            "menu": "slice([start = 0 : Number, [end : Number, [contentType : String]]]) : Blob"
           },
           "type": {
             "kind": "v",
