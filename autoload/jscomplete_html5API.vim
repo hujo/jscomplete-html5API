@@ -46,4 +46,4 @@ endfunction
 let &cpo = s:save_cpo
 unlet s:save_cpo
 " __END__ {{{1
-" vim :set fdm=marker fmr={{{,}}} fenc=utf-8:
+" vim:set et:
