@@ -40,7 +40,7 @@
       }
     },
     "type": "Uint8ClampedArray",
-    "menu": "new Uint8ClampedArray(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint8ClampedArray",
+    "menu": "new Uint8ClampedArray(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint8ClampedArray",
     "kind": "f"
   },
   "Uint16Array": {
@@ -84,7 +84,7 @@
       }
     },
     "type": "Uint16Array",
-    "menu": "new Uint16Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint16Array",
+    "menu": "new Uint16Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint16Array",
     "kind": "f"
   },
   "ArrayBufferView": {
@@ -145,12 +145,12 @@
           "setFloat64": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setFloat64(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setFloat64(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "setFloat32": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setFloat32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setFloat32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "getUint8": {
             "kind": "f",
@@ -165,32 +165,32 @@
           "getInt32": {
             "kind": "f",
             "type": "Number",
-            "menu": "getInt32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getInt32(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           },
           "getInt16": {
             "kind": "f",
             "type": "Number",
-            "menu": "getInt16(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getInt16(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           },
           "getFloat64": {
             "kind": "f",
             "type": "Number",
-            "menu": "getFloat64(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getFloat64(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           },
           "getFloat32": {
             "kind": "f",
             "type": "Number",
-            "menu": "getFloat32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getFloat32(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           },
           "setInt16": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setInt16(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setInt16(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "setInt32": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setInt32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setInt32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "setInt8": {
             "kind": "f",
@@ -200,12 +200,12 @@
           "setUint16": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setUint16(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setUint16(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "setUint32": {
             "kind": "f",
             "type": "undefined",
-            "menu": "setUint32(byteOffset : Number, value : Number, [littleEndian?=?false : Boolean]) : undefined"
+            "menu": "setUint32(byteOffset : Number, value : Number, [littleEndian = false : Boolean]) : undefined"
           },
           "setUint8": {
             "kind": "f",
@@ -230,12 +230,12 @@
           "getUint16": {
             "kind": "f",
             "type": "Number",
-            "menu": "getUint16(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getUint16(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           },
           "getUint32": {
             "kind": "f",
             "type": "Number",
-            "menu": "getUint32(byteOffset : Number, [littleEndian?=?false : Boolean]) : Number"
+            "menu": "getUint32(byteOffset : Number, [littleEndian = false : Boolean]) : Number"
           }
         },
         "class": "DataView",
@@ -244,7 +244,7 @@
       }
     },
     "type": "DataView",
-    "menu": "new DataView(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [byteLength : Number]]) : DataView",
+    "menu": "new DataView(buffer : ArrayBuffer, [byteOffset = 0 : Number, [byteLength : Number]]) : DataView",
     "kind": "f"
   },
   "Int8Array": {
@@ -288,7 +288,7 @@
       }
     },
     "type": "Int8Array",
-    "menu": "new Int8Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int8Array",
+    "menu": "new Int8Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int8Array",
     "kind": "f"
   },
   "Uint32Array": {
@@ -332,7 +332,7 @@
       }
     },
     "type": "Uint32Array",
-    "menu": "new Uint32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint32Array",
+    "menu": "new Uint32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint32Array",
     "kind": "f"
   },
   "Float32Array": {
@@ -376,7 +376,7 @@
       }
     },
     "type": "Float32Array",
-    "menu": "new Float32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Float32Array",
+    "menu": "new Float32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Float32Array",
     "kind": "f"
   },
   "Uint8Array": {
@@ -420,7 +420,7 @@
       }
     },
     "type": "Uint8Array",
-    "menu": "new Uint8Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Uint8Array",
+    "menu": "new Uint8Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Uint8Array",
     "kind": "f"
   },
   "Int16Array": {
@@ -464,7 +464,7 @@
       }
     },
     "type": "Int16Array",
-    "menu": "new Int16Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int16Array",
+    "menu": "new Int16Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int16Array",
     "kind": "f"
   },
   "Int32Array": {
@@ -508,7 +508,7 @@
       }
     },
     "type": "Int32Array",
-    "menu": "new Int32Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Int32Array",
+    "menu": "new Int32Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Int32Array",
     "kind": "f"
   },
   "Float64Array": {
@@ -552,7 +552,7 @@
       }
     },
     "type": "Float64Array",
-    "menu": "new Float64Array(buffer : ArrayBuffer, [byteOffset?=?0 : Number, [length : Number]]) : Float64Array",
+    "menu": "new Float64Array(buffer : ArrayBuffer, [byteOffset = 0 : Number, [length : Number]]) : Float64Array",
     "kind": "f"
   }
 }
