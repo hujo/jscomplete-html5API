@@ -5,6 +5,14 @@
     NeoBundle  'https://bitbucket.org/teramako/jscomplete-vim.git'
 
     autocmd FileType javascript setl omnifunc=jscomplete#CompleteJS
-    let g:jscomplete_use = ['dom', 'moz', 'es6th', 'html5API']
+    let g:jscomplete_use = ['dom', 'html5API']
+
+    " webGLを使用する場合
+    let g:jscomplete_use = ['dom', 'html5API', 'webGL']
+
+    " canvas.getContext() は CanvasRenderingContext2D に割り当てているので
+    " WebGLRenderingContextを使用する場合は変数名を登録します
+    let g:js_complete_webgl_ns = 'webgl'
+
 ```
 
