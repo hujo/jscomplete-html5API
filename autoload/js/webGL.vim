@@ -5,8 +5,10 @@ function! js#webGL#Extend (names)
   endif
   call extend(b:GlobalObject, s:getAPIObject('webGL'))
   if exists('g:js_complete_webgl_ns')
+    let props = deepcopy(b:GlobalObject.WebGLRenderingContext.props)
     let b:GlobalObject[g:js_complete_webgl_ns] = {
     \   'kind': 'v'
+    \ , 'props': props
     \ , 'menu': 'webGL.WebGLRenderingContext'
     \ , 'type': 'WebGLRenderingContext'
     \}
