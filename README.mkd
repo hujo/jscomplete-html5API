@@ -12,7 +12,7 @@
 
     " canvas.getContext() は CanvasRenderingContext2D に割り当てているので
     " WebGLRenderingContextを使用する場合は変数名を登録します
-    let g:js_complete_webgl_ns = 'webgl'
+    let g:jscomplete_webgl_ns = 'webgl'
 
 ```
 

@@ -1219,6 +1219,14 @@
       },
       "prototype": {
         "props": {
+          "viewPortWidth": {
+            "kind": "v",
+            "type": "Number"
+          },
+          "viewPortHeight": {
+            "kind": "v",
+            "type": "Number"
+          },
           "copyTexImage2D": {
             "kind": "f",
             "type": "undefined",
@@ -2210,7 +2218,8 @@
     "kind": "v"
   },
   "WebGLBuffer": {
-    "kind": "v"
+    "kind": "v",
+    "props": {}
   },
   "WebGLProgram": {
     "kind": "v"
