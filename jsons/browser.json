@@ -242,6 +242,44 @@
             "type": "Window",
             "menu": "top : Window readonly"
           },
+          "screen": {
+            "kind": "v",
+            "props": {
+              "availHeight": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "availLeft": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "availTop": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "availWidth": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "colorDepth": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "pixelDepth": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "height": {
+                "kind": "v",
+                "type": "Number"
+              },
+              "width": {
+                "kind": "v",
+                "type": "Number"
+              }
+            },
+            "type": "Object"
+          },
           "status": {
             "kind": "v",
             "type": "String",
@@ -396,6 +434,14 @@
             "kind": "f",
             "type": "undefined",
             "menu": "clearTimeout(handle : Number) : undefined"
+          },
+          "innerHeight": {
+            "kind": "v",
+            "type": "Number"
+          },
+          "innerWidth": {
+            "kind": "v",
+            "type": "Number"
           }
         },
         "class": "Window",

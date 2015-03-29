@@ -1219,14 +1219,6 @@
       },
       "prototype": {
         "props": {
-          "viewPortWidth": {
-            "kind": "v",
-            "type": "Number"
-          },
-          "viewPortHeight": {
-            "kind": "v",
-            "type": "Number"
-          },
           "copyTexImage2D": {
             "kind": "f",
             "type": "undefined",
@@ -1431,6 +1423,14 @@
             "kind": "f",
             "type": "undefined",
             "menu": "viewport(x : Number, y : Number, width : Number, height : Number) : undefined"
+          },
+          "viewPortWidth": {
+            "kind": "v",
+            "type": "Number"
+          },
+          "viewPortHeight": {
+            "kind": "v",
+            "type": "Number"
           },
           "vertexAttribPointer": {
             "kind": "f",
@@ -1696,6 +1696,11 @@
             "kind": "f",
             "type": "undefined",
             "menu": "bindRenderbuffer(target : Number, renderbuffer : WebGLRenderbuffer) : undefined"
+          },
+          "bufferData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bufferData(target : Number, size or data : Number or ArrayBuffer, usage : Number)"
           },
           "canvas": {
             "kind": "v",
