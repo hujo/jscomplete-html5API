@@ -63,6 +63,23 @@ function! s:addFileAPI ()
   \})
 endfunction
 
+" Geolocation {{{2
+function! s:addGeolocation()
+  call extend(b:GlobalObject.Navigator.props.prototype.props, {
+  \   'geolocation' : {
+  \       'kind': 'v',
+  \       'type': 'Object',
+  \       'props': {
+  \           'getCurrentPosition': {'kind': 'f', 'type': 'undefined'},
+  \           'watchPosition': {'kind': 'f', 'type': 'undefined'},
+  \           'clearWatch': {'kind': 'f', 'type': 'undefined'}
+  \       },
+  \       'menu': '[Geolocation]'
+  \   }
+  \})
+endfunction
+" }}}
+
 " TypedArrays {{{2
 function! s:addTypedArrays ()
   call extend(b:GlobalObject, s:getAPIObject('typedArrays'))
@@ -86,6 +103,7 @@ function! js#html5API#Extend (names)
   call s:addFileAPI()
   call s:addTypedArrays()
   call s:addWorker()
+  call s:addGeolocation()
 endfunction
 
 let &cpo = s:save_cpo
