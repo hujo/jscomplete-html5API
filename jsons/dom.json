@@ -1954,6 +1954,11 @@
     "props": {
       "prototype": {
         "props": {
+          "style": {
+            "kind": "v",
+            "type": "CSSStyleDeclaration",
+            "style": "CSSStyleDeclaration"
+          },
           "dispatchEvent": {
             "kind": "f",
             "type": "Boolean",
