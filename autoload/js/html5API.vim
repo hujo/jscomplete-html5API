@@ -39,6 +39,12 @@ function! s:addCSS()
   \{'stylesheets' : {'kind' : 'v', 'menu' : '', 'type' : 'StyleSheetList'}})
 endfunction
 
+" Event {{{2
+function! s:extendEvent()
+  call extend(b:GlobalObject.Event.props.prototype.props,
+  \           b:GlobalObject.UIEvent.props.prototype.props)
+endfunction
+
 " Canvas {{{2
 function! s:addCanvas ()
   call extend(b:GlobalObject, s:getAPIObject('canvas'))
@@ -104,6 +110,7 @@ function! js#html5API#Extend (names)
   call s:addTypedArrays()
   call s:addWorker()
   call s:addGeolocation()
+  call s:extendEvent()
 endfunction
 
 let &cpo = s:save_cpo

@@ -280,6 +280,11 @@
             },
             "type": "Object"
           },
+          "event": {
+            "kind": "v",
+            "type": "Event",
+            "menu": "event : Event"
+          },
           "status": {
             "kind": "v",
             "type": "String",
@@ -442,6 +447,21 @@
           "innerWidth": {
             "kind": "v",
             "type": "Number"
+          },
+          "dispatchEvent": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "dispatchEvent(event : Event) : Boolean"
+          },
+          "addEventListener": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "addEventListener(eventType : String, listener : (EventListener|Function) [, useCapture : Boolean]) : undefined"
+          },
+          "removeEventListener": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "removeEventListener(eventType : String, listener : (EventListener|Function) [, useCapture : Boolean]) : undefined"
           }
         },
         "class": "Window",

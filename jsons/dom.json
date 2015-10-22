@@ -1954,6 +1954,21 @@
     "props": {
       "prototype": {
         "props": {
+          "dispatchEvent": {
+            "kind": "f",
+            "type": "Boolean",
+            "menu": "dispatchEvent(event : Event) : Boolean"
+          },
+          "addEventListener": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "addEventListener(eventType : String, listener : (EventListener|Function) [, useCapture : Boolean]) : undefined"
+          },
+          "removeEventListener": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "removeEventListener(eventType : String, listener : (EventListener|Function) [, useCapture : Boolean]) : undefined"
+          },
           "getAttribute": {
             "kind": "f",
             "type": "String",
@@ -2028,6 +2043,26 @@
             "kind": "v",
             "type": "DOMStringMap",
             "menu": "dataset : DOMStringMap"
+          },
+          "offsetTop": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetTop : Number readonly"
+          },
+          "offsetLeft": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetLeft : Number readonly"
+          },
+          "offsetWidth": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetWidth : Number readonly"
+          },
+          "offsetHeight": {
+            "kind": "v",
+            "type": "Number",
+            "menu": "offsetWidth : Number readonly"
           },
           "clientWidth": {
             "kind": "v",
