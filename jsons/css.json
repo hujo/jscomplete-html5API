@@ -475,17 +475,17 @@
             "kind": "f"
           },
           "removeProperty": {
-            "menu": "removeProperty(property name : String) : String",
+            "menu": "removeProperty(name : String) : String",
             "type": "String",
             "kind": "f"
           },
           "getPropertyPriority": {
-              "menu": "getPropertyPriority() : String",
+              "menu": "getPropertyPriority(name : String) : String",
               "type": "String",
               "kind": "f"
           },
           "getPropertyValue": {
-            "menu": "getPropertyValue(property name : String) : String",
+            "menu": "getPropertyValue(name : String) : String",
             "type": "String",
             "kind": "f"
           },
