@@ -355,6 +355,16 @@
             "type": "String",
             "menu": "prompt(message : String, [defaults : String]) : String"
           },
+          "setTimeout": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "setInterval(func : Function, delay : Number) : Number"
+          },
+          "setInterval": {
+            "kind": "f",
+            "type": "Number",
+            "menu": "setInterval(func : Function, delay : Number) : Number"
+          },
           "requestAnimationFrame": {
             "kind": "f",
             "type": "Number",
