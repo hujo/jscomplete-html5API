@@ -464,6 +464,31 @@
         "type": "Object",
         "class": "CSSStyleDeclaration",
         "props": {
+          "item": {
+            "menu": "item(index : Number) : String",
+            "type": "String",
+            "kind": "f"
+          },
+          "setProperty": {
+            "menu": "setProperty(name : Steing, value : String [, optional : String]) : undefined",
+            "type": "undefined",
+            "kind": "f"
+          },
+          "removeProperty": {
+            "menu": "removeProperty(property name : String) : String",
+            "type": "String",
+            "kind": "f"
+          },
+          "getPropertyPriority": {
+              "menu": "getPropertyPriority() : String",
+              "type": "String",
+              "kind": "f"
+          },
+          "getPropertyValue": {
+            "menu": "getPropertyValue(property name : String) : String",
+            "type": "String",
+            "kind": "f"
+          },
           "minWidth": {
             "menu": "minWidth : String",
             "type": "String",
