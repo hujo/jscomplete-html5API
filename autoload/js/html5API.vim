@@ -14,6 +14,14 @@ endfunction
 " DOM {{{2
 function! s:addDOM()
   call extend(b:GlobalObject, s:getAPIObject('dom'))
+
+  " [extends] Element < Node
+  let nodeProto = b:GlobalObject.Node.props.prototype.props
+  let elementProto = b:GlobalObject.Element.props.prototype.props
+  let g:extendNode = extend(extend({}, nodeProto), elementProto)
+  let b:GlobalObject.Node.props.prototype.props = g:extendNode
+  let b:GlobalObject.Element.props.prototype.props = g:extendNode
+
   " [Add] Domstringmap
   let DOMStringMap = {'DOMStringMap' : {'kind' : 'v', 'menu' : '', 'props' : b:GlobalObject.Object.props}}
   call extend(b:GlobalObject, DOMStringMap)
