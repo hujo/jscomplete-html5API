@@ -1384,40 +1384,95 @@
             "type": "undefined",
             "menu": "uniform1f(uniformLocation : WebGLUniformLocation, x : Number) : undefined"
           },
+          "uniform1fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform1fv(uniformLocation : WebGLUniformLocation, value : Float32Array) : undefined"
+          },
           "uniform1i": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform1i(uniformLocation : WebGLUniformLocation, x : Number) : undefined"
+          },
+          "uniform1iv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform1iv(uniformLocation : WebGLUniformLocation, value : Int32Array) : undefined"
           },
           "uniform2f": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform2f(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined"
           },
+          "uniform2fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform2fv(uniformLocation : WebGLUniformLocation, value : Float32Array) : undefined"
+          },
           "uniform2i": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform2i(uniformLocation : WebGLUniformLocation, x : Number, y : Number) : undefined"
+          },
+          "uniform2iv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform2iv(uniformLocation : WebGLUniformLocation, value : Int32Array) : undefined"
           },
           "uniform3f": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform3f(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined"
           },
+          "uniform3fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform3fv(uniformLocation : WebGLUniformLocation, value : Float32Array) : undefined"
+          },
           "uniform3i": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform3i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number) : undefined"
+          },
+          "uniform3iv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform3iv(uniformLocation : WebGLUniformLocation, value : Int32Array) : undefined"
           },
           "uniform4f": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform4f(uniforLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined"
           },
+          "uniform4fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform4fv(uniformLocation : WebGLUniformLocation, value : Float32Array) : undefined"
+          },
           "uniform4i": {
             "kind": "f",
             "type": "undefined",
             "menu": "uniform4i(uniformLocation : WebGLUniformLocation, x : Number, y : Number, z : Number, w : Number) : undefined"
+          },
+          "uniform4iv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniform4iv(uniformLocation : WebGLUniformLocation, value : Int32Array) : undefined"
+          },
+          "uniformMatrix2fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniformMatrix2fv(uniformLocation : WebGLUniformLocation, transpose : Boolean, value : Float32Array) : undefined"
+          },
+          "uniformMatrix3fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniformMatrix3fv(uniformLocation : WebGLUniformLocation, transpose : Boolean, value : Float32Array) : undefined"
+          },
+          "uniformMatrix4fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "uniformMatrix4fv(uniformLocation : WebGLUniformLocation, transpose : Boolean, value : Float32Array) : undefined"
           },
           "viewport": {
             "kind": "f",
@@ -1442,20 +1497,40 @@
             "type": "undefined",
             "menu": "vertexAttrib4f(attribLocation : Number, x : Number, y : Number, z : Number, w : Number) : undefined"
           },
+          "vertexAttrib4fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib4fv(attributeLocation : Number, value : Float32Array) : undefined"
+          },
           "vertexAttrib3f": {
             "kind": "f",
             "type": "undefined",
             "menu": "vertexAttrib3f(attribLocation : Number, x : Number, y : Number, z : Number) : undefined"
+          },
+          "vertexAttrib3fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib3fv(attributeLocation : Number, value : Float32Array) : undefined"
           },
           "vertexAttrib2f": {
             "kind": "f",
             "type": "undefined",
             "menu": "vertexAttrib2f(attribLocation : Number, x : Number, y : Number) : undefined"
           },
+          "vertexAttrib2fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib2fv(attributeLocation : Number, value : Float32Array) : undefined"
+          },
           "vertexAttrib1f": {
             "kind": "f",
             "type": "undefined",
             "menu": "vertexAttrib1f(attributeLocation : Number, x : Number) : undefined"
+          },
+          "vertexAttrib1fv": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "vertexAttrib1fv(attributeLocation : Number, value : Float32Array) : undefined"
           },
           "validateProgram": {
             "kind": "f",
@@ -1702,6 +1777,11 @@
             "type": "undefined",
             "menu": "bufferData(target : Number, size or data : Number or ArrayBuffer, usage : Number)"
           },
+          "bufferSubData": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "bufferSubData(target : Number, offset : Number, data : ArrayBuffer | SharedArrayBuffer | ArrayBufferView) : undefined"
+          },
           "canvas": {
             "kind": "v",
             "type": "HTMLCanvasElement",
@@ -1772,6 +1852,16 @@
             "type": "undefined",
             "menu": "compileShader(shader : WebGLShader) : undefined"
           },
+          "compressedTexImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "compressedTexImage2D(target : Number, level : Number, internalformat : Number, width : Number, height : Number, border : Number, data : ArrayBufferView) : undefined"
+          },
+          "compressedTexSubImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "compressedTexSubImage2D(target : Number, level : Number, xoffset : Number, yoffset : Number, width : Number, height : Number, format : Number, data ArrayBufferView) : undefined"
+          },
           "linkProgram": {
             "kind": "f",
             "type": "undefined",
@@ -1821,6 +1911,16 @@
             "kind": "f",
             "type": "undefined",
             "menu": "stencilFuncSeparate(face : Number, func : Number, ref : Number, mask : Number) : undefined"
+          },
+          "texImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "texImage2D(target : Number, level : Number, internalformat : Number, width : Number, border : Number, format : Number, type : Number, pixels : ImageData | ArrayBufferView | canvas | img) : undefined"
+          },
+          "texSubImage2D": {
+            "kind": "f",
+            "type": "undefined",
+            "menu": "texSubImage2D(target : Number, level : Number, xoffset : Number, yoffset : Number, width : Number, height : Number, format : Number, type : Number, pixels : ImageData | ArrayBufferView | canvas | img) : undefined"
           }
         },
         "class": "WebGLRenderingContext",
